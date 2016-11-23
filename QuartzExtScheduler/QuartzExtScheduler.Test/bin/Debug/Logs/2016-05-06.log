@@ -1,0 +1,240 @@
+2016-05-06 10:21:02,393 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-05-06 10:21:02,632 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-05-06 10:21:02,704 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-05-06 10:21:02,836 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-05-06 10:21:02,838 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-05-06 10:21:02,848 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-05-06 10:21:02,864 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-06 10:21:02,864 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-05-06 10:21:02,865 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-05-06 10:21:02,876 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-06 10:21:07,001 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务开始
+2016-05-06 10:21:14,107 [_Worker-1] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-清洗列表）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:21:18,688 [_Worker-1] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗列表）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:21:23,369 [_Worker-1] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按日清洗）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:21:27,955 [_Worker-1] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按周清洗）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:21:27,960 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按月清洗）----今天不是1号不清洗
+2016-05-06 10:21:32,513 [_Worker-1] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗当天）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:21:34,749 [_Worker-1] ERROR Quartz.Core.JobRunShell - Job Test.OperationDataMonitor threw an unhandled Exception: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+2016-05-06 10:21:34,803 [_Worker-1] ERROR Quartz.Core.ErrorLogger - Job (Test.OperationDataMonitor threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187]
+2016-05-06 10:25:15,802 [_Worker-2] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务开始
+2016-05-06 10:25:20,471 [_Worker-2] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-清洗列表）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:25:25,071 [_Worker-2] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗列表）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:25:29,678 [_Worker-2] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按日清洗）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:25:34,256 [_Worker-2] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按周清洗）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:25:34,257 [_Worker-2] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按月清洗）----今天不是1号不清洗
+2016-05-06 10:25:38,848 [_Worker-2] ERROR MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗当天）----失败，原因：Unable to connect to any of the specified MySQL hosts.
+2016-05-06 10:25:41,071 [_Worker-2] ERROR Quartz.Core.JobRunShell - Job Test.OperationDataMonitor threw an unhandled Exception: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+2016-05-06 10:25:41,072 [_Worker-2] ERROR Quartz.Core.ErrorLogger - Job (Test.OperationDataMonitor threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.AccumulateSupplier(String conn, DateTime dtNow) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 1712
+   在 MycaigouScheduler.Plugins.OperationDataMonitor.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\OperationDataMonitor.cs:行号 74
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187]
+2016-05-06 10:26:47,448 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-05-06 10:26:47,539 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-05-06 10:26:47,565 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-05-06 10:26:47,635 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-05-06 10:26:47,637 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-05-06 10:26:47,645 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-05-06 10:26:47,658 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-06 10:26:47,658 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-05-06 10:26:47,659 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-05-06 10:26:47,668 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-06 10:27:08,882 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-05-06 10:27:08,973 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-05-06 10:27:08,999 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-05-06 10:27:09,080 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-05-06 10:27:09,082 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-05-06 10:27:09,090 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-05-06 10:27:09,102 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-06 10:27:09,103 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-05-06 10:27:09,103 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-05-06 10:27:09,110 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-06 10:28:04,242 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务开始
+2016-05-06 10:29:07,885 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-05-06 10:29:07,979 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-05-06 10:29:08,005 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-05-06 10:29:08,104 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-05-06 10:29:08,106 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-05-06 10:29:08,114 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-05-06 10:29:08,126 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-05-06 10:29:08,127 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-05-06 10:29:08,127 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-05-06 10:29:08,135 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-05-06 10:29:11,657 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务开始
+2016-05-06 10:29:51,680 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按日清洗）----完成
+2016-05-06 10:30:02,560 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按周清洗）----完成
+2016-05-06 10:30:02,564 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按月清洗）----今天不是1号不清洗
+2016-05-06 10:30:34,144 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗当天）----完成
+2016-05-06 10:31:10,101 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-累计）----完成
+2016-05-06 10:31:10,347 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-05-06 10:31:11,342 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-05-06 10:31:11,509 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-05-06 10:31:13,013 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-05-06 10:31:13,076 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-05-06 10:31:13,224 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-05-06 10:31:13,325 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-05-06 10:31:13,327 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-05-06 10:31:13,387 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-05-06 10:31:13,389 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按日清洗）----完成
+2016-05-06 10:31:13,483 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-05-06 10:31:14,300 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-05-06 10:31:14,611 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-05-06 10:31:16,261 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-05-06 10:31:16,316 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-05-06 10:31:16,434 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-05-06 10:31:16,537 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-05-06 10:31:16,540 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-05-06 10:31:16,607 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-05-06 10:31:16,609 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按周清洗）----完成
+2016-05-06 10:31:16,612 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按月清洗）----今天不是1号不清洗
+2016-05-06 10:31:16,735 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-05-06 10:31:17,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-05-06 10:31:17,470 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-05-06 10:31:18,935 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-05-06 10:31:18,990 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-05-06 10:31:19,106 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-05-06 10:31:19,255 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-05-06 10:31:19,268 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-05-06 10:31:19,336 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-05-06 10:31:19,339 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-清洗当天）----完成
+2016-05-06 10:31:19,476 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-05-06 10:31:20,037 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-05-06 10:31:20,189 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-05-06 10:31:21,605 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-05-06 10:31:21,658 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-05-06 10:31:21,903 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-05-06 10:31:21,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-05-06 10:31:22,152 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--008
+2016-05-06 10:31:26,870 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--009
+2016-05-06 10:31:27,063 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--010
+2016-05-06 10:31:27,065 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-05-06 10:31:27,130 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-05-06 10:31:27,132 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-累计）----完成
+2016-05-06 10:31:27,132 [_Worker-1] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务结束

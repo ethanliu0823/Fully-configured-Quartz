@@ -1,0 +1,52 @@
+2016-11-16 16:55:50,596 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-16 16:55:50,805 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-16 16:55:50,916 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-16 16:55:51,105 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-16 16:55:51,109 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-16 16:55:51,123 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-16 16:55:51,139 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-16 16:55:51,141 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-16 16:55:51,143 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-16 16:55:51,155 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-16 16:55:56,111 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 16:57:52,334 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - 定向营销发送消息--处理完成，共 1 条，发送成功 0 条，失败 1 条，其余 0 条未到时间。
+2016-11-16 16:57:52,336 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束
+2016-11-16 16:58:26,216 [_Worker-2] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 17:00:09,357 [_Worker-2] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - 定向营销发送消息--处理完成，共 1 条，发送成功 0 条，失败 1 条，其余 0 条未到时间。
+2016-11-16 17:00:09,358 [_Worker-2] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束
+2016-11-16 17:00:55,264 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 17:00:57,394 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - 定向营销发送消息--处理完成，共 1 条，发送成功 1 条，失败 0 条，其余 0 条未到时间。
+2016-11-16 17:00:57,396 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束
+2016-11-16 17:01:33,012 [_Worker-4] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 17:17:36,202 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-16 17:17:36,303 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-16 17:17:36,337 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-16 17:17:36,432 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-16 17:17:36,435 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-16 17:17:36,444 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-16 17:17:36,458 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-16 17:17:36,460 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-16 17:17:36,461 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-16 17:17:36,470 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-16 17:17:59,212 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 17:18:04,212 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - 定向营销发送消息--处理完成，共 1 条，发送成功 0 条，失败 1 条，其余 0 条未到时间。
+2016-11-16 17:18:04,214 [_Worker-1] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束
+2016-11-16 17:19:12,160 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - MyNotice开始执行
+2016-11-16 17:19:19,936 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-11-16 17:19:22,372 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - MyNotice结束执行
+2016-11-16 17:19:23,051 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - 定向营销发送消息--处理完成，共 1 条，发送成功 0 条，失败 1 条，其余 0 条未到时间。
+2016-11-16 17:19:23,053 [_Worker-3] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束

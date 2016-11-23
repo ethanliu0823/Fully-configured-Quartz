@@ -1,0 +1,227 @@
+2016-10-10 17:00:31,431 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-10 17:00:31,541 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-10 17:00:31,574 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-10 17:00:31,662 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-10 17:00:31,664 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-10 17:00:31,675 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-10 17:00:31,688 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-10 17:00:31,689 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-10 17:00:31,689 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-10 17:00:31,699 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-10 17:01:32,751 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-10 17:01:32,870 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-10 17:01:32,903 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-10 17:01:33,005 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-10 17:01:33,007 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-10 17:01:33,015 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-10 17:01:33,029 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-10 17:01:33,031 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-10 17:01:33,031 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-10 17:01:33,041 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-10 17:01:38,765 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - CompletelyFitNewBusiOppt开始执行
+2016-10-10 17:01:42,981 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=100053--替换内容记录为空！
+2016-10-10 17:01:43,937 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=100588--替换内容记录为空！
+2016-10-10 17:01:44,909 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=100867--替换内容记录为空！
+2016-10-10 17:01:46,668 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=102215--替换内容记录为空！
+2016-10-10 17:01:47,023 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=102432--替换内容记录为空！
+2016-10-10 17:01:47,270 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=102523--替换内容记录为空！
+2016-10-10 17:01:50,617 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=103459--替换内容记录为空！
+2016-10-10 17:01:51,020 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=103813--替换内容记录为空！
+2016-10-10 17:01:51,378 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=104213--替换内容记录为空！
+2016-10-10 17:01:52,140 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=104368--替换内容记录为空！
+2016-10-10 17:01:52,515 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=104635--替换内容记录为空！
+2016-10-10 17:01:52,692 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=104696--替换内容记录为空！
+2016-10-10 17:01:53,361 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105083--替换内容记录为空！
+2016-10-10 17:01:53,367 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105102--替换内容记录为空！
+2016-10-10 17:01:53,828 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105250--替换内容记录为空！
+2016-10-10 17:01:53,834 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105497--替换内容记录为空！
+2016-10-10 17:01:54,403 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105811--替换内容记录为空！
+2016-10-10 17:01:54,564 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=105932--替换内容记录为空！
+2016-10-10 17:01:54,830 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=106196--替换内容记录为空！
+2016-10-10 17:01:56,113 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=106790--替换内容记录为空！
+2016-10-10 17:01:57,198 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=107460--替换内容记录为空！
+2016-10-10 17:01:57,349 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=107665--替换内容记录为空！
+2016-10-10 17:01:58,180 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=107940--替换内容记录为空！
+2016-10-10 17:01:58,321 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=108053--替换内容记录为空！
+2016-10-10 17:01:58,573 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=108184--替换内容记录为空！
+2016-10-10 17:01:58,698 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=108300--替换内容记录为空！
+2016-10-10 17:01:59,755 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=108926--替换内容记录为空！
+2016-10-10 17:02:00,795 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=109041--替换内容记录为空！
+2016-10-10 17:02:01,349 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=109114--替换内容记录为空！
+2016-10-10 17:02:01,362 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=109124--替换内容记录为空！
+2016-10-10 17:02:01,748 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=109348--替换内容记录为空！
+2016-10-10 17:02:01,913 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=109514--替换内容记录为空！
+2016-10-10 17:02:02,758 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=110054--替换内容记录为空！
+2016-10-10 17:02:03,802 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=110460--替换内容记录为空！
+2016-10-10 17:02:04,106 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=110564--替换内容记录为空！
+2016-10-10 17:02:05,079 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=111201--替换内容记录为空！
+2016-10-10 17:02:05,090 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=111225--替换内容记录为空！
+2016-10-10 17:02:05,644 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=111453--替换内容记录为空！
+2016-10-10 17:02:05,922 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=111518--替换内容记录为空！
+2016-10-10 17:02:06,737 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=112070--替换内容记录为空！
+2016-10-10 17:02:07,035 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=112168--替换内容记录为空！
+2016-10-10 17:02:07,048 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=112205--替换内容记录为空！
+2016-10-10 17:02:07,055 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=112209--替换内容记录为空！
+2016-10-10 17:02:09,083 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=113111--替换内容记录为空！
+2016-10-10 17:02:10,291 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=113549--替换内容记录为空！
+2016-10-10 17:02:10,712 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=113994--替换内容记录为空！
+2016-10-10 17:02:11,591 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114243--替换内容记录为空！
+2016-10-10 17:02:11,599 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114249--替换内容记录为空！
+2016-10-10 17:02:11,867 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114325--替换内容记录为空！
+2016-10-10 17:02:12,038 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114478--替换内容记录为空！
+2016-10-10 17:02:12,646 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114569--替换内容记录为空！
+2016-10-10 17:02:12,905 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114739--替换内容记录为空！
+2016-10-10 17:02:13,450 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=115035--替换内容记录为空！
+2016-10-10 17:02:14,325 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=115396--替换内容记录为空！
+2016-10-10 17:02:15,168 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=115941--替换内容记录为空！
+2016-10-10 17:02:16,195 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=116357--替换内容记录为空！
+2016-10-10 17:02:16,331 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=116450--替换内容记录为空！
+2016-10-10 17:02:16,338 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=116535--替换内容记录为空！
+2016-10-10 17:02:16,347 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=116550--替换内容记录为空！
+2016-10-10 17:02:16,508 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=116667--替换内容记录为空！
+2016-10-10 17:02:17,035 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117070--替换内容记录为空！
+2016-10-10 17:02:17,148 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117079--替换内容记录为空！
+2016-10-10 17:02:17,552 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117272--替换内容记录为空！
+2016-10-10 17:02:17,795 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117327--替换内容记录为空！
+2016-10-10 17:02:18,983 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117562--替换内容记录为空！
+2016-10-10 17:02:20,662 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=11818--替换内容记录为空！
+2016-10-10 17:02:20,668 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=118364--替换内容记录为空！
+2016-10-10 17:02:20,788 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=118769--替换内容记录为空！
+2016-10-10 17:02:21,222 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=118997--替换内容记录为空！
+2016-10-10 17:02:21,345 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=119165--替换内容记录为空！
+2016-10-10 17:02:21,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=119274--替换内容记录为空！
+2016-10-10 17:02:22,182 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=119453--替换内容记录为空！
+2016-10-10 17:02:23,658 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120403--替换内容记录为空！
+2016-10-10 17:02:23,666 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120575--替换内容记录为空！
+2016-10-10 17:02:25,322 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=121880--替换内容记录为空！
+2016-10-10 17:02:25,729 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=122338--替换内容记录为空！
+2016-10-10 17:02:25,871 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=122665--替换内容记录为空！
+2016-10-10 17:02:25,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=122944--替换内容记录为空！
+2016-10-10 17:02:26,110 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=122994--替换内容记录为空！
+2016-10-10 17:02:27,864 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=123972--替换内容记录为空！
+2016-10-10 17:02:29,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=124682--替换内容记录为空！
+2016-10-10 17:02:29,787 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=125358--替换内容记录为空！
+2016-10-10 17:02:30,062 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=125514--替换内容记录为空！
+2016-10-10 17:02:30,344 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=125734--替换内容记录为空！
+2016-10-10 17:02:31,136 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126210--替换内容记录为空！
+2016-10-10 17:02:31,150 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126296--替换内容记录为空！
+2016-10-10 17:02:32,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126760--替换内容记录为空！
+2016-10-10 17:02:32,110 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126853--替换内容记录为空！
+2016-10-10 17:02:32,722 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127220--替换内容记录为空！
+2016-10-10 17:02:32,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127225--替换内容记录为空！
+2016-10-10 17:02:32,866 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127256--替换内容记录为空！
+2016-10-10 17:02:33,433 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127419--替换内容记录为空！
+2016-10-10 17:02:33,447 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127448--替换内容记录为空！
+2016-10-10 17:02:33,747 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127672--替换内容记录为空！
+2016-10-10 17:02:33,782 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127678--替换内容记录为空！
+2016-10-10 17:02:33,909 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127750--替换内容记录为空！
+2016-10-10 17:02:34,633 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127858--替换内容记录为空！
+2016-10-10 17:02:35,061 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=127985--替换内容记录为空！
+2016-10-10 17:02:35,487 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=128382--替换内容记录为空！
+2016-10-10 17:02:36,218 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=128831--替换内容记录为空！
+2016-10-10 17:02:36,335 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=128932--替换内容记录为空！
+2016-10-10 17:02:37,049 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=129484--替换内容记录为空！
+2016-10-10 17:02:37,324 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=129570--替换内容记录为空！
+2016-10-10 17:02:37,329 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=129584--替换内容记录为空！
+2016-10-10 17:02:38,321 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130232--替换内容记录为空！
+2016-10-10 17:02:39,022 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130900--替换内容记录为空！
+2016-10-10 17:02:39,146 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=131006--替换内容记录为空！
+2016-10-10 17:02:39,688 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=131292--替换内容记录为空！
+2016-10-10 17:02:39,701 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=131445--替换内容记录为空！
+2016-10-10 17:02:40,176 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=131864--替换内容记录为空！
+2016-10-10 17:02:40,421 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=132015--替换内容记录为空！
+2016-10-10 17:02:40,586 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=132081--替换内容记录为空！
+2016-10-10 17:02:41,137 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=132595--替换内容记录为空！
+2016-10-10 17:02:41,462 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=132735--替换内容记录为空！
+2016-10-10 17:02:42,037 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133029--替换内容记录为空！
+2016-10-10 17:02:42,052 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133030--替换内容记录为空！
+2016-10-10 17:02:43,097 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133958--替换内容记录为空！
+2016-10-10 17:02:43,412 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134069--替换内容记录为空！
+2016-10-10 17:02:44,107 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134624--替换内容记录为空！
+2016-10-10 17:02:44,233 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134774--替换内容记录为空！
+2016-10-10 17:02:44,355 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134931--替换内容记录为空！
+2016-10-10 17:02:44,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=135230--替换内容记录为空！
+2016-10-10 17:02:45,671 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=135623--替换内容记录为空！
+2016-10-10 17:02:46,654 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=136801--替换内容记录为空！
+2016-10-10 17:02:46,669 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=137041--替换内容记录为空！
+2016-10-10 17:02:47,034 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=137108--替换内容记录为空！
+2016-10-10 17:02:47,219 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=137602--替换内容记录为空！
+2016-10-10 17:02:49,725 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140193--替换内容记录为空！
+2016-10-10 17:02:50,146 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=141736--替换内容记录为空！
+2016-10-10 17:02:50,497 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=142191--替换内容记录为空！
+2016-10-10 17:02:50,630 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=142673--替换内容记录为空！
+2016-10-10 17:02:51,003 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143311--替换内容记录为空！
+2016-10-10 17:02:51,590 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144270--替换内容记录为空！
+2016-10-10 17:02:52,823 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145624--替换内容记录为空！
+2016-10-10 17:02:53,413 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146171--替换内容记录为空！
+2016-10-10 17:02:53,535 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146244--替换内容记录为空！
+2016-10-10 17:02:54,244 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146709--替换内容记录为空！
+2016-10-10 17:02:54,250 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146712--替换内容记录为空！
+2016-10-10 17:02:55,151 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=148665--替换内容记录为空！
+2016-10-10 17:02:55,284 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=148879--替换内容记录为空！
+2016-10-10 17:02:55,664 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149063--替换内容记录为空！
+2016-10-10 17:02:55,803 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149098--替换内容记录为空！
+2016-10-10 17:02:55,931 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149265--替换内容记录为空！
+2016-10-10 17:02:56,069 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149281--替换内容记录为空！
+2016-10-10 17:02:56,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149324--替换内容记录为空！
+2016-10-10 17:02:56,712 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149648--替换内容记录为空！
+2016-10-10 17:02:56,722 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149748--替换内容记录为空！
+2016-10-10 17:02:56,743 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149762--替换内容记录为空！
+2016-10-10 17:02:57,475 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150265--替换内容记录为空！
+2016-10-10 17:02:57,962 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150738--替换内容记录为空！
+2016-10-10 17:02:58,072 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150978--替换内容记录为空！
+2016-10-10 17:02:58,209 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=151201--替换内容记录为空！
+2016-10-10 17:02:58,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=151208--替换内容记录为空！
+2016-10-10 17:02:58,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=151585--替换内容记录为空！
+2016-10-10 17:02:59,888 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=152186--替换内容记录为空！
+2016-10-10 17:03:00,446 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=152697--替换内容记录为空！
+2016-10-10 17:03:00,600 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=152844--替换内容记录为空！
+2016-10-10 17:03:00,605 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=152911--替换内容记录为空！
+2016-10-10 17:03:01,170 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=153296--替换内容记录为空！
+2016-10-10 17:03:01,526 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=153427--替换内容记录为空！
+2016-10-10 17:03:01,824 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=153760--替换内容记录为空！
+2016-10-10 17:03:01,982 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158984--替换内容记录为空！
+2016-10-10 17:03:02,344 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159321--替换内容记录为空！
+2016-10-10 17:03:03,845 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=60737--替换内容记录为空！
+2016-10-10 17:03:06,336 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=72802--替换内容记录为空！
+2016-10-10 17:03:06,561 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=72845--替换内容记录为空！
+2016-10-10 17:03:06,741 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=76538--替换内容记录为空！
+2016-10-10 17:03:08,268 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=79954--替换内容记录为空！
+2016-10-10 17:03:08,385 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=80053--替换内容记录为空！
+2016-10-10 17:03:08,598 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=80219--替换内容记录为空！
+2016-10-10 17:03:09,522 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=93084--替换内容记录为空！
+2016-10-10 17:03:11,826 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=94297--替换内容记录为空！
+2016-10-10 17:03:12,907 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=94845--替换内容记录为空！
+2016-10-10 17:03:12,913 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=95062--替换内容记录为空！
+2016-10-10 17:03:13,510 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=95987--替换内容记录为空！
+2016-10-10 17:03:13,775 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96117--替换内容记录为空！
+2016-10-10 17:03:14,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96611--替换内容记录为空！
+2016-10-10 17:03:14,374 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97029--替换内容记录为空！
+2016-10-10 17:03:14,380 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97057--替换内容记录为空！
+2016-10-10 17:03:14,828 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97366--替换内容记录为空！
+2016-10-10 17:03:14,834 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97396--替换内容记录为空！
+2016-10-10 17:03:15,609 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97906--替换内容记录为空！
+2016-10-10 17:03:16,666 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=98523--替换内容记录为空！
+2016-10-10 17:03:18,537 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=99022--替换内容记录为空！
+2016-10-10 17:03:19,040 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=99299--替换内容记录为空！
+2016-10-10 17:03:19,825 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=99572--替换内容记录为空！
+2016-10-10 17:03:19,837 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=99575--替换内容记录为空！
+2016-10-10 17:03:20,274 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=99681--替换内容记录为空！
+2016-10-10 17:03:20,916 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - CompletelyFitNewBusiOppt结束执行
+2016-10-10 17:10:38,173 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - CompletelyFitNewBusiOppt开始执行
+2016-10-10 17:10:38,241 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--推送用户为空！
+2016-10-10 17:10:38,241 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - CompletelyFitNewBusiOppt结束执行

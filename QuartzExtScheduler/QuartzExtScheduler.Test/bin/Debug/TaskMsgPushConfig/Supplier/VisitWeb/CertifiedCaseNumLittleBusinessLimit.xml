@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>CertifiedCaseNumLittleBusinessLimit</name>
+  <items>
+    <item>
+      <description>当天有访问认证用户有符合商机有报名案例数量不符合商机要求</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <wechat>497</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select u.user_id,u.name,wxa.openid,r.company_id,mm.item_id,	ocx1.user_name as consultant_name,ocx1.wx_code as consultant_wechat
+                from b2b_user.uuc_user u 
+                inner join b2b_user.uuc_user_identity r on u.user_id=r.user_id
+                inner join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+                inner join b2b_user.uuc_user_login_log l on u.user_id=l.user_id
+                inner join b2b_company.uuc_supplier_basic b on r.company_id=b.supplier_id 
+                inner join m_yct.m_wx2ycguser wxa on u.user_id=wxa.userid
+                inner join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+                inner join b2b_parameter.bizp_area ba1 on b.province_code=ba1.item_code
+                inner join b2b_parameter.bizp_area ba2 on b.city_code=ba2.item_code
+                inner join dotnet_operation.op_connect_wxinfo ocx1 on (FIND_IN_SET(ba1.item_name,ocx1.respon_areas) or FIND_IN_SET(ba2.item_name,ocx1.respon_areas)) AND ocx1.business_type=0 
+                inner join 
+                (
+		                select supplier_id ,sum(r_count) as r_count,sum(f_count) as f_count
+		                from 
+		                (		
+				                select DISTINCT a.supplier_id,b.count as r_count,a.count as f_count, a.t from 
+				                (
+						                select a.supplier_id,count(DISTINCT a.item_id) as count,'r' as t  From b2b_op_activity.op_fit_my_recruit a
+						                INNER JOIN b2b_bidding.bid_recruit_item i on a.item_id=i.item_id and i.case_num>0
+						                LEFT JOIN (
+								                select company_id,count(uid) as p_cnt from b2b_company.uuc_supplier_project
+								                where `status`=2 and is_del=0 and IfNULL(company_id,'')<>''
+								                GROUP BY company_id
+						                ) p on a.supplier_id=p.company_id
+						                where a.is_complete_meet=0 and i.case_num>ifNull(p.p_cnt,0)
+						                group by a.supplier_id
+				                ) a
+				                left JOIN 
+				                (	
+						                select supplier_id,count(DISTINCT item_id) as count,'r' t from b2b_bidding.bid_recruit_item_register
+						                GROUP BY supplier_id
+				                ) b on a.supplier_id=b.supplier_id
+		                ) a group by a.supplier_id HAVING((sum(r_count)/sum(f_count))<0.6)
+                ) fit on b.supplier_id=fit.supplier_id
+								inner JOIN
+								(
+											SELECT
+												supplier_id,
+												item_id,
+												Nom
+											FROM
+											(
+												SELECT
+													CASE 
+														WHEN @cn != supplier_id THEN @rownum:= 1 
+														ELSE @rownum:= @rownum + 1  
+														END AS Nom,
+													@cn := supplier_id AS supplier_id,
+													item_id
+												FROM
+													(SELECT @rownum:=0) r,
+													(SELECT @cn:='') p,
+													b2b_op_activity.op_fit_my_recruit
+												ORDER BY
+													supplier_id,
+													item_id DESC
+											) subQuery
+											WHERE Nom <=5
+								) mm on mm.supplier_id = fit.supplier_id
+                where u.user_biz_type=1 and u.`name` not like 'test%' AND b.company_name not like 'test%' AND l.login_type=2 
+                AND l.login_time BETWEEN DATE_ADD(now(),INTERVAL -24 HOUR) and now() 		
+                and zqu.appid=@appId
+                GROUP BY u.user_id,mm.item_id
+            ]]>
+          </sql>
+          <description>当天有访问认证用户有符合商机有报名案例数量不符合商机要求</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理姓名#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+              select DISTINCT supplier_id,`subject`,short_name,developer_type,item_id,t
+              from (
+		              select a.supplier_id,a.item_id,bcia.`subject`,if(ISNULL(c.short_name),c.company_name,c.short_name) as short_name,c.developer_type,'r' t
+		              From b2b_op_activity.op_fit_my_recruit a     
+		              inner join b2b_company.uuc_supplier_basic usb on a.supplier_id=usb.supplier_id
+		              inner join b2b_bidding.bid_recruit_item bcia on a.item_id=bcia.item_id 
+		              inner join b2b_company.uuc_developer c on bcia.company_id=c.developer_id
+		              left join b2b_bidding.bid_recruit_item_register brit on a.supplier_id=brit.supplier_id AND brit.item_id=a.item_id AND brit.supplier_id=@supplier_id 
+		              where brit.item_id is null and a.supplier_id=@supplier_id  and a.item_id=@item_id
+              ) a where `subject` not like 'test_%' and short_name not like 'test_%' order by developer_type
+              LIMIT 1
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">company_id</value>
+            </parameter>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商简称#</key>
+              <value source="entity">short_name</value>
+            </parameter>
+            <parameter>
+              <key>#招募全称#</key>
+              <value source="entity">subject</value>
+            </parameter>
+            <parameter>
+              <key>#招募ID#</key>
+              <value source="entity">item_id</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

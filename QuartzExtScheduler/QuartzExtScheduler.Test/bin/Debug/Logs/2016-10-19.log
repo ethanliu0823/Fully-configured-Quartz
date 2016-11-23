@@ -1,0 +1,144 @@
+2016-10-19 10:36:07,092 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 10:36:07,185 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 10:36:07,210 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 10:36:07,275 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 10:36:07,276 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 10:36:07,284 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 10:36:07,294 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 10:36:07,294 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 10:36:07,294 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 10:36:07,305 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 10:36:09,623 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 10:36:15,129 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 10:37:29,763 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 10:43:32,650 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 10:43:32,757 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 10:43:32,787 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 10:43:32,928 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 10:43:32,930 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 10:43:32,938 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 10:43:32,955 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 10:43:32,957 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 10:43:32,957 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 10:43:32,968 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 10:43:35,375 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 10:44:07,988 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 15:48:44,662 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 15:48:44,768 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 15:48:44,801 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 15:48:44,933 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 15:48:44,935 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 15:48:44,947 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 15:48:44,960 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 15:48:44,961 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 15:48:44,964 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 15:48:44,974 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 15:48:47,788 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 15:49:42,288 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 15:51:04,505 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 15:51:07,717 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:01:34,407 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 16:01:34,503 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 16:01:34,529 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 16:01:34,604 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 16:01:34,605 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 16:01:34,613 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 16:01:34,626 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 16:01:34,629 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 16:01:34,629 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 16:01:34,638 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 16:01:54,171 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:01:55,635 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:04:10,175 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:04:10,800 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:36:49,146 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 16:36:49,230 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 16:36:49,254 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 16:36:49,344 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 16:36:49,347 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 16:36:49,356 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 16:36:49,373 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 16:36:49,374 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 16:36:49,375 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 16:36:49,385 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 16:37:21,528 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:37:24,119 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:37:58,878 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:37:59,973 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:37:59,975 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:38:00,791 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:49:08,686 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:49:09,274 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:55:29,170 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 16:55:29,265 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 16:55:29,291 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 16:55:29,367 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 16:55:29,368 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 16:55:29,375 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 16:55:29,387 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 16:55:29,388 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 16:55:29,390 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 16:55:29,398 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 16:55:30,909 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:55:32,689 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行
+2016-10-19 16:59:37,550 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-10-19 16:59:37,657 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-10-19 16:59:37,686 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-10-19 16:59:37,771 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-10-19 16:59:37,774 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-10-19 16:59:37,788 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-10-19 16:59:37,801 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-10-19 16:59:37,802 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-10-19 16:59:37,805 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-10-19 16:59:37,824 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-10-19 16:59:39,397 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb开始执行
+2016-10-19 16:59:41,439 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - SilverVisitWeb结束执行

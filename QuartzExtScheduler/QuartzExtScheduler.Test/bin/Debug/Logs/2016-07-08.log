@@ -1,0 +1,279 @@
+2016-07-08 11:19:03,281 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 11:19:03,397 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 11:19:03,432 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 11:19:03,538 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 11:19:03,542 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 11:19:03,552 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 11:19:03,566 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 11:19:03,567 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 11:19:03,567 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 11:19:03,578 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 11:19:07,366 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:19:19,041 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册- 1条消息返回结果为true
+2016-07-08 11:19:19,321 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:19:19,554 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:19:20,106 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:19:39,211 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:19:39,211 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:34:22,372 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:34:22,614 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:34:22,753 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:34:22,872 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:34:23,215 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:34:23,656 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:34:23,656 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:34:46,691 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:34:46,822 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:34:46,953 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:34:47,073 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:34:47,393 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:34:47,717 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:34:47,718 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:35:32,309 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 11:35:32,419 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 11:35:32,453 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 11:35:32,550 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 11:35:32,551 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 11:35:32,559 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 11:35:32,573 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 11:35:32,574 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 11:35:32,574 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 11:35:32,583 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 11:35:37,305 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:35:38,213 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:35:46,177 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证- 1条消息返回结果为true
+2016-07-08 11:35:46,412 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:35:47,034 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:35:56,872 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:35:56,873 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:37:50,725 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 11:37:50,841 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 11:37:50,876 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 11:37:50,971 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 11:37:50,974 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 11:37:50,984 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 11:37:51,000 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 11:37:51,001 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 11:37:51,001 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 11:37:51,012 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 11:37:52,831 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:37:53,811 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:37:54,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:37:55,979 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证- 1条消息返回结果为true
+2016-07-08 11:37:56,608 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:37:57,153 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:37:57,154 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:47:12,110 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 11:47:12,226 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 11:47:12,260 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 11:47:12,357 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 11:47:12,359 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 11:47:12,371 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 11:47:12,386 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 11:47:12,387 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 11:47:12,387 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 11:47:12,398 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 11:47:16,736 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:47:17,824 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:47:18,103 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:47:18,352 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:47:19,410 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证- 1条消息返回结果为true
+2016-07-08 11:47:19,955 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 11条消息返回结果为true
+2016-07-08 11:47:19,955 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 11:50:01,549 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 11:50:01,934 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-08 11:50:02,208 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-08 11:50:02,678 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-08 11:50:03,486 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-08 11:50:04,073 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 12条消息返回结果为true
+2016-07-08 11:50:04,073 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:08:16,534 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 14:08:16,645 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 14:08:16,679 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 14:08:16,775 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 14:08:16,779 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 14:08:16,790 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 14:08:16,806 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 14:08:16,807 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 14:08:16,807 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 14:08:16,816 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 14:08:19,184 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:08:19,361 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常：System.IO.FileNotFoundException: 未能找到文件“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”。
+文件名:“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 84
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 69
+2016-07-08 14:08:19,361 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:09:26,192 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 14:09:26,309 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 14:09:26,338 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 14:09:26,443 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 14:09:26,448 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 14:09:26,456 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 14:09:26,471 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 14:09:26,472 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 14:09:26,473 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 14:09:26,483 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 14:09:29,884 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:09:29,968 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常：System.IO.FileNotFoundException: 未能找到文件“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”。
+文件名:“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 84
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 69
+2016-07-08 14:09:29,969 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:11:27,731 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 14:11:27,856 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 14:11:27,888 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 14:11:28,005 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 14:11:28,007 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 14:11:28,017 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 14:11:28,033 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 14:11:28,035 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 14:11:28,035 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 14:11:28,045 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 14:11:50,667 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:11:50,751 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常：System.IO.FileNotFoundException: 未能找到文件“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”。
+文件名:“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 84
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 69
+2016-07-08 14:11:50,752 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:12:23,412 [11] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 14:12:23,535 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 14:12:23,567 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 14:12:23,667 [11] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 14:12:23,669 [11] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 14:12:23,680 [11] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 14:12:23,695 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 14:12:23,696 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 14:12:23,696 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 14:12:23,705 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 14:12:31,589 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:12:31,690 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常：System.IO.FileNotFoundException: 未能找到文件“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”。
+文件名:“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Test\bin\Debug\TaskConfig\Developer\DevContractNotLogin.xml”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   在 System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   在 System.Xml.XmlTextReaderImpl.FinishInitUriString()
+   在 System.Xml.XmlReaderSettings.CreateReader(String inputUri, XmlParserContext inputContext)
+   在 System.Xml.Linq.XElement.Load(String uri, LoadOptions options)
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 84
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 69
+2016-07-08 14:12:31,691 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:15:22,529 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-08 14:15:22,606 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-08 14:15:22,628 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-08 14:15:22,686 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-08 14:15:22,687 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-08 14:15:22,693 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-08 14:15:22,702 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-08 14:15:22,703 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-08 14:15:22,703 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-08 14:15:22,710 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-08 14:15:29,557 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:15:52,134 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 1条消息返回结果为true
+2016-07-08 14:15:57,026 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录--推送用户为空：
+2016-07-08 14:16:18,154 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约90天未登录- 23条消息返回结果为true
+2016-07-08 14:16:23,932 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约120天未登录- 18条消息返回结果为true
+2016-07-08 14:16:29,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约151天未登录- 1条消息返回结果为true
+2016-07-08 14:16:29,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:18:07,493 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:18:13,622 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录--推送用户为空：
+2016-07-08 14:18:18,795 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录- 1条消息返回结果为true
+2016-07-08 14:18:24,523 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约90天未登录- 23条消息返回结果为true
+2016-07-08 14:18:30,453 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约120天未登录- 18条消息返回结果为true
+2016-07-08 14:18:36,339 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约151天未登录- 1条消息返回结果为true
+2016-07-08 14:18:36,340 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-08 14:20:49,941 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-08 14:20:56,201 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录--推送用户为空：
+2016-07-08 14:21:01,413 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录--推送用户为空：
+2016-07-08 14:21:07,761 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约90天未登录- 24条消息返回结果为true
+2016-07-08 14:21:14,841 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约120天未登录- 18条消息返回结果为true
+2016-07-08 14:21:21,877 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约151天未登录- 1条消息返回结果为true
+2016-07-08 14:21:21,877 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行

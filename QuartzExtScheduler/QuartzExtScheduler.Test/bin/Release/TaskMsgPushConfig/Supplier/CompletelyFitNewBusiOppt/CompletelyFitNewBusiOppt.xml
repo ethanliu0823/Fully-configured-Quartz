@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>CompletelyFitNewBusiOppt</name>
+  <items>
+    <item>
+      <description>发布10分钟的招募--完全符合的认证会员</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">579</sms>
+        <email></email>
+        <wechat priority="1">580</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+		SELECT DISTINCT il.item_id,c.company_id as supplier_id,il.case_num,il.service_areas,il.is_area_valid_case,
+		supp.user_id,supp.`name`,supp.mobile,supp.openid
+		FROM (
+			SELECT i.item_id,i.categories,ifnull(i.register_fund,0) as register_fund,
+			ifnull(i.case_num,0) as case_num,i.is_area_valid_case,ifnull(i.service_areas,'china') as service_areas,
+			l.qualification_code,l.level_code,l.priority
+			FROM b2b_parameter.bsp_qualification_level l 
+			inner join b2b_bidding.bid_recruit_item i on (FIND_IN_SET(CONCAT(l.qualification_code,'-',l.level_code),i.service_quals) or ifnull(i.service_quals,'') ='')
+			WHERE i.create_time BETWEEN DATE_ADD(now(),INTERVAL -50 MINUTE) and DATE_ADD(now(),INTERVAL -10 MINUTE) and i.register_end_date>now()
+		) il 
+		inner join b2b_parameter.bsp_qualification_level l on il.qualification_code=l.qualification_code AND l.priority>=il.priority
+		inner join b2b_company.uuc_supplier_qualify_code c on c.qualify_name_code=il.qualification_code AND c.qualify_level_code=il.level_code
+		INNER JOIN
+		(
+				select a.supplier_id,ifnull(a.reg_capital,0) as reg_capital,b.category_code,u.user_id,u.`name`,r.mobile,w.openid
+				from b2b_company.uuc_supplier_basic a
+				INNER JOIN b2b_company.uuc_supplier_service_category b on a.supplier_id=b.supplier_id
+				INNER JOIN b2b_user.uuc_user_identity ui on ui.company_id=a.supplier_id 
+				INNER join b2b_user.uuc_user u on ui.user_id=u.user_id and u.user_biz_type=1
+				left join b2b_user_business.business_card_record r on u.user_id=r.user_id
+				left join 
+				(
+					SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+					INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+					WHERE zqu.appid=@appId
+				) w on u.user_id=w.userid 
+		) supp on c.company_id =supp.supplier_id and il.categories=supp.category_code and supp.reg_capital>=il.register_fund
+    GROUP BY supp.user_id
+            ]]>
+          </sql>
+          <description>发布10分钟的招募--注册资本、分类、服务资质都符合的公司用户</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select sum(cnt) as is_area_fit 
+                from 
+                (
+		                select if(@service_areas='china',1,0) cnt
+		                UNION all
+		                select COUNT(DISTINCT a.item_area_id) cnt from
+		                (
+			                 select  province_code,city_code from b2b_company.`uuc_supplier_institution`
+				                 where   company_id=@supplier_id and   status=2 and is_del=0
+				                UNION
+					                select    province_code , city_code from b2b_company.uuc_supplier_basic
+					                where  supplier_id=@supplier_id 
+		                ) temp
+		                LEFT JOIN  b2b_bidding.`bid_recruit_company_area` a on  a.item_id=@item_id
+			                and (
+						                ( a.province_code=temp.province_code  and  a.city_code=temp.city_code )
+				                or  ( a.province_code=temp.province_code  and IFNULL(a.city_code,'')='' )
+		                )
+		                 where temp.province_code is not NULL
+                )a
+             ]]>
+          </sql>
+          <description>判断区域是否符合</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@service_areas</key>
+              <value source="entity">service_areas</value>
+            </parameter>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#判断区域是否符合#</key>
+              <value source="entity">is_area_fit</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+                select if(if((@is_area_valid_case<>1 or (@service_areas='china' and @is_area_valid_case=1)),a.cnt1,b.cnt2)>=@case_num,1,0) as is_case_fit 
+                from 
+                (
+                select count(1) as cnt1 From b2b_company.uuc_supplier_project 
+                where is_del= 0 and status=2 and is_published=1 and company_id=@supplier_id
+                )a
+                cross JOIN
+                (
+                SELECT  count(item_area_id) as cnt2 
+                from b2b_bidding.bid_recruit_item_area a
+                left join b2b_company.uuc_supplier_project p on (a.service_area=p.project_province_code or a.service_area=p.project_city_code)
+                where a.item_id=@item_id and p.company_id=@supplier_id and p.is_del= 0 and p.status=2 and p.is_published=1 
+                ) b
+             ]]>
+          </sql>
+          <description>判断案例数是否符合</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+            <parameter>
+              <key>@case_num</key>
+              <value source="entity">case_num</value>
+            </parameter>
+            <parameter>
+              <key>@is_area_valid_case</key>
+              <value source="entity">is_area_valid_case</value>
+            </parameter>
+            <parameter>
+              <key>@service_areas</key>
+              <value source="entity">service_areas</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#判断案例数是否符合#</key>
+              <value source="entity">is_case_fit</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <sql-item id="sql_3" type="content">
+          <sql>
+            <![CDATA[
+	              SELECT DISTINCT
+	              b.item_id as itemId,d.category_name,CONCAT(d.category_name,'招募公告') as title ,ifnull(c.short_name,c.company_name) as company_name,
+	              c.developer_type AS developerType,date_format(b.create_time,'%Y-%c-%e') as created_time, date_format(b.register_end_date,'%Y-%c-%e') as register_end_date,
+	              GROUP_CONCAT(area_name.item_name SEPARATOR '、') as area_name,concat('m.mycaigou.com/zm/detail-',b.item_id,'.html') as shortURL, 
+								if(b.case_num>0,concat('注资',b.register_fund,'万元及以上，案例',b.case_num,'个以上'),concat('注资',b.register_fund,'万元及以上')) as register_condition
+	              FROM 
+	              (		
+			              select item_id,categories,company_id,create_time,register_condition,register_end_date,service_areas,
+										ifnull(register_fund,0) as register_fund ,ifnull(case_num,0) as case_num
+			              FROM b2b_bidding.bid_recruit_item where item_id=@item_id 
+	              ) b 
+	              left join 
+	              (
+		              select item_id from b2b_bidding.bid_recruit_item_register where supplier_id = @supplier_id and item_id=@item_id
+	              ) r on b.item_id=r.item_id
+	              INNER JOIN b2b_company.uuc_developer c ON b.company_id = c.developer_id
+	              left JOIN
+	              (
+			               SELECT company_id,supplier_id
+			               FROM b2b_company.bid_developer_mysupplier a
+			               WHERE a.status = 3 AND a.is_del = 0 and supplier_id=@supplier_id
+	              ) black on c.developer_id=black.company_id
+	              INNER JOIN b2b_parameter.bsp_basic_forest d on b.categories=d.category_code
+	              INNER JOIN b2b_bidding.bid_recruit_item_area area on b.item_id=area.item_id
+	              inner join 
+	              (
+			              select item_code,item_name from b2b_parameter.bizp_area
+			              union ALL
+			              select 'china','全国' 
+	              ) area_name on (area.province_code=area_name.item_code or area.city_code=area_name.item_code)
+	              WHERE r.item_id is null and black.company_id is null and b.register_end_date>now()	AND c.company_name not like 'test_%'
+              GROUP BY b.item_id
+             ]]>
+          </sql>
+          <description>替换内容</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商简称#</key>
+              <value source="entity">company_name</value>
+            </parameter>
+            <parameter>
+              <key>#商机名称#</key>
+              <value source="entity">title</value>
+            </parameter>
+            <parameter>
+              <key>#招募类别#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#招募区域#</key>
+              <value source="entity">area_name</value>
+            </parameter>
+            <parameter>
+              <key>#发布时间#</key>
+              <value source="entity">created_time</value>
+            </parameter>
+            <parameter>
+              <key>#截止时间#</key>
+              <value source="entity">register_end_date</value>
+            </parameter>
+            <parameter>
+              <key>#招募条件#</key>
+              <value source="entity">register_condition</value>
+            </parameter>
+            <parameter>
+              <key>#招募ID#</key>
+              <value source="entity">itemId</value>
+            </parameter>
+            <parameter>
+              <key>#短地址#</key>
+              <value source="entity" convert-short-url="1">shortURL</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

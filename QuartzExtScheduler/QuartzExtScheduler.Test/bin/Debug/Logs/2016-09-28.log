@@ -1,0 +1,74 @@
+2016-09-28 18:43:13,942 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-09-28 18:43:14,052 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-09-28 18:43:14,086 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-09-28 18:43:14,172 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-09-28 18:43:14,174 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-09-28 18:43:14,184 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-09-28 18:43:14,197 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-09-28 18:43:14,198 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-09-28 18:43:14,198 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-09-28 18:43:14,208 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-09-28 18:43:16,508 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit开始执行
+2016-09-28 18:43:19,138 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit执行异常！System.ArgumentException: 列“itemId”不属于表 。
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 398
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 167
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-09-28 18:43:19,139 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit结束执行
+2016-09-28 18:44:00,383 [11] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-09-28 18:44:00,483 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-09-28 18:44:00,511 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-09-28 18:44:00,601 [11] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-09-28 18:44:00,603 [11] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-09-28 18:44:00,612 [11] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-09-28 18:44:00,624 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-09-28 18:44:00,625 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-09-28 18:44:00,625 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-09-28 18:44:00,634 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-09-28 18:44:01,958 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit开始执行
+2016-09-28 18:44:03,384 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=143511--替换内容记录为空！
+2016-09-28 18:44:03,389 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153828--替换内容记录为空！
+2016-09-28 18:44:03,394 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153856--替换内容记录为空！
+2016-09-28 18:44:03,400 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=158984--替换内容记录为空！
+2016-09-28 18:44:07,281 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:44:07,288 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:44:07,293 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:44:07,630 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=79920--替换内容记录为空！
+2016-09-28 18:44:07,713 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=99693--替换内容记录为空！
+2016-09-28 18:44:07,713 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit结束执行
+2016-09-28 18:48:04,003 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit开始执行
+2016-09-28 18:48:05,455 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=143511--替换内容记录为空！
+2016-09-28 18:48:05,460 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153828--替换内容记录为空！
+2016-09-28 18:48:05,466 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153856--替换内容记录为空！
+2016-09-28 18:48:05,470 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=158984--替换内容记录为空！
+2016-09-28 18:48:05,533 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:05,537 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:05,542 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:05,690 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=79920--替换内容记录为空！
+2016-09-28 18:48:05,761 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=99693--替换内容记录为空！
+2016-09-28 18:48:05,761 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit结束执行
+2016-09-28 18:48:42,008 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit开始执行
+2016-09-28 18:48:43,052 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=143511--替换内容记录为空！
+2016-09-28 18:48:43,059 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153828--替换内容记录为空！
+2016-09-28 18:48:43,064 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=153856--替换内容记录为空！
+2016-09-28 18:48:43,069 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=158984--替换内容记录为空！
+2016-09-28 18:48:43,137 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:43,143 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:43,148 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=159291--替换内容记录为空！
+2016-09-28 18:48:43,341 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=79920--替换内容记录为空！
+2016-09-28 18:48:43,482 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 非今天发布的且报名数量小于10的招募--符合的用户--user_id=99693--替换内容记录为空！
+2016-09-28 18:48:43,482 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - NotTodayRecruit结束执行

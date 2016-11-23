@@ -1,0 +1,89 @@
+2016-08-12 16:15:58,878 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-12 16:15:58,964 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-12 16:15:58,992 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-12 16:15:59,081 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-12 16:15:59,083 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-12 16:15:59,091 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-12 16:15:59,101 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-12 16:15:59,102 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-12 16:15:59,102 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-12 16:15:59,109 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-12 16:16:00,804 [_Worker-1] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-08-12 16:17:02,423 [_Worker-1] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--结束执行
+2016-08-12 16:17:02,444 [_Worker-2] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-08-12 16:17:57,356 [_Worker-2] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--结束执行
+2016-08-12 16:19:02,905 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-12 16:19:13,186 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=119003--记录为空！
+2016-08-12 16:19:13,302 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-12 16:19:14,795 [_Worker-3] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常！System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:3133
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 MycaigouScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Common\JsonRequest.cs:行号 47
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 535
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 712
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 165
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 74
+2016-08-12 16:19:14,795 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-12 16:20:41,377 [_Worker-4] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-08-12 16:38:18,139 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-12 16:38:18,244 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-12 16:38:18,274 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-12 16:38:18,385 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-12 16:38:18,386 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-12 16:38:18,395 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-12 16:38:18,409 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-12 16:38:18,410 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-12 16:38:18,411 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-12 16:38:18,421 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-12 16:41:26,484 [_Worker-1] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-08-12 16:42:10,240 [_Worker-1] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--结束执行
+2016-08-12 18:16:55,708 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-12 18:16:55,781 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-12 18:16:55,801 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-12 18:16:55,883 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-12 18:16:55,884 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-12 18:16:55,890 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-12 18:16:55,899 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-12 18:16:55,899 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-12 18:16:55,899 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-12 18:16:55,905 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-12 18:16:58,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-12 18:17:01,073 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 通用调度执行异常！System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:3133
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 MycaigouScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Common\JsonRequest.cs:行号 47
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 535
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 712
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 165
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 74
+2016-08-12 18:17:01,073 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-12 18:17:39,817 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-12 18:17:42,746 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周一全量）--user_id=119003--记录为空！
+2016-08-12 18:17:43,094 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行

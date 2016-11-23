@@ -1,0 +1,92 @@
+2016-07-06 15:37:59,588 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-06 15:37:59,677 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-06 15:37:59,703 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-06 15:37:59,780 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-06 15:37:59,782 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-06 15:37:59,791 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-06 15:37:59,801 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-06 15:37:59,803 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-06 15:37:59,803 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-06 15:37:59,811 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-06 15:38:04,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-07-06 15:40:13,531 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-06 15:40:13,630 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-06 15:40:13,659 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-06 15:40:13,754 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-06 15:40:13,755 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-06 15:40:13,765 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-06 15:40:13,777 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-06 15:40:13,777 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-06 15:40:13,777 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-06 15:40:13,786 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-06 15:40:16,285 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-07-06 15:41:54,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-07-05； userId：159054；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：liuty@mysoft.com.cn
+2016-07-06 15:43:46,546 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-06 15:43:46,627 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-06 15:43:46,653 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-06 15:43:46,736 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-06 15:43:46,738 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-06 15:43:46,745 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-06 15:43:46,755 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-06 15:43:46,756 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-06 15:43:46,756 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-06 15:43:46,763 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-06 15:43:48,847 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-07-06 15:43:51,061 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-07-05； userId：159054；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：liuty@mysoft.com.cn
+2016-07-06 15:45:02,329 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152875；openId：；mobile：11111117217；email：
+2016-07-06 15:48:17,813 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-06 15:48:17,913 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-06 15:48:17,942 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-06 15:48:18,042 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-06 15:48:18,043 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-06 15:48:18,052 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-06 15:48:18,065 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-06 15:48:18,066 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-06 15:48:18,066 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-06 15:48:18,075 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-06 15:48:19,866 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-07-06 15:48:20,725 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-07-05； userId：159054；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：liuty@mysoft.com.cn
+2016-07-06 15:49:01,766 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152875；openId：；mobile：11111117217；email：
+2016-07-06 15:49:08,148 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152876；openId：；mobile：11111117218；email：
+2016-07-06 15:49:14,209 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152877；openId：；mobile：11111117219；email：
+2016-07-06 15:49:18,927 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152879；openId：；mobile：11111117221；email：
+2016-07-06 15:49:45,035 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152880；openId：；mobile：11111117222；email：
+2016-07-06 15:49:47,293 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152881；openId：；mobile：11111117223；email：
+2016-07-06 15:49:52,393 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152882；openId：；mobile：11111117224；email：
+2016-07-06 15:49:55,440 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152883；openId：；mobile：11111117225；email：
+2016-07-06 15:49:57,774 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152884；openId：；mobile：11111117226；email：
+2016-07-06 15:50:05,262 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152885；openId：；mobile：11111117227；email：
+2016-07-06 15:50:07,693 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152886；openId：；mobile：11111117228；email：
+2016-07-06 15:50:10,121 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152887；openId：；mobile：11111117229；email：
+2016-07-06 15:50:17,906 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152888；openId：；mobile：11111117230；email：
+2016-07-06 15:50:27,635 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152889；openId：；mobile：11111117231；email：
+2016-07-06 15:50:52,479 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152890；openId：；mobile：11111117232；email：
+2016-07-06 15:51:06,751 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-04-14； userId：152891；openId：；mobile：11111117233；email：

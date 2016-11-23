@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<task>
+  <!--调度名称，必须标签，主要用于输出日志-->
+  <name>test</name>
+  <!--调度描述，必须标签，主要用于输出日志-->
+  <description>test1</description>
+  <items>
+    <!--清洗任务项，针对业务划分，可有多个，必须标签-->
+    <!--属性name和description必须填写，用于输出日志-->
+    <item name="testItem" description="testItem">
+      <!--变量，用于设置一些公用参数，可有多个，非必须标签。属性source可选三个值：sql、system、param-->
+      <!--sql:表示从sql中取值，变量名需和字段名相同，支持多字段(例如：<name>name1|name2</name>)，name1、name2分别对应字段名name1、name2，只有source="sql"时支持这种形式-->
+      <!--system:表示从web.config取值,value标签为config的key-->
+      <var source="sql">
+        <!--变量名，必须标签，-->
+        <name>supplier_reg_user_day</name>
+        <!--变量值,必须标签-->
+        <value>
+          <![CDATA[ 
+	       select COUNT(1) supplier_reg_user_day from b2b_user.uuc_user 
+          where user_biz_type=1 AND `name` not like 'test%'
+          AND user_id not in (
+            select i.user_id from 
+            b2b_user.uuc_user_identity i 
+            inner join b2b_company.uuc_supplier_basic d 
+            on i.company_id=d.supplier_id 
+            where d.company_name like 'test%'
+          )
+          AND DATE(register_time) =  DATE(NOW())
+		     ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>supplier_reg_user_total</name>
+        <value>
+          <![CDATA[
+            select COUNT(1) supplier_reg_user_total from b2b_user.uuc_user 
+            where user_biz_type=1 AND `name` not like 'test%'
+            AND user_id not in (
+              select i.user_id from b2b_user.uuc_user_identity i 
+              inner join b2b_company.uuc_supplier_basic d 
+              on i.company_id=d.supplier_id 
+              where d.company_name like 'test%'
+            )
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>supplier_auth_user_day</name>
+        <value>
+          <![CDATA[
+            select COUNT(1) supplier_auth_user_day from b2b_user.uuc_user u 
+            inner join b2b_user.uuc_company_certification_record r on u.user_id=r.user_id
+            inner join b2b_company.uuc_supplier_basic b on r.company_id=b.supplier_id 
+            where u.`name` not like 'test%' AND b.company_name not like 'test%' AND 
+            r.`status`=1 AND b.`status`=2 AND DATE(r.last_audit_time) = DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>supplier_auth_user_total</name>
+        <value>
+          <![CDATA[
+            select COUNT(1) supplier_auth_user_total from b2b_user.uuc_user u 
+            inner join b2b_user.uuc_company_certification_record r on u.user_id=r.user_id
+            inner join b2b_company.uuc_supplier_basic b on r.company_id=b.supplier_id 
+            where u.`name` not like 'test%' AND b.company_name not like 'test%' AND r.`status`=1 AND b.`status`=2 
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_reg_user_day</name>
+        <value>
+          <![CDATA[
+            select COUNT(1) developer_reg_user_day  from b2b_user.uuc_user 
+            where user_biz_type=2 AND `name` not like 'test%'
+            AND user_id not in (select i.user_id from b2b_user.uuc_user_identity i 
+            inner join b2b_company.uuc_developer d on i.company_id=d.developer_id where d.company_name like 'test%')
+            AND DATE(register_time) = DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_reg_user_total</name>
+        <value>
+          <![CDATA[
+           select COUNT(1) developer_reg_user_total  from b2b_user.uuc_user 
+            where user_biz_type=2 AND `name` not like 'test%'
+            AND user_id not in (
+              select i.user_id from b2b_user.uuc_user_identity i 
+              inner join b2b_company.uuc_developer d 
+              on i.company_id=d.developer_id 
+              where d.company_name like 'test%'
+            )
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_sign_company_day</name>
+        <value>
+          <![CDATA[
+           select COUNT(1) developer_sign_company_day from b2b_company.uuc_developer a
+            inner join b2b_user.uuc_company_contract b on a.developer_id=b.company_id
+            where b.sign_status=1 and a.company_name not like 'test%' AND DATE(b.area_sign_date) like  DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_sign_company_total</name>
+        <value>
+          <![CDATA[
+           select COUNT(1) developer_sign_company_total from b2b_company.uuc_developer a
+            inner join b2b_user.uuc_company_contract b on a.developer_id=b.company_id
+            where b.sign_status=1 and a.company_name not like 'test%'
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>supplier_user_login_times_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(l.login_log_id) supplier_user_login_times_day
+            FROM b2b_user.uuc_user_login_log l
+            inner join b2b_user.uuc_user u on u.user_id=l.user_id 
+            WHERE DATE(l.login_time) = DATE(NOW()) AND u.user_biz_type=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>supplier_user_login_times_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(l.login_log_id) supplier_user_login_times_total
+            FROM b2b_user.uuc_user_login_log l
+            inner join b2b_user.uuc_user u on u.user_id=l.user_id 
+            WHERE u.user_biz_type=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_user_login_times_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(l.login_log_id) developer_user_login_times_day
+            FROM b2b_user.uuc_user_login_log l
+            inner join b2b_user.uuc_user u on u.user_id=l.user_id 
+            WHERE DATE(l.login_time) = DATE(NOW()) AND u.user_biz_type=2
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>developer_user_login_times_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(l.login_log_id) developer_user_login_times_total
+            FROM b2b_user.uuc_user_login_log l
+            inner join b2b_user.uuc_user u on u.user_id=l.user_id 
+            WHERE u.user_biz_type=2
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_recruit_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT count(distinct company_id) as publish_recruit_company_day FROM b2b_bidding.bid_recruit_item 
+            where state=1 and DATE(publish_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_recruit_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT count(distinct company_id) as publish_recruit_company_total FROM b2b_bidding.bid_recruit_item 
+            where state=1 and DATE(publish_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_recruit_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT count(1) as publish_recruit_count_day FROM b2b_bidding.bid_recruit_item 
+           where state=1 and DATE(publish_time) = DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_recruit_count_total</name>
+        <value>
+          <![CDATA[
+           SELECT count(1) as publish_recruit_count_total FROM b2b_bidding.bid_recruit_item where state=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>recruit_apply_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) recruit_apply_company_day FROM b2b_bidding.bid_recruit_item_register WHERE DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>recruit_apply_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) recruit_apply_company_total FROM b2b_bidding.bid_recruit_item_register
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>recruit_apply_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) recruit_apply_count_day FROM b2b_bidding.bid_recruit_item_register WHERE DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>recruit_apply_count_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) recruit_apply_count_total FROM b2b_bidding.bid_recruit_item_register
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>storage_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) storage_company_day FROM b2b_bidding.bid_recruit_item_register 
+           WHERE `storage`=1 AND  DATE(storage_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>storage_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) storage_company_total FROM b2b_bidding.bid_recruit_item_register WHERE `storage`=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>storage_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) storage_count_day FROM b2b_bidding.bid_recruit_item_register WHERE `storage`=1 AND DATE(storage_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>storage_count_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) storage_count_total FROM b2b_bidding.bid_recruit_item_register WHERE `storage`=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_bidding_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT count(distinct developer_uid) as publish_bidding_company_day FROM b2b_bidding.bid_announcements 
+	          where DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_bidding_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT count(distinct developer_uid) as publish_bidding_company_total FROM b2b_bidding.bid_announcements
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_bidding_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT count(1) as publish_bidding_count_day FROM b2b_bidding.bid_announcements where DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>publish_bidding_count_total</name>
+        <value>
+          <![CDATA[
+           SELECT count(1) as publish_bidding_count_total FROM b2b_bidding.bid_announcements
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>bidding_apply_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) bidding_apply_company_day FROM b2b_bidding.bid_announcements_register 
+           WHERE DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>bidding_apply_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT supplier_id) bidding_apply_company_total FROM b2b_bidding.bid_announcements_register
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>bidding_apply_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) bidding_apply_count_day FROM b2b_bidding.bid_announcements_register WHERE DATE(created_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>bidding_apply_count_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) bidding_apply_count_total FROM b2b_bidding.bid_announcements_register
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>in_shortlist_company_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT r.supplier_id) in_shortlist_company_day FROM b2b_bidding.bid_announcements a
+	          inner join b2b_bidding.bid_announcements_register r on a.uid=r.bid_announcement_uid
+	          WHERE r.finalist_state=1 AND DATE(a.finalist_time)=DATE(NOW())
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>in_shortlist_company_total</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(DISTINCT r.supplier_id) in_shortlist_company_total FROM b2b_bidding.bid_announcements a
+	          inner join b2b_bidding.bid_announcements_register r on a.uid=r.bid_announcement_uid
+	          WHERE r.finalist_state=1
+          ]]>
+        </value>
+      </var>
+      <var source="sql">
+        <name>in_shortlist_count_day</name>
+        <value>
+          <![CDATA[
+           SELECT COUNT(1) in_shortlist_count_day FROM b2b_bidding.bid_announcements a
+	          inner join b2b_bidding.bid_announcements_register r on a.uid=r.bid_announcement_uid
+	          WHERE r.finalist_state=1 AND DATE(a.finalist_time)=DATE(NOW())
+          ]]>
+         </value>
+       </var>
+      <var source="sql">
+         <name>in_shortlist_count_total</name>
+         <value>
+           <![CDATA[
+           SELECT COUNT(1) in_shortlist_count_total FROM b2b_bidding.bid_announcements a
+	          inner join b2b_bidding.bid_announcements_register r on a.uid=r.bid_announcement_uid
+	          WHERE r.finalist_state=1
+          ]]>
+         </value>
+       </var>
+
+       <!--选择器，必须标签，用于查询数据，也可以执行一段sql-->
+       <!--属性name和description必须填写,用于输出日志-->
+       <!--dayOfWeek属性表示每周几执行,all表示每天执行、1,2,3,4表示周一至周四执行-->
+       <!--type表示执行方式：nonQuery、dataTable-->
+       <selector name="s1" description="d1" dayOfWeek="1,2,3,4" type="dataTable">
+         <![CDATA[ 
+	        select '1' type,@supplier_reg_user_day supplier_reg_user,@supplier_auth_user_day supplier_auth_user,
+            @supplier_user_login_times_day supplier_user_login_times,@developer_reg_user_day developer_reg_user,
+            @developer_sign_company_day developer_sign_company,@developer_user_login_times_day developer_user_login_times,
+            @publish_recruit_company_day publish_recruit_company,@publish_recruit_count_day publish_recruit_count,
+            @recruit_apply_company_day recruit_apply_company,@recruit_apply_count_day recruit_apply_count,
+            @storage_company_day storage_company,@storage_count_day storage_count,
+            @publish_bidding_company_day publish_bidding_company,@publish_bidding_count_day publish_bidding_count,
+            @bidding_apply_company_day bidding_apply_company,@bidding_apply_count_day bidding_apply_count,
+            @in_shortlist_company_day in_shortlist_company,@in_shortlist_count_day in_shortlist_count
+        ]]>
+      </selector>
+      <selector name="s2" description="d2" dayOfWeek="all" type="dataTable">
+        <![CDATA[ 
+			    select '2' type,@supplier_reg_user_total supplier_reg_user,@supplier_auth_user_total supplier_auth_user,
+            @supplier_user_login_times_total supplier_user_login_times,@developer_reg_user_total developer_reg_user,
+            @developer_sign_company_total developer_sign_company,@developer_user_login_times_total developer_user_login_times,
+            @publish_recruit_company_total publish_recruit_company,@publish_recruit_count_total publish_recruit_count,
+            @recruit_apply_company_total recruit_apply_company,@recruit_apply_count_total recruit_apply_count,
+            @storage_company_total storage_company,@storage_count_total storage_count,
+            @publish_bidding_company_total publish_bidding_company,@publish_bidding_count_total publish_bidding_count,
+            @bidding_apply_company_total bidding_apply_company,@bidding_apply_count_total bidding_apply_count,
+            @in_shortlist_company_total in_shortlist_company,@in_shortlist_count_total in_shortlist_count
+	      ]]>
+      </selector>
+
+      <!--非必须标签，表示清洗的目标表，table-name为目标表名，必填-->
+      <target table-name="dotnet_operation.led_okr">
+        <!--插入数据到目标表前执行的sql，非必须-->
+        <before-sql>
+          <![CDATA[ 
+		      DELETE FROM dotnet_operation.`led_okr`
+		      ]]>
+        </before-sql>
+        <!--插入数据到目标表后执行的sql，非必须-->
+        <after-sql>
+          <![CDATA[
+		      ]]>
+        </after-sql>
+      </target>
+    </item>
+  </items>
+</task>

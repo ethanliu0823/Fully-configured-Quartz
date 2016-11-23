@@ -1,0 +1,876 @@
+2016-04-04 10:23:40,144 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 10:23:40,257 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 10:23:40,292 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 10:23:40,400 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 10:23:40,402 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 10:23:40,411 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 10:23:40,424 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 10:23:40,426 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 10:23:40,426 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 10:23:40,435 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 10:23:42,563 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:23:43,375 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:23:43,444 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:23:43,560 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:23:43,615 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:23:43,641 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:23:43,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:23:43,727 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:23:43,957 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:23:44,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:23:44,591 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:23:45,050 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:23:45,185 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:23:45,222 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:23:45,235 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:23:45,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:23:45,669 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:23:45,670 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:23:49,639 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:23:50,939 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。
+2016-04-04 10:30:20,019 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 10:30:20,124 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 10:30:20,157 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 10:30:20,244 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 10:30:20,246 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 10:30:20,255 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 10:30:20,268 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 10:30:20,269 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 10:30:20,269 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 10:30:20,278 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 10:30:21,901 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:30:22,561 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:30:22,628 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:30:22,752 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:30:22,804 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:30:22,816 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:30:22,864 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:30:22,876 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:30:23,077 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:30:23,398 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:30:23,752 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:30:24,196 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:30:24,299 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:30:24,332 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:30:24,341 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:30:24,373 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:30:24,658 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:30:24,659 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:30:26,814 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:30:43,042 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。
+2016-04-04 10:31:13,255 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:31:13,309 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:31:13,336 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:31:13,417 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:31:13,445 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:31:13,474 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:31:13,504 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:31:13,513 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:31:13,703 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:31:13,902 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:31:14,237 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:31:14,620 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:31:14,773 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:31:14,800 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:31:14,809 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:31:14,842 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:31:15,432 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:31:15,432 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:31:17,536 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:44:25,867 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 10:44:25,973 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 10:44:26,006 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 10:44:26,095 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 10:44:26,097 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 10:44:26,106 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 10:44:26,120 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 10:44:26,121 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 10:44:26,121 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 10:44:26,131 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 10:44:28,522 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:44:29,196 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:44:29,259 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:44:29,322 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:44:29,351 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:44:29,360 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:44:29,385 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:44:29,393 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:44:29,506 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:44:29,716 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:44:29,928 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:44:30,246 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:44:30,328 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:44:30,355 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:44:30,363 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:44:30,388 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:44:30,603 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:44:30,604 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:44:32,362 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:44:39,259 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 10:45:28,653 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:45:28,750 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:45:28,793 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:45:28,919 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:45:28,969 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:45:28,984 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:45:29,032 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:45:29,044 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:45:29,255 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:45:29,601 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:45:29,980 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:45:30,437 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:45:30,583 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:45:30,629 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:45:30,641 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:45:30,687 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:45:31,082 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:45:31,082 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:45:34,750 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:46:34,153 [_Worker-2] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 10:46:39,265 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:46:39,362 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:46:39,388 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:46:39,497 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:46:39,544 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:46:39,557 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:46:39,602 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:46:39,615 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:46:39,818 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:46:40,162 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:46:40,488 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:46:41,030 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:46:41,155 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:46:41,190 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:46:41,201 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:46:41,237 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:46:41,604 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:46:41,604 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:46:46,093 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:47:52,839 [_Worker-3] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 10:48:21,698 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:48:21,796 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:48:21,823 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:48:21,933 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:48:21,979 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:48:21,991 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:48:22,037 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:48:22,051 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:48:22,273 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:48:22,588 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:48:22,905 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:48:23,343 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:48:23,442 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:48:23,473 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:48:23,482 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:48:23,512 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:48:23,827 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:48:23,827 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:48:26,170 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:49:17,665 [_Worker-4] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 10:50:17,387 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:50:17,485 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:50:17,520 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:50:17,616 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:50:17,665 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:50:17,679 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:50:17,724 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:50:17,735 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:50:17,881 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:50:18,192 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:50:18,452 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:50:18,958 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:50:19,068 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:50:19,094 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:50:19,102 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:50:19,127 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:50:19,421 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:50:19,422 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:50:21,037 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:53:23,290 [_Worker-5] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 10:53:25,428 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 10:53:25,482 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 10:53:25,501 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 10:53:25,567 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 10:53:25,594 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 10:53:25,603 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 10:53:25,628 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 10:53:25,636 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 10:53:25,750 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 10:53:25,936 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 10:53:26,141 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 10:53:26,461 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 10:53:26,549 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 10:53:26,574 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 10:53:26,583 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 10:53:26,608 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 10:53:26,827 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 10:53:26,827 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 10:53:28,035 [_Worker-6] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 10:54:15,162 [_Worker-6] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 11:09:38,809 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:09:38,894 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:09:38,921 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:09:38,994 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:09:38,996 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:09:39,003 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:09:39,014 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:09:39,015 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:09:39,015 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:09:39,023 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:09:41,711 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:09:42,380 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:09:42,443 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:09:42,512 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:09:42,543 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:09:42,552 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:09:42,578 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:09:42,586 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:09:42,698 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:09:42,879 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:09:43,076 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:09:43,455 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:09:43,558 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:09:43,584 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:09:43,593 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:09:43,619 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:09:43,844 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:09:43,846 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:09:47,071 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:24:39,381 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:24:39,490 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:24:39,523 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:24:39,602 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:24:39,604 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:24:39,614 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:24:39,628 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:24:39,629 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:24:39,629 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:24:39,639 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:24:44,664 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:24:45,401 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:24:45,511 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:24:45,636 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:24:45,690 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:24:45,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:24:45,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:24:45,783 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:24:45,970 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:24:46,190 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:24:46,448 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:24:46,802 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:24:46,940 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:24:46,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:24:46,992 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:24:47,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:24:47,377 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:24:47,378 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:24:49,227 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:25:09,704 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 11:25:34,507 [11] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:25:34,614 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:25:34,646 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:25:34,747 [11] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:25:34,749 [11] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:25:34,758 [11] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:25:34,771 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:25:34,772 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:25:34,772 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:25:34,782 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:25:38,845 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:25:39,520 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:25:39,591 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:25:39,709 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:25:39,760 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:25:39,774 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:25:39,821 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:25:39,834 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:25:40,034 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:25:40,349 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:25:40,670 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:25:41,147 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:25:41,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:25:41,315 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:25:41,328 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:25:41,375 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:25:41,793 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:25:41,795 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:25:43,658 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:44:25,996 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:44:26,103 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:44:26,136 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:44:26,226 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:44:26,228 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:44:26,238 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:44:26,251 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:44:26,252 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:44:26,252 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:44:26,262 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:44:28,441 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:44:29,157 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:44:29,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:44:29,348 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:44:29,399 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:44:29,412 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:44:29,457 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:44:29,470 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:44:29,671 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:44:30,043 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:44:30,420 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:44:30,927 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:44:31,039 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:44:31,065 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:44:31,074 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:44:31,099 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:44:31,346 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:44:31,347 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:45:09,086 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:46:50,431 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 11:46:52,981 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:46:53,049 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:46:53,076 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:46:53,162 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:46:53,189 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:46:53,198 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:46:53,241 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:46:53,250 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:46:53,403 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:46:53,607 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:46:53,907 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:46:54,255 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:46:54,367 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:46:54,392 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:46:54,402 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:46:54,428 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:46:54,664 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:46:54,664 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:46:56,646 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:47:02,724 [_Worker-2] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：“MycaigouScheduler.Utility.Utility.MyCache”的类型初始值设定项引发异常。
+2016-04-04 11:49:27,840 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:49:27,925 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:49:27,952 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:49:28,028 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:49:28,029 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:49:28,036 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:49:28,048 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:49:28,049 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:49:28,049 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:49:28,056 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:49:29,692 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:49:30,440 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:49:30,520 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:49:30,653 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:49:30,712 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:49:30,727 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:49:30,780 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:49:30,793 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:49:30,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:49:31,328 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:49:31,711 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:49:32,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:49:32,342 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:49:32,373 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:49:32,383 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:49:32,413 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:49:32,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:49:32,720 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:49:34,632 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:53:21,323 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:53:21,430 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:53:21,463 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:53:21,555 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:53:21,556 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:53:21,565 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:53:21,579 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:53:21,580 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:53:21,580 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:53:21,590 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:53:23,377 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:53:24,251 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:53:24,346 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:53:24,535 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:53:24,605 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:53:24,621 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:53:24,703 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:53:24,716 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:53:24,899 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:53:25,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:53:25,550 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:53:25,938 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:53:26,026 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:53:26,054 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:53:26,063 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:53:26,091 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:53:26,335 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:53:26,337 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:53:28,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 11:53:49,776 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：未将对象引用设置到对象的实例。
+2016-04-04 11:54:36,997 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 11:54:37,096 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 11:54:37,126 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 11:54:37,227 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 11:54:37,230 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 11:54:37,238 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 11:54:37,250 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 11:54:37,250 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 11:54:37,251 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 11:54:37,259 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 11:54:38,847 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 11:54:39,486 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 11:54:39,559 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 11:54:39,623 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 11:54:39,652 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 11:54:39,660 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 11:54:39,685 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 11:54:39,694 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 11:54:39,807 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 11:54:39,991 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 11:54:40,194 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 11:54:40,511 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 11:54:40,593 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 11:54:40,618 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 11:54:40,626 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 11:54:40,652 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 11:54:40,871 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 11:54:40,872 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 11:54:42,499 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 12:02:47,784 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 12:02:47,893 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 12:02:47,927 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 12:02:48,018 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 12:02:48,020 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 12:02:48,031 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 12:02:48,044 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 12:02:48,045 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 12:02:48,045 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 12:02:48,055 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 12:02:50,078 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 12:02:50,801 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 12:02:50,894 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 12:02:50,984 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 12:02:51,028 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 12:02:51,042 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 12:02:51,096 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 12:02:51,108 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 12:02:51,287 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 12:02:51,580 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 12:02:51,841 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 12:02:52,329 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 12:02:52,455 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 12:02:52,506 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 12:02:52,518 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 12:02:52,571 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 12:02:52,919 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 12:02:52,920 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 12:02:54,501 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 12:03:29,022 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：未将对象引用设置到对象的实例。
+2016-04-04 12:14:01,303 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 12:14:01,411 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 12:14:01,447 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 12:14:01,549 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 12:14:01,551 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 12:14:01,562 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 12:14:01,577 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 12:14:01,577 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 12:14:01,578 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 12:14:01,588 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 12:14:03,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 12:14:03,638 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 12:14:03,711 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 12:14:03,777 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 12:14:03,806 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 12:14:03,815 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 12:14:03,841 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 12:14:03,849 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 12:14:03,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 12:14:04,283 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 12:14:04,633 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 12:14:05,099 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 12:14:05,216 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 12:14:05,255 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 12:14:05,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 12:14:05,303 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 12:14:05,623 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 12:14:05,625 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 12:14:06,939 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 12:14:13,085 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。
+2016-04-04 14:09:42,742 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:09:42,848 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:09:42,881 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:09:42,979 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:09:42,981 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:09:42,990 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:09:43,003 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:09:43,004 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:09:43,004 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:09:43,013 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:09:44,764 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:09:45,514 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:09:45,591 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:09:45,803 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:09:45,907 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:09:45,931 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:09:45,971 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:09:45,985 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:09:46,247 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:09:46,458 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:09:46,801 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:09:47,210 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:09:47,325 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:09:47,372 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:09:47,388 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:09:47,422 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:09:47,830 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:09:47,832 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:09:47,918 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:11:18,784 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:11:18,868 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:11:18,896 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:11:18,967 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:11:18,969 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:11:18,977 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:11:18,989 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:11:18,989 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:11:18,989 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:11:18,997 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:13:51,205 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:13:51,906 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:13:51,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:13:52,087 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:13:52,137 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:13:52,149 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:13:52,196 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:13:52,211 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:13:52,490 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:13:52,797 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:13:53,148 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:13:53,569 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:13:53,668 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:13:53,699 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:13:53,708 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:13:53,737 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:13:53,994 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:13:53,996 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:13:54,086 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:14:59,541 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:14:59,628 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:14:59,654 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:14:59,727 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:14:59,729 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:14:59,736 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:14:59,746 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:14:59,747 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:14:59,747 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:14:59,755 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:15:02,231 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:15:02,887 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:15:02,957 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:15:03,109 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:15:03,164 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:03,178 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:15:03,228 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:03,241 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:15:03,444 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:15:03,766 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:15:04,096 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:15:04,628 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:15:04,762 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:15:04,805 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:04,817 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:15:04,859 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:05,342 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:15:05,343 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:15:05,452 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:15:21,412 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：值不能为 null。
+参数名: requestUriString
+2016-04-04 14:15:24,336 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:15:24,435 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:15:24,462 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:15:24,573 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:15:24,620 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:24,633 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:15:24,679 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:24,692 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:15:24,896 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:15:25,342 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:15:25,699 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:15:26,276 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:15:26,402 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:15:26,442 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:26,454 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:15:26,493 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:15:26,891 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:15:26,892 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:15:27,034 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:17:34,019 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:17:34,126 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:17:34,158 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:17:34,268 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:17:34,270 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:17:34,280 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:17:34,296 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:17:34,297 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:17:34,297 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:17:34,306 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:17:36,134 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:17:36,737 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:17:36,803 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:17:36,897 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:17:36,927 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:17:36,936 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:17:36,961 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:17:36,970 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:17:37,083 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:17:37,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:17:37,495 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:17:37,812 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:17:37,896 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:17:37,922 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:17:37,930 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:17:37,956 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:17:38,179 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:17:38,181 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:17:38,259 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:18:15,610 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:18:15,687 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:18:15,711 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:18:15,798 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:18:15,800 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:18:15,807 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:18:15,817 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:18:15,818 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:18:15,818 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:18:15,825 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:18:17,432 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:18:18,092 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:18:18,179 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:18:18,422 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:18:18,521 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:18:18,544 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:18:18,625 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:18:18,651 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:18:18,919 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:18:19,292 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:18:19,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:18:20,210 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:18:20,339 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:18:20,402 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:18:20,416 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:18:20,479 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:18:20,771 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:18:20,773 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:18:20,868 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:18:23,737 [_Worker-1] ERROR MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - ------未注册粉丝消息推送调度服务发生异常，异常原因：值不能为 null。
+参数名: requestUriString
+2016-04-04 14:19:34,874 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:19:34,979 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:19:35,011 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:19:35,103 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:19:35,104 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:19:35,113 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:19:35,125 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:19:35,126 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:19:35,126 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:19:35,134 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:19:38,338 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:19:39,019 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:19:39,094 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:19:39,207 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:19:39,259 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:19:39,272 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:19:39,319 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:19:39,332 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:19:39,533 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:19:39,845 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:19:40,203 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:19:40,886 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:19:41,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:19:41,080 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:19:41,093 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:19:41,140 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:19:42,112 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:19:42,114 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:19:42,527 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:20:01,679 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。
+2016-04-04 14:33:24,306 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-04 14:33:24,414 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-04 14:33:24,447 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-04 14:33:24,539 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-04 14:33:24,540 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-04 14:33:24,551 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-04 14:33:24,564 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-04 14:33:24,565 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-04 14:33:24,565 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-04 14:33:24,576 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-04 14:33:27,231 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:33:27,968 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:33:28,060 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:33:28,189 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:33:28,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:33:28,259 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:33:28,308 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:33:28,321 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:33:28,531 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:33:28,888 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:33:29,296 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:33:29,846 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:33:29,965 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:33:30,005 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:33:30,016 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:33:30,054 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:33:30,358 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:33:30,360 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:33:30,462 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:33:35,951 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。
+2016-04-04 14:34:23,882 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-04-04 14:34:23,936 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107298；openId：；mobile：11211111011；email：
+2016-04-04 14:34:23,956 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-04-01； userId：107299；openId：；mobile：11111111015；email：
+2016-04-04 14:34:24,024 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107287；openId：；mobile：13269852147；email：
+2016-04-04 14:34:24,051 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107287第3天参数同行公司名称为空，取消推送
+2016-04-04 14:34:24,060 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107288；openId：；mobile：13698574258；email：
+2016-04-04 14:34:24,086 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107288第3天参数同行公司名称为空，取消推送
+2016-04-04 14:34:24,095 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107289；openId：；mobile：11088888888；email：
+2016-04-04 14:34:24,204 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107290；openId：；mobile：15268412445；email：
+2016-04-04 14:34:24,385 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107291；openId：；mobile：15687451254；email：
+2016-04-04 14:34:24,582 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107292；openId：；mobile：10855555555；email：
+2016-04-04 14:34:24,894 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107293；openId：；mobile：15874185296；email：
+2016-04-04 14:34:24,977 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107294；openId：；mobile：13268414512；email：
+2016-04-04 14:34:25,004 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107294第3天参数同行公司名称为空，取消推送
+2016-04-04 14:34:25,013 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-03-31； userId：107295；openId：oYOv8tkNBX_O5E6A9-oE_yKvkx98；mobile：13625874123；email：
+2016-04-04 14:34:25,039 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户107295第3天参数同行公司名称为空，取消推送
+2016-04-04 14:34:25,307 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-04-04 14:34:25,308 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送开始。
+2016-04-04 14:34:25,383 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝信息推送-日期类型：第1天；创建日期：2016-04-03；openId：oYOv8tgESj3LGxrLYT45RECmOfMc
+2016-04-04 14:34:28,206 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未注册粉丝消息推送-未注册粉丝消息推送完成。

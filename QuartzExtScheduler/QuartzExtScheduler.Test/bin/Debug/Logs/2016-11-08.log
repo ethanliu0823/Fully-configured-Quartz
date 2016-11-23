@@ -1,0 +1,96 @@
+2016-11-08 10:47:21,815 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-08 10:47:21,896 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-08 10:47:21,920 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-08 10:47:21,984 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-08 10:47:21,987 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-08 10:47:21,995 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-08 10:47:22,005 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-08 10:47:22,007 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-08 10:47:22,009 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-08 10:47:22,016 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-08 10:48:36,370 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-08 10:48:36,486 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-08 10:48:36,519 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-08 10:48:36,622 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-08 10:48:36,629 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-08 10:48:36,641 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-08 10:48:36,656 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-08 10:48:36,658 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-08 10:48:36,660 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-08 10:48:36,672 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-08 10:48:38,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-08 10:48:39,077 [_Worker-1] ERROR MycaigouScheduler.DataAccess.MessageQueue - 会员认证成功通知_test--微信消息模板有内容参数：#会员名称#未被替换！
+2016-11-08 10:48:39,464 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招标--完全符合的认证会员（微信）--推送用户为空！
+2016-11-08 10:48:39,466 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-08 11:44:08,510 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-08 11:44:08,605 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-08 11:44:08,631 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-08 11:44:08,710 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-08 11:44:08,712 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-08 11:44:08,724 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-08 11:44:08,739 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-08 11:44:08,739 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-08 11:44:08,740 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-08 11:44:08,747 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-08 11:46:39,175 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-08 11:46:39,266 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-08 11:46:39,294 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-08 11:46:39,386 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-08 11:46:39,392 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-08 11:46:39,401 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-08 11:46:39,413 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-08 11:46:39,413 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-08 11:46:39,413 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-08 11:46:39,421 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-08 11:46:40,868 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-08 11:46:41,677 [_Worker-1] ERROR MycaigouScheduler.DataAccess.MessageQueue - 会员认证成功通知_test--微信消息模板有内容参数：#会员名称#未被替换！
+2016-11-08 11:46:42,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招标--完全符合的认证会员（微信）--推送用户为空！
+2016-11-08 11:46:42,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-08 11:47:32,591 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-08 11:47:32,679 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-08 11:47:32,706 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-08 11:47:32,786 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-08 11:47:32,790 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-08 11:47:32,798 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-08 11:47:32,812 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-08 11:47:32,813 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-08 11:47:32,813 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-08 11:47:32,821 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-08 11:47:35,044 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-08 11:47:36,975 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招标--完全符合的认证会员（微信）--推送用户为空！
+2016-11-08 11:47:36,975 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行

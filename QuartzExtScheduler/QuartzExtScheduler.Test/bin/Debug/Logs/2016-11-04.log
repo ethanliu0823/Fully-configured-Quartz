@@ -1,0 +1,165 @@
+2016-11-04 17:42:22,346 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-04 17:42:22,648 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-04 17:42:22,779 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-04 17:42:22,976 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-04 17:42:22,980 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-04 17:42:22,995 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-04 17:42:23,010 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-04 17:42:23,011 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-04 17:42:23,011 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-04 17:42:23,026 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-04 17:42:27,011 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 17:42:45,267 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate执行异常！Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 551
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 937
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 177
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-04 17:42:45,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-04 17:45:01,892 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 17:47:24,807 [_Worker-2] ERROR MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate执行异常！Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 551
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 937
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 177
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-04 17:47:24,807 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-04 17:52:49,910 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-04 17:52:50,031 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-04 17:52:50,066 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-04 17:52:50,171 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-04 17:52:50,173 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-04 17:52:50,187 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-04 17:52:50,202 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-04 17:52:50,203 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-04 17:52:50,203 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-04 17:52:50,214 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-04 17:52:58,156 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 17:53:29,690 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate执行异常！Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 551
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 937
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 177
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-04 17:53:29,691 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-04 17:54:49,053 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-04 17:54:49,169 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-04 17:54:49,204 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-04 17:54:49,295 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-04 17:54:49,297 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-04 17:54:49,312 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-04 17:54:49,327 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-04 17:54:49,328 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-04 17:54:49,328 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-04 17:54:49,338 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-04 17:54:52,122 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 17:54:58,149 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate执行异常！Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 551
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 937
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 177
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-04 17:54:58,150 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-04 17:57:13,688 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 17:57:34,228 [_Worker-2] ERROR MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate执行异常！Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 551
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 937
+   在 MycaigouScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 177
+   在 MycaigouScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-04 17:57:34,229 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行
+2016-11-04 18:00:28,282 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-04 18:00:28,412 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-04 18:00:28,452 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-04 18:00:28,551 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-04 18:00:28,553 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-04 18:00:28,569 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-04 18:00:28,585 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-04 18:00:28,586 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-04 18:00:28,587 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-04 18:00:28,598 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-04 18:00:31,997 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate开始执行
+2016-11-04 18:00:36,828 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - test_WechatNewTemplate结束执行

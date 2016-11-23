@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>DevRegisterToContract</name>
+  <items>
+    <item>
+      <description>开发商前1天注册</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">551</sms>
+        <email></email>
+        <wechat priority="1">552</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat 
+              from b2b_user.uuc_user u 
+              left join b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left JOIN b2b_company.uuc_developer d on bcr.company_id=d.developer_id
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+              where u.user_biz_type=2 and uui.user_id is null and datediff(now(),u.register_time)=1
+              union ALL
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat 
+              from b2b_user.uuc_user u 
+              INNER JOIN b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left join b2b_company.uuc_developer d on uui.company_id=d.developer_id
+              inner join b2b_user.uuc_company_contract r on d.developer_id=r.company_id AND r.`sign_status`=0
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+              where u.user_biz_type=2 and datediff(now(),u.register_time)=1
+            ]]>
+          </sql>
+          <description>开发商前1天注册</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>注册1周未认证</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">553</sms>
+        <email></email>
+        <wechat priority="1">554</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat ,dev.dev_count
+              from 
+              (
+
+                  select user_id, name ,user_biz_type,
+                  case when register_time<='2016-06-06 00:00:00' then '2016-06-06 00:00:00' else register_time end register_time
+                  From b2b_user.uuc_user where user_biz_type=2
+
+							) u 
+              left join b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left JOIN b2b_company.uuc_developer d on bcr.company_id=d.developer_id
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+							cross JOIN
+							(
+									select ceiling(count(developer_id)/100)*100 as dev_count From b2b_company.uuc_developer
+							) dev
+              where uui.user_id is null and datediff(now(),u.register_time)=8
+            ]]>
+          </sql>
+          <description>注册1周未认证</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+            <parameter>
+              <key>#开发商家数#</key>
+              <value source="entity">dev_count</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商注册1个月未认证</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">555</sms>
+        <email></email>
+        <wechat priority="1">556</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat
+              from b2b_user.uuc_user u 
+              left join b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left JOIN b2b_company.uuc_developer d on bcr.company_id=d.developer_id
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+              where u.user_biz_type=2 and uui.user_id is null and datediff(now(),u.register_time)=31
+            ]]>
+          </sql>
+          <description>开发商注册1个月未认证</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商注册2个月未认证</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">557</sms>
+        <email></email>
+        <wechat priority="1">558</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat ,c0.last_month,c1.dev_num,c2.supp_num,c3.business_num,c4.supp_in_storage_num
+              from b2b_user.uuc_user u 
+              left join b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left JOIN b2b_company.uuc_developer d on bcr.company_id=d.developer_id
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+							cross JOIN
+							(
+									select DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%c') as last_month
+							)c0
+							cross join
+							(
+								select if(count(company_id)<10,58,count(company_id)) as dev_num from b2b_user.uuc_company_contract 
+								where date_format(area_sign_date,'%Y%m')=DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%Y%m')
+							) c1
+							cross join
+							(
+								select if(count(DISTINCT a.company_id)<100,568,count(DISTINCT a.company_id)) as supp_num 
+								From b2b_user.uuc_user_identity a
+								INNER JOIN b2b_user.uuc_user b on a.user_id=b.user_id 
+								where b.user_biz_type=1 and date_format(a.created_time,'%Y%m')=DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%Y%m')
+							) c2
+							cross join
+							(
+									 select if(sum(cnt)<20,126,sum(cnt)) as business_num FROM
+									(
+									select count(uid) cnt From b2b_bidding.bid_announcements 
+									where date_format(created_time,'%Y%m')=DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%Y%m')
+									union ALL
+									select count(item_id) cnt from b2b_bidding.bid_recruit_item 
+									where date_format(create_time,'%Y%m')=DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%Y%m')
+									) a
+							)c3
+							cross join
+							(
+								select if(count(DISTINCT supplier_id)<100,117,count(DISTINCT supplier_id)) as supp_in_storage_num From b2b_bidding.bid_recruit_item_register 
+								where storage=1 and date_format(storage_time,'%Y%m')=DATE_FORMAT(date_add(NOW(),INTERVAL -1 MONTH),'%Y%m') 
+							) c4
+							where u.user_biz_type=2 and uui.user_id is null and datediff(now(),u.register_time)=61
+            ]]>
+          </sql>
+          <description>开发商注册2个月未认证</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+            <parameter>
+              <key>#上月#</key>
+              <value source="entity">last_month</value>
+            </parameter>
+            <parameter>
+              <key>#上月开发商签约个数#</key>
+              <value source="entity">dev_num</value>
+            </parameter>
+            <parameter>
+              <key>#上月认证供应商个数#</key>
+              <value source="entity">supp_num</value>
+            </parameter>
+            <parameter>
+              <key>#上月发布商机个数#</key>
+              <value source="entity">business_num</value>
+            </parameter>
+            <parameter>
+              <key>#上月入库供应商个数#</key>
+              <value source="entity">supp_in_storage_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商注册3个月未认证</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="2">559</sms>
+        <email></email>
+        <wechat priority="1">560</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+              select u.user_id,u.`name`,bcr.mobile,w.openid,u.register_time,
+              case when wi.user_name is null then '燕燕' else wi.user_name end consultant_name,
+              case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end consultant_wechat
+              from b2b_user.uuc_user u 
+              left join b2b_user.uuc_user_identity uui on u.user_id=uui.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id
+              left JOIN b2b_company.uuc_developer d on bcr.company_id=d.developer_id
+              left join b2b_parameter.bizp_area a1 on d.reg_province_code=a1.item_code
+              left join b2b_parameter.bizp_area a2 on d.reg_city_code=a2.item_code
+              left join dotnet_operation.op_connect_wxinfo wi 
+	              ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+              left join (
+	              SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	              inner join m_yct.zq_user u on w.openid=u.openid
+	              WHERE w.wxappid=@appid
+	              group by w.userid
+              ) w on u.user_id=w.userid
+              where u.user_biz_type=2 and uui.user_id is null and datediff(now(),u.register_time)=91
+            ]]>
+          </sql>
+          <description>开发商注册3个月未认证</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

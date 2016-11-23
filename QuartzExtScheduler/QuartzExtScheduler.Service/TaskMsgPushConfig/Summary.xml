@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task-list>
+  <task>
+    <name>DevLoginNoPublishRecruit</name>
+    <childPath>Developer\DevLoginNoPublishRecruit.xml</childPath>
+    <description>开发商签约用户登录未发布招募推送消息</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>8</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每天10：00执行-->
+    <cron-expression>0 0 10 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>DevPublishRecruitInStorage</name>
+    <childPath>Developer\DevPublishRecruitInStorage.xml</childPath>
+    <description>开发商发布招募入库推送消息</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>8</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每天10：00执行-->
+    <cron-expression>0 0 10 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SuppRegisteredNotCertified_1</name>
+    <childPath>Supplier\SuppRegisteredNotCertified_1.xml</childPath>
+    <description>注册未认证供应商会员采购信息推送</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>9</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每周二 10：00执行-->
+    <cron-expression>0 0 10 ? * TUES</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SuppRegisteredNotCertified_2</name>
+    <childPath>Supplier\SuppRegisteredNotCertified_2.xml</childPath>
+    <description>注册未认证供应商会员采购信息推送</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>9</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每周四 8：00执行-->
+    <cron-expression>0 0 8 ? * THUR</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SuppRegisteredNotCertified_3</name>
+    <childPath>Supplier\SuppRegisteredNotCertified_3.xml</childPath>
+    <description>注册未认证供应商会员采购信息推送</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>9</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每周三 8：00执行-->
+    <cron-expression>0 0 8 ? * WED</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>DevRegisterToContract</name>
+    <childPath>Developer\DevRegisterToContract.xml</childPath>
+    <description>开发商会员注册到签约</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>8</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每天 10：00执行-->
+    <cron-expression>0 0 10 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>DevContractNotLogin</name>
+    <childPath>Developer\DevContractNotLogin.xml</childPath>
+    <description>开发商会员认证未登录</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>8</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每天 10：00执行-->
+    <cron-expression>0 0 10 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CertifiedCaseNumLittleBusinessLimit</name>
+    <childPath>Supplier\VisitWeb\CertifiedCaseNumLittleBusinessLimit.xml</childPath>
+    <description>当天有访问认证用户有符合商机有报名案例数量不符合商机要求</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>7</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>1</send-control-type>
+    <!--每天 5：00执行-->
+    <cron-expression>0 0 17 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>NotGoldUserVisitGoldPage</name>
+    <childPath>Supplier\VisitWeb\NotGoldUserVisitGoldPage.xml</childPath>
+    <description>所有用户当天有访问过金牌页面的用户</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>7</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>1</send-control-type>
+    <!--每天 14：00执行-->
+    <cron-expression>0 0 14 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>WednesdayBiz</name>
+    <childPath>Supplier\BizPush\WednesdayBiz.xml</childPath>
+    <description>每日商机推送（周三全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--周三 9：30执行-->
+    <cron-expression>0 30 9 ? * WED</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>ThursdayBiz</name>
+    <childPath>Supplier\BizPush\ThursdayBiz.xml</childPath>
+    <description>每日商机推送（周四全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--周四 9：30执行-->
+    <cron-expression>0 30 9 ? * THUR</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>FridayBiz</name>
+    <childPath>Supplier\BizPush\FridayBiz.xml</childPath>
+    <description>每日商机推送（周五全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--周五 9：30执行-->
+    <cron-expression>0 30 9 ? * FRI</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SaturdayBiz</name>
+    <childPath>Supplier\BizPush\SaturdayBiz.xml</childPath>
+    <description>每日商机推送（周六全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--周六 9：30执行-->
+    <cron-expression>0 30 9 ? * SAT</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SundayBiz</name>
+    <childPath>Supplier\BizPush\SundayBiz.xml</childPath>
+    <description>每日商机推送（周日全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--周日 9：30执行-->
+    <cron-expression>0 30 9 ? * SUN</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>MondayBiz</name>
+    <childPath>Supplier\BizPush\MondayBiz.xml</childPath>
+    <description>每日商机推送（周一全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每周一 9：30执行-->
+    <cron-expression>0 30 9 ? * MON</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>TuesdayBiz</name>
+    <childPath>Supplier\BizPush\TuesdayBiz.xml</childPath>
+    <description>每日商机推送（周二全量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每周一 9：30执行-->
+    <cron-expression>0 30 9 ? * TUE</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>IncrementBiz</name>
+    <childPath>Supplier\BizPush\IncrementBiz.xml</childPath>
+    <description>每日商机推送（增量）</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>6</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--每天 9：30执行-->
+    <cron-expression>0 30 9 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CompletelyFitNewBusiOppt</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt.xml</childPath>
+    <description>发布10分钟的招募完全符合的认证会员</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CompletelyFitNewBusiOppt_Bid</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_Bid.xml</childPath>
+    <description>发布10分钟的招标完全符合的认证会员</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CertifiedAHalfHour</name>
+    <childPath>Supplier\CertifiedAHalfHour\CertifiedAHalfHour.xml</childPath>
+    <description>供应商用户认证半小时</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>13</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>2</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--30分钟执行一次-->
+    <cron-expression>0 */30 * * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>supplierWeeklyReport</name>
+    <childPath>Supplier\WeeklyAndMonthlyReports\WeeklyReport.xml</childPath>
+    <description>供应商周报</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>14</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--每周一 14点-->
+    <cron-expression>0 0 14 ? * MON</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>supplierMonthlyReport</name>
+    <childPath>Supplier\WeeklyAndMonthlyReports\MonthlyReport.xml</childPath>
+    <description>供应商月报</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>14</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--每月第一天 14点-->
+    <cron-expression>0 0 14 1 * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>NotTodayRecruit</name>
+    <childPath>Supplier\NotTodayRecruit\NotTodayRecruit.xml</childPath>
+    <description>非今天发布的招募商机推送</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>15</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--每天13点-->
+    <cron-expression>0 0 13 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>PartlyCompletelyFitNewBusiOppt</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\PartlyCompletelyFitNewBusiOppt.xml</childPath>
+    <description>发布10分钟的招募部分完全符合的认证会员</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SupplementBiz</name>
+    <childPath>Supplier\BizPush\SupplementBiz.xml</childPath>
+    <description>商机补发</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>5</business-type>
+    <!-- 1: 一周一批（一批最多最多五条） 2：一次/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--每日17点执行-->
+    <cron-expression>0 0 17 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>SilverVisitWeb</name>
+    <childPath>Supplier\SilverVisitWeb\SilverVisitWeb.xml</childPath>
+    <description>银牌当天访问</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>16</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--10分钟执行一次-->
+    <cron-expression>0 11 11 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CompletelyFitNewBusiOppt_Bid_SMS</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_Bid_SMS.xml</childPath>
+    <description>发布10分钟的招募完全符合的认证会员短信</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  2: 3条/人类型11 (op_wx_message_log_special类型11)  -->
+    <sms-send-control-type>2</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>CompletelyFitNewBusiOppt_SMS</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_SMS.xml</childPath>
+    <description>发布10分钟的招募完全符合的认证会员短信</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  2: 3条/人类型11 (op_wx_message_log_special类型11)  -->
+    <sms-send-control-type>2</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>DevAutoProcess</name>
+    <childPath>Developer\DevAutoProcess\DevAutoProcess.xml</childPath>
+    <description>开发商自动处理微信下行推送</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天下午16执行一次-->
+    <cron-expression>0 45 15 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+</task-list>

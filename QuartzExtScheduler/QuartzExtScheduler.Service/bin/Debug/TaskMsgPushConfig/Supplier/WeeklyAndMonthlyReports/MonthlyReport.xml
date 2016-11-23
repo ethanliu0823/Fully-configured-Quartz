@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>SupplierMonthlyReport</name>
+  <items>
+    <item>
+      <description>供应商月报</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <wechat>672</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+select u.user_id,u.`name`,w.openid,DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 MONTH),'%Y年%c月') as YM,DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 MONTH),'%c') as M
+,a.cnt,dev.dev_cnt,ins.in_cnt
+from 
+(
+SELECT user_id FROM b2b_user.uuc_user_login_log
+where DATE_FORMAT(login_time,'%Y%c')=DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 MONTH),'%Y%c')
+ group by user_id
+) l
+inner join b2b_user.uuc_user u on l.user_id=u.user_id and u.user_biz_type=1
+INNER JOIN b2b_user.uuc_user_identity i on u.user_id=i.user_id
+INNER JOIN 
+(
+	SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	WHERE zqu.appid=@appId
+) w on u.user_id=w.userid
+CROSS JOIN
+(
+		select count(1) as cnt from (
+		select uid From b2b_bidding.bid_announcements a where DATE_FORMAT(created_time,'%Y%c') = DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 MONTH),'%Y%c')
+		union all 
+		select item_id from b2b_bidding.bid_recruit_item a where DATE_FORMAT(create_time,'%Y%c') = DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 MONTH),'%Y%c')
+		)a
+) a
+cross join 
+(
+	select count(1) as dev_cnt From b2b_company.uuc_developer where state=2
+) dev 
+cross JOIN
+(
+select count(DISTINCT supplier_id) as in_cnt From b2b_bidding.bid_recruit_item_register where storage=1
+) as ins
+            ]]>
+          </sql>
+          <description>供应商月报</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#年月#</key>
+              <value source="entity">YM</value>
+            </parameter>
+            <parameter>
+              <key>#上月商机数#</key>
+              <value source="entity">cnt</value>
+            </parameter>
+            <parameter>
+              <key>#开发商家数#</key>
+              <value source="entity">dev_cnt</value>
+            </parameter>
+            <parameter>
+              <key>#入库供应商数#</key>
+              <value source="entity">in_cnt</value>
+            </parameter>
+            <parameter>
+              <key>#月份#</key>
+              <value source="entity">M</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

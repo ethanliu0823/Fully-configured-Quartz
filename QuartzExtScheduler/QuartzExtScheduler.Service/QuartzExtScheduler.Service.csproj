@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E1AC611-2667-4D54-83F5-7E8AD49728D2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuartzExtScheduler.Service</RootNamespace>
+    <AssemblyName>QuartzExtScheduler.Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\packages\Common.Logging.2.1.2\lib\net35\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging.Log4Net1211">
+      <HintPath>..\packages\Common.Logging.Log4Net1211.2.1.2\lib\net35\Common.Logging.Log4Net1211.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.2\lib\net35-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz">
+      <HintPath>..\packages\Quartz.2.2\lib\net35\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="QuartzExtService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="QuartzExtService.Designer.cs">
+      <DependentUpon>QuartzExtService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages\Common.Logging.2.1.2\Common.Logging.2.1.2.nupkg" />
+    <None Include="packages\Common.Logging.2.1.2\Common.Logging.2.1.2.nuspec" />
+    <None Include="packages\Common.Logging.Log4Net1211.2.1.2\Common.Logging.Log4Net1211.2.1.2.nupkg" />
+    <None Include="packages\Common.Logging.Log4Net1211.2.1.2\Common.Logging.Log4Net1211.2.1.2.nuspec" />
+    <None Include="packages\log4net.2.0.2\log4net.2.0.2.nupkg" />
+    <None Include="packages\log4net.2.0.2\log4net.2.0.2.nuspec" />
+    <None Include="packages\mongocsharpdriver.1.9.2\License.rtf" />
+    <None Include="packages\mongocsharpdriver.1.9.2\mongocsharpdriver.1.9.2.nupkg" />
+    <None Include="packages\Newtonsoft.Json.6.0.4\Newtonsoft.Json.6.0.4.nupkg" />
+    <None Include="packages\Newtonsoft.Json.6.0.4\tools\install.ps1" />
+    <None Include="packages\Quartz.2.2\content\job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages\Quartz.2.2\Quartz.2.2.nupkg" />
+    <None Include="packages\Quartz.2.2\Quartz.2.2.nuspec" />
+    <None Include="Quartz\job_scheduling_data_2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Jobs.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="packages\Common.Logging.2.1.2\lib\net35\Common.Logging.dll" />
+    <Content Include="packages\Common.Logging.2.1.2\lib\net35\Common.Logging.pdb" />
+    <Content Include="packages\Common.Logging.2.1.2\lib\net35\Common.Logging.xml" />
+    <Content Include="packages\Common.Logging.2.1.2\lib\net40\Common.Logging.dll" />
+    <Content Include="packages\Common.Logging.2.1.2\lib\net40\Common.Logging.pdb" />
+    <Content Include="packages\Common.Logging.2.1.2\lib\net40\Common.Logging.xml" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net35\Common.Logging.Log4Net1211.dll" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net35\Common.Logging.Log4Net1211.pdb" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net35\Common.Logging.Log4Net1211.xml" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net40\Common.Logging.Log4Net1211.dll" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net40\Common.Logging.Log4Net1211.pdb" />
+    <Content Include="packages\Common.Logging.Log4Net1211.2.1.2\lib\net40\Common.Logging.Log4Net1211.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net10-full\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net10-full\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net11-full\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net11-full\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net20-full\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net20-full\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net35-client\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net35-client\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net35-full\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net35-full\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net40-client\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net40-client\log4net.xml" />
+    <Content Include="packages\log4net.2.0.2\lib\net40-full\log4net.dll" />
+    <Content Include="packages\log4net.2.0.2\lib\net40-full\log4net.xml" />
+    <Content Include="packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Bson.dll" />
+    <Content Include="packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Bson.XML" />
+    <Content Include="packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.dll" />
+    <Content Include="packages\mongocsharpdriver.1.9.2\lib\net35\MongoDB.Driver.XML" />
+    <Content Include="packages\MySql.Data.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net20\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net20\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net35\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net35\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net40\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.6.0.4\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" />
+    <Content Include="packages\Quartz.2.2\lib\net35-client\Quartz.dll" />
+    <Content Include="packages\Quartz.2.2\lib\net35-client\Quartz.pdb" />
+    <Content Include="packages\Quartz.2.2\lib\net35-client\Quartz.xml" />
+    <Content Include="packages\Quartz.2.2\lib\net35\Quartz.dll" />
+    <Content Include="packages\Quartz.2.2\lib\net35\Quartz.pdb" />
+    <Content Include="packages\Quartz.2.2\lib\net35\Quartz.xml" />
+    <Content Include="packages\Quartz.2.2\lib\net40-client\Quartz.dll" />
+    <Content Include="packages\Quartz.2.2\lib\net40-client\Quartz.pdb" />
+    <Content Include="packages\Quartz.2.2\lib\net40-client\Quartz.xml" />
+    <Content Include="packages\Quartz.2.2\lib\net40\Quartz.dll" />
+    <Content Include="packages\Quartz.2.2\lib\net40\Quartz.pdb" />
+    <Content Include="packages\Quartz.2.2\lib\net40\Quartz.xml" />
+    <Content Include="Quartz\QuartzCron.txt" />
+    <Content Include="TaskDataCleanerConfig\BigData\GoldAndNotGoldSupplierInfo.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskDataCleanerConfig\ExcuteSQL\ClearData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskDataCleanerConfig\ExcuteSQL\ChangeData.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Developer\DevAutoProcess\DevAutoProcess.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Developer\DevContractNotLogin.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Developer\DevPublishRecruitInStorage.xml" />
+    <Content Include="TaskMsgPushConfig\Developer\DevLoginNoPublishRecruit.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Developer\DevRegisterToContract.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Summary.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\FridayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\IncrementBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\MondayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\SaturdayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\SundayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\SupplementBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\ThursdayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\TuesdayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\BizPush\WednesdayBiz.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CertifiedAHalfHour\CertifiedAHalfHour.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_Bid.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_Bid_SMS.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_SMS.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\CompletelyFitNewBusiOppt\PartlyCompletelyFitNewBusiOppt.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\NotTodayRecruit\NotTodayRecruit.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\SilverVisitWeb\SilverVisitWeb.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\SuppRegisteredNotCertified_1.xml" />
+    <Content Include="TaskMsgPushConfig\Supplier\SuppRegisteredNotCertified_2.xml" />
+    <Content Include="TaskMsgPushConfig\Supplier\SuppRegisteredNotCertified_3.xml" />
+    <Content Include="TaskMsgPushConfig\Supplier\VisitWeb\CertifiedCaseNumLittleBusinessLimit.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\VisitWeb\NotGoldUserVisitGoldPage.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskDataCleanerConfig\Summary.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\WeeklyAndMonthlyReports\MonthlyReport.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TaskMsgPushConfig\Supplier\WeeklyAndMonthlyReports\WeeklyReport.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuartzExtScheduler.Plugins\QuartzExtScheduler.Plugins.csproj">
+      <Project>{9dc843e2-fe44-4701-8511-abf979dfd2bd}</Project>
+      <Name>QuartzExtScheduler.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\MycaigouScheduler.Utility.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\MycaigouScheduler.Utility.pdb
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.Log4Net1211.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\log4net.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\MySql.Data.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Newtonsoft.Json.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.pdb
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.xml
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.Log4Net1211.pdb
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\Common.Logging.Log4Net1211.xml
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\bin\Release\log4net.xml
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\obj\Release\MycaigouScheduler.Utility.csprojResolveAssemblyReference.cache
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\obj\Release\MycaigouScheduler.Utility.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\obj\Release\MycaigouScheduler.Utility.pdb

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>test_balabala</name>
+  <items>
+    <item>
+      <description>开发商自动处理提醒</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <!--默认用任务处理通知微信模板，如要修改需要加入 wechat-template-name节点，内容为微信模板名称-->
+        <wechat>3</wechat>
+        <wechat-custom></wechat-custom>
+        <wechat-custom-news>2</wechat-custom-news>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select DISTINCT 159054 as user_id,'Ethan' as name,'oYOv8tgESj3LGxrLYT45RECmOfMc' as openid from dotnet_operation.dc_Company 
+                union all
+                select DISTINCT 149848 as user_id,'Ethan' as name,'o50kPuLMSrkNoKw6SstTysT_8Tx0' as openid from dotnet_operation.dc_Company 
+                
+            ]]>
+          </sql>
+          <description>开发商自动处理提醒</description>
+
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员名称#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

@@ -1,0 +1,4 @@
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Entity\bin\Release\MycaigouScheduler.Entity.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Entity\bin\Release\MycaigouScheduler.Entity.pdb
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Entity\obj\Release\MycaigouScheduler.Entity.dll
+E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Entity\obj\Release\MycaigouScheduler.Entity.pdb

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>SuppRegisteredNotCertified_2</name>
+  <items>
+    <item>
+      <description>2016年1至5月注册未认证供应商会员</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <wechat>543</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select u.user_id,case ifnull(u.name,'') when '' then '会员' else u.name end as name,w.openid,DATEDIFF(now(),u.register_time) as reg_day
+		            from b2b_user.uuc_user u 
+		            left join b2b_user.uuc_user_identity r on u.user_id=r.user_id
+		            left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id 
+		            INNER JOIN
+		            (
+			            SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+			            INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+			            WHERE zqu.appid=@appId
+		            ) w on u.user_id=w.userid
+		            where u.user_biz_type=1 and (Date(u.register_time) BETWEEN date('2016-01-01') and DATE('2016-05-31')) and u.`name` not like 'test%' and r.user_id is null 
+                GROUP BY u.user_id
+            ]]>
+          </sql>
+          <description>2016年1至5月注册未认证供应商会员</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#注册天数#</key>
+              <value source="entity">reg_day</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select substring_index(GROUP_CONCAT(DISTINCT short_name SEPARATOR '、'),'、',3) as dev_names, 
+								count(DISTINCT short_name) as dev_cnt,case when count(short_name)<3 then 0 else count(short_name) end as item_cnt 
+                from 
+                (
+		                select b.short_name,b.title,b.category_name#,b.type,b.developer_type 
+		                From b2b_user.uuc_user_business_scope a
+		                inner join 
+		                (
+		                select a.title, IFNULL(b.short_name,b.company_name) short_name,b.developer_type,c.category_code,d.category_name,1 as type
+		                From b2b_bidding.bid_announcements a 
+		                inner join b2b_company.uuc_developer b on a.developer_uid=b.developer_id
+		                inner join b2b_bidding.bid_announcement_categories c on a.uid=c.bid_announcement_uid 
+		                INNER JOIN b2b_parameter.bsp_basic_forest d on c.category_code=d.category_code
+		                where b.company_name not like 'test_%' and a.register_end_date>now() and (a.operate_state<>'6' and a.is_valid<>1)
+		                union ALL
+		                select a.`subject`, IFNULL(b.short_name,b.company_name) short_name,b.developer_type,a.categories,d.category_name,2 as  type
+		                from b2b_bidding.bid_recruit_item a
+		                inner join b2b_company.uuc_developer b on a.company_id=b.developer_id
+		                INNER JOIN b2b_parameter.bsp_basic_forest d on a.categories=d.category_code
+		                where b.company_name not like 'test_%' and a.register_end_date>now() and a.state<>'3'
+		                )b on a.business_scope= b.category_code 
+		                where a.user_id=@user_id  
+		                order by b.type, b.developer_type 
+                ) a
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商三个#</key>
+              <value source="entity">dev_names</value>
+            </parameter>
+            <parameter>
+              <key>#开发商数量#</key>
+              <value source="entity">dev_cnt</value>
+            </parameter>
+            <parameter>
+              <key>#招标招募数量#</key>
+              <value source="entity">item_cnt</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+                    SELECT CONCAT('●',GROUP_CONCAT(nr SEPARATOR '●')) as nr FROM (
+		                select CONCAT('[',b.short_name,']','发布了','[',b.category_name,']','\r\n') nr#,b.type,b.developer_type 
+		                From b2b_user.uuc_user_business_scope a
+		                inner join 
+		                (
+												select IFNULL(b.short_name,b.company_name) short_name,b.developer_type,c.category_code,CONCAT(d.category_name,'招标公告') as category_name,1 as type
+												From b2b_bidding.bid_announcements a 
+												inner join b2b_company.uuc_developer b on a.developer_uid=b.developer_id
+												inner join b2b_bidding.bid_announcement_categories c on a.uid=c.bid_announcement_uid 
+												INNER JOIN b2b_parameter.bsp_basic_forest d on c.category_code=d.category_code
+												where b.company_name not like 'test_%' and a.register_end_date>now() and (a.operate_state<>'6' and a.is_valid<>1)
+												union ALL
+												select IFNULL(b.short_name,b.company_name) short_name,b.developer_type,a.categories,CONCAT(d.category_name,'招募公告') as category_name,2 as  type
+												from b2b_bidding.bid_recruit_item a
+												inner join b2b_company.uuc_developer b on a.company_id=b.developer_id
+												INNER JOIN b2b_parameter.bsp_basic_forest d on a.categories=d.category_code
+												where b.company_name not like 'test_%' and a.register_end_date>now() and a.state<>'3'
+		                )b on a.business_scope= b.category_code 
+		                where a.user_id=@user_id  
+		                GROUP BY b.short_name order by b.type, b.developer_type
+		                LIMIT 3
+                )  zz
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#商机列表#</key>
+              <value source="entity">nr</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

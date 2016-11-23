@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>DevLogin1weekNoPublishRecruit</name>
+  <items>
+    <item>
+      <description>开发商签约用户登录1周未发布招募推送消息</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms>507</sms>
+        <email></email>
+        <wechat>508</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+            SELECT 
+            u.`name`,
+            a.user_id,
+            w.openid,
+            a.mobile,
+            case when wi.user_name is null then '燕燕' else wi.user_name end wxname,
+            case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end wx_code 
+            FROM b2b_user.uuc_user u
+            inner join b2b_user.uuc_user_identity i on u.user_id=i.user_id
+            inner join b2b_user.uuc_user_account a on u.user_id=a.user_id
+            inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+            inner join b2b_user.uuc_company_contract r on d.developer_id=r.company_id AND r.`sign_status`=1
+            left join b2b_parameter.bizp_area a1 on d.province_code=a1.item_code
+            left join b2b_parameter.bizp_area a2 on d.city_code=a2.item_code
+            left join dotnet_operation.op_connect_wxinfo wi ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+            inner join (
+	            SELECT login.user_id,
+							case when login.minLgtime<='2016-06-17 00:00:00' then '2016-06-17 00:00:00' else login.minLgtime end minLgtime
+							FROM (SELECT user_id,MIN(login_time) minLgtime FROM b2b_user.uuc_user_login_log group by user_id) login
+            ) l on u.user_id=l.user_id
+            left join (
+	            SELECT sj.company_id FROM (
+		            SELECT company_id FROM b2b_bidding.bid_recruit_item 
+		            UNION ALL
+		            SELECT developer_uid company_id FROM b2b_bidding.bid_announcements
+	            ) sj group by sj.company_id
+            ) msj on i.company_id=msj.company_id
+            left join (
+	            SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	            inner join m_yct.zq_user u on w.openid=u.openid
+	            WHERE w.wxappid=@appid
+	            group by w.userid
+            ) w on u.user_id=w.userid
+            where u.user_biz_type=2 AND msj.company_id is NULL AND DATEDIFF(NOW(),l.minLgtime)=7
+            ]]>
+          </sql>
+          <description>开发商签约用户登录1周未发布招募推送消息</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理姓名#</key>
+              <value source="entity">wxname</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">wx_code</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户登录2周未发布招募推送消息</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms>509</sms>
+        <email></email>
+        <wechat>510</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+            SELECT 
+            u.`name`,
+            a.user_id,
+            w.openid,
+            a.mobile,
+            case when wi.user_name is null then '燕燕' else wi.user_name end wxname,
+            case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end wx_code 
+            FROM b2b_user.uuc_user u
+            inner join b2b_user.uuc_user_identity i on u.user_id=i.user_id
+            inner join b2b_user.uuc_user_account a on u.user_id=a.user_id
+            inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+            inner join b2b_user.uuc_company_contract r on d.developer_id=r.company_id AND r.`sign_status`=1
+            left join b2b_parameter.bizp_area a1 on d.province_code=a1.item_code
+            left join b2b_parameter.bizp_area a2 on d.city_code=a2.item_code
+            left join dotnet_operation.op_connect_wxinfo wi ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+            inner join (
+	            SELECT user_id,MIN(login_time) minLgtime FROM b2b_user.uuc_user_login_log group by user_id
+            ) l on u.user_id=l.user_id
+            left join (
+	            SELECT sj.company_id FROM (
+		            SELECT company_id FROM b2b_bidding.bid_recruit_item 
+		            UNION ALL
+		            SELECT developer_uid company_id FROM b2b_bidding.bid_announcements
+	            ) sj group by sj.company_id
+            ) msj on i.company_id=msj.company_id
+            left join (
+	            SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	            inner join m_yct.zq_user u on w.openid=u.openid
+	            WHERE w.wxappid=@appid
+	            group by w.userid
+            ) w on u.user_id=w.userid
+            where u.user_biz_type=2 AND msj.company_id is NULL AND DATEDIFF(NOW(),l.minLgtime)=14
+            ]]>
+          </sql>
+          <description>开发商签约用户登录2周未发布招募推送消息</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理姓名#</key>
+              <value source="entity">wxname</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">wx_code</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户登录45天未发布招募推送消息</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms>511</sms>
+        <email></email>
+        <wechat>512</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+            SELECT 
+            u.`name`,
+            a.user_id,
+            w.openid,
+            a.mobile,
+            case when wi.user_name is null then '燕燕' else wi.user_name end wxname,
+            case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end wx_code 
+            FROM b2b_user.uuc_user u
+            inner join b2b_user.uuc_user_identity i on u.user_id=i.user_id
+            inner join b2b_user.uuc_user_account a on u.user_id=a.user_id
+            inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+            inner join b2b_user.uuc_company_contract r on d.developer_id=r.company_id AND r.`sign_status`=1
+            left join b2b_parameter.bizp_area a1 on d.province_code=a1.item_code
+            left join b2b_parameter.bizp_area a2 on d.city_code=a2.item_code
+            left join dotnet_operation.op_connect_wxinfo wi ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+            inner join (
+	            SELECT user_id,MIN(login_time) minLgtime FROM b2b_user.uuc_user_login_log group by user_id
+            ) l on u.user_id=l.user_id
+            left join (
+	            SELECT sj.company_id FROM (
+		            SELECT company_id FROM b2b_bidding.bid_recruit_item 
+		            UNION ALL
+		            SELECT developer_uid company_id FROM b2b_bidding.bid_announcements
+	            ) sj group by sj.company_id
+            ) msj on i.company_id=msj.company_id
+            left join (
+	            SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	            inner join m_yct.zq_user u on w.openid=u.openid
+	            WHERE w.wxappid=@appid
+	            group by w.userid
+            ) w on u.user_id=w.userid
+            where u.user_biz_type=2 AND msj.company_id is NULL AND DATEDIFF(NOW(),l.minLgtime)=45
+            ]]>
+          </sql>
+          <description>开发商签约用户登录45天未发布招募推送消息</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理姓名#</key>
+              <value source="entity">wxname</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">wx_code</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户登录91天未发布招募推送消息</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms>513</sms>
+        <email></email>
+        <wechat>515</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+            SELECT 
+            u.`name`,
+            a.user_id,
+            w.openid,
+            a.mobile,
+            case when wi.user_name is null then '燕燕' else wi.user_name end wxname,
+            case when wi.wx_code is null then 'yuncaigou01' else wi.wx_code end wx_code 
+            FROM b2b_user.uuc_user u
+            inner join b2b_user.uuc_user_identity i on u.user_id=i.user_id
+            inner join b2b_user.uuc_user_account a on u.user_id=a.user_id
+            inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+            inner join b2b_user.uuc_company_contract r on d.developer_id=r.company_id AND r.`sign_status`=1
+            left join b2b_parameter.bizp_area a1 on d.province_code=a1.item_code
+            left join b2b_parameter.bizp_area a2 on d.city_code=a2.item_code
+            left join dotnet_operation.op_connect_wxinfo wi ON (FIND_IN_SET(a1.item_name,wi.respon_areas) or FIND_IN_SET(a2.item_name,wi.respon_areas)) AND wi.business_type=1
+            inner join (
+	            SELECT user_id,MIN(login_time) minLgtime FROM b2b_user.uuc_user_login_log group by user_id
+            ) l on u.user_id=l.user_id
+            left join (
+	            SELECT sj.company_id FROM (
+		            SELECT company_id FROM b2b_bidding.bid_recruit_item 
+		            UNION ALL
+		            SELECT developer_uid company_id FROM b2b_bidding.bid_announcements
+	            ) sj group by sj.company_id
+            ) msj on i.company_id=msj.company_id
+            left join (
+	            SELECT w.userid,w.openid FROM m_yct.m_wx2ycguser w
+	            inner join m_yct.zq_user u on w.openid=u.openid
+	            WHERE w.wxappid=@appid
+	            group by w.userid
+            ) w on u.user_id=w.userid
+            where u.user_biz_type=2 AND msj.company_id is NULL AND DATEDIFF(NOW(),l.minLgtime)=91
+            ]]>
+          </sql>
+          <description>开发商签约用户登录91天未发布招募推送消息</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理姓名#</key>
+              <value source="entity">wxname</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">wx_code</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+            SELECT 
+            MONTH(DATE_SUB(NOW(),INTERVAL 1 MONTH)) lastMonth,
+            COUNT(DISTINCT zz.company_id) kfsjs,
+            COUNT(1) sjs,
+            (
+	            SELECT COUNT(DISTINCT supplier_id) FROM b2b_company.bid_developer_mysupplier_category 
+	            where MONTH(created_time)=MONTH(DATE_SUB(NOW(),INTERVAL 1 MONTH)) AND create_type in (1,2)
+            ) rkjs
+            FROM (
+	            SELECT developer_uid company_id,uid item_id FROM b2b_bidding.bid_announcements WHERE MONTH(created_time)=MONTH(DATE_SUB(NOW(),INTERVAL 1 MONTH))
+	            UNION ALL
+	            SELECT company_id,item_id FROM b2b_bidding.bid_recruit_item WHERE MONTH(create_time)=MONTH(DATE_SUB(NOW(),INTERVAL 1 MONTH))
+            ) zz
+            ]]>
+          </sql>
+          <description>开发商签约用户登录91天未发布招募推送消息</description>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#上个月份#</key>
+              <value source="entity">lastMonth</value>
+            </parameter>
+            <parameter>
+              <key>#开发商家数#</key>
+              <value source="entity">kfsjs</value>
+            </parameter>
+            <parameter>
+              <key>#招募条数#</key>
+              <value source="entity">sjs</value>
+            </parameter>
+            <parameter>
+              <key>#供应商家数#</key>
+              <value source="entity">rkjs</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

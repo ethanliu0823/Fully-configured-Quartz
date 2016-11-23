@@ -1,0 +1,1114 @@
+2016-04-07 10:25:27,944 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 10:25:28,042 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 10:25:28,071 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 10:25:28,166 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 10:25:28,167 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 10:25:28,176 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 10:25:28,186 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 10:25:28,187 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 10:25:28,187 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 10:25:28,195 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 10:25:31,810 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 11:01:59,913 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 11:02:00,034 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 11:02:00,069 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 11:02:00,179 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 11:02:00,182 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 11:02:00,191 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 11:02:00,208 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 11:02:00,208 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 11:02:00,209 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 11:02:00,221 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 11:03:57,876 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 11:03:57,987 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 11:03:58,019 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 11:03:58,127 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 11:03:58,129 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 11:03:58,139 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 11:03:58,153 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 11:03:58,153 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 11:03:58,154 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 11:03:58,162 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 11:04:29,070 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 11:04:32,965 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tovl6nXi9R-5zSbdLILcwt4；mobile：13691913855；email：
+2016-04-07 11:04:33,083 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 11:04:33,139 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 11:04:33,193 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 11:04:33,246 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 11:04:33,525 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 11:04:33,686 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 11:04:33,791 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 11:04:33,791 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:06:11,486 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 14:06:11,585 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 14:06:11,617 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 14:06:11,723 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 14:06:11,725 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 14:06:11,737 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 14:06:11,750 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 14:06:11,751 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 14:06:11,751 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 14:06:11,760 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 14:06:13,345 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:06:14,463 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:06:14,584 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:06:14,649 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:06:14,714 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:06:14,788 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:06:15,123 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:06:15,285 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:06:15,426 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:06:15,427 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:08:58,589 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 14:08:58,683 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 14:08:58,710 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 14:08:58,792 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 14:08:58,793 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 14:08:58,800 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 14:08:58,811 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 14:08:58,811 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 14:08:58,811 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 14:08:58,819 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 14:09:06,662 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:09:07,720 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:09:07,831 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:09:07,928 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:09:08,026 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:09:08,078 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:09:08,367 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:09:08,517 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:09:08,590 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:09:08,591 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:12:17,141 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:12:17,664 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:12:17,817 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:12:17,967 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:12:18,099 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:12:18,222 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:12:18,546 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:12:18,797 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:12:18,941 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:12:18,942 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:13:57,050 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:13:57,726 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:13:57,780 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:13:57,853 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:13:57,973 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:13:58,034 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:13:58,314 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:13:58,466 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:13:58,547 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:13:58,547 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:15:48,803 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 14:15:48,918 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 14:15:48,952 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 14:15:49,072 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 14:15:49,074 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 14:15:49,084 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 14:15:49,097 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 14:15:49,098 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 14:15:49,098 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 14:15:49,110 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 14:15:51,527 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:15:52,946 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:15:53,105 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:15:53,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:15:53,324 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:15:53,417 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第15天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:15:53,913 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:15:54,151 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:15:54,224 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:15:54,225 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:17:14,931 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:17:15,361 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:17:15,441 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:17:15,503 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:17:15,574 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:17:15,679 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:17:16,048 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:17:16,299 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:17:16,400 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:17:16,401 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:27:58,919 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 14:27:59,030 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 14:27:59,064 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 14:27:59,163 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 14:27:59,164 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 14:27:59,173 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 14:27:59,188 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 14:27:59,188 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 14:27:59,188 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 14:27:59,198 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 14:28:22,870 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:28:24,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:28:24,484 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:28:24,596 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:28:24,689 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:28:24,781 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:28:24,873 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:28:25,237 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:28:25,365 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:28:25,365 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:32:49,552 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:32:50,502 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:32:50,980 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:33:36,861 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:33:38,166 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:33:39,145 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:33:39,890 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:33:41,100 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:33:41,242 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:33:41,242 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:34:38,887 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:34:39,299 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:34:39,543 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:35:18,331 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:35:19,550 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:35:20,522 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:35:21,283 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:35:22,160 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:35:22,300 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:35:22,300 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:38:06,589 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:38:07,227 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:38:07,466 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:38:10,337 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:38:10,418 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:38:10,498 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:38:10,579 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:38:10,960 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:38:11,140 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:38:11,140 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:41:05,071 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:41:05,492 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:41:05,553 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:41:05,607 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:41:05,661 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:41:05,713 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:41:05,994 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:41:06,146 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:41:06,218 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:41:06,219 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:43:46,274 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:43:46,869 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:43:46,979 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:43:47,059 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:43:47,176 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:43:47,276 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:43:47,694 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:43:47,851 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:43:48,005 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:43:48,006 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 14:57:10,384 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 14:57:11,233 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 14:57:11,487 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 14:57:11,542 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 14:57:11,598 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 14:57:11,652 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 14:57:11,706 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 14:57:11,761 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 14:57:11,969 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-第7天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:57:12,043 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 14:57:12,044 [_Worker-7] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 15:09:05,364 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 15:09:05,466 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 15:09:05,496 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 15:09:05,576 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 15:09:05,578 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 15:09:05,589 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 15:09:05,601 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 15:09:05,603 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 15:09:05,604 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 15:09:05,612 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 15:09:07,084 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 15:09:08,546 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 15:09:08,697 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 15:09:08,790 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 15:09:08,898 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 15:09:09,003 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 15:09:09,529 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 15:09:09,728 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 15:09:09,815 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 15:09:09,816 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 15:57:19,896 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 15:57:19,998 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 15:57:20,029 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 15:57:20,112 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 15:57:20,115 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 15:57:20,123 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 15:57:20,135 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 15:57:20,136 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 15:57:20,136 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 15:57:20,144 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 15:57:21,554 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 15:57:22,985 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 15:57:23,406 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 15:57:23,535 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 15:57:23,609 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 15:57:23,684 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 15:57:23,778 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 15:57:23,873 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名-日期类型：第30天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 15:57:24,334 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 15:57:24,336 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 15:57:24,497 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 15:57:24,513 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:03:14,503 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:03:15,175 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:03:15,410 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:03:15,595 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:03:15,724 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:03:15,740 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:07:57,625 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:07:58,448 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:07:58,869 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:07:59,218 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 16:07:59,218 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 16:07:59,317 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:07:59,330 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:10:31,513 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:10:32,293 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:10:32,696 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:10:33,033 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:10:33,230 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:10:33,245 [_Worker-4] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:13:41,365 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:13:42,205 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:13:42,653 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:13:43,010 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:13:43,446 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:13:43,471 [_Worker-5] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:19:16,128 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:19:16,251 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:19:16,285 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:19:16,389 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:19:16,391 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:19:16,400 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:19:16,414 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:19:16,415 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:19:16,415 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:19:16,426 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:19:23,898 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:19:25,198 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:19:25,433 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:19:25,626 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:19:25,793 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:19:25,806 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:20:08,073 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:20:08,898 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:20:09,344 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:20:09,657 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:20:09,807 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:20:09,821 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:22:10,460 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:22:10,865 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:22:11,100 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:22:11,282 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 16:22:11,396 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:22:11,407 [_Worker-3] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:35:53,487 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:35:53,592 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:35:53,626 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:35:53,717 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:35:53,719 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:35:53,728 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:35:53,742 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:35:53,743 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:35:53,743 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:35:53,752 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:35:56,619 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 16:35:57,649 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证未报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:35:57,876 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 16:35:58,074 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 16:35:58,076 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 16:35:58,193 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 16:35:58,299 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：94763；openId：o50kPuAYl1a1xybd054p5rsIbhaQ；mobile：11111165567；email：
+2016-04-07 16:35:58,312 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 16:35:58,325 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 16:35:58,337 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：95003；openId：；mobile：11111163460；email：
+2016-04-07 16:35:58,349 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：65683；openId：；mobile：11111161199；email：
+2016-04-07 16:35:58,361 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：95959；openId：；mobile：11111163924；email：
+2016-04-07 16:35:58,375 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60748；openId：；mobile：11111160639；email：
+2016-04-07 16:35:58,387 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：96609；openId：；mobile：11111164602；email：
+2016-04-07 16:35:58,399 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：96839；openId：；mobile：11111166206；email：
+2016-04-07 16:35:58,410 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 16:38:43,632 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:38:43,748 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:38:43,784 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:38:43,939 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:38:43,940 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:38:43,951 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:38:43,963 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:38:43,964 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:38:43,964 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:38:43,973 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:38:45,398 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:38:45,419 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:38:45,441 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:45,442 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:38:47,875 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:38:47,892 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:47,926 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:38:47,926 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:47,942 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:38:48,243 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:38:48,244 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:38:48,252 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:38:48,252 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:38:48,253 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,264 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:38:48,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:38:48,266 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:38:48,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,278 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:38:48,280 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,292 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:38:48,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:38:48,294 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:38:48,295 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,307 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,309 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,309 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,309 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:38:48,310 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:38:48,310 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:38:48,310 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,354 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,355 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,355 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:38:48,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:38:48,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:38:48,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:38:48,367 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:38:48,369 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:38:48,369 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:38:48,369 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:38:48,369 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:38:48,377 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 16:39:53,119 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:39:53,220 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:39:53,250 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:39:53,333 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:39:53,335 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:39:53,344 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:39:53,356 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:39:53,356 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:39:53,356 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:39:53,365 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:39:58,501 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:39:58,520 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:39:58,540 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:39:58,541 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:40:01,420 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:40:01,436 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,458 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:40:01,458 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,473 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:40:01,684 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:40:01,685 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:40:01,691 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:40:01,691 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:40:01,692 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,703 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,704 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,705 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,705 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:40:01,705 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:40:01,705 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:40:01,705 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,716 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,717 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:40:01,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:40:01,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:40:01,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,730 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,731 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,731 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:40:01,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:40:01,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:40:01,732 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,743 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,745 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,745 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,745 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:40:01,746 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:40:01,746 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:40:01,746 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,765 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,766 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,766 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:40:01,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:40:01,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:40:01,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:01,779 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:01,781 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:40:01,781 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:01,781 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:40:01,781 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:40:01,783 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 16:40:33,861 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:40:35,386 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:40:36,351 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:40:36,352 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:40:37,977 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:40:37,989 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:40:37,997 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:40:37,997 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:40:54,554 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:41:02,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:41:02,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:41:02,259 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:41:02,260 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:41:02,260 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,272 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:41:02,274 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:41:02,274 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:41:02,274 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,286 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,287 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,287 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,287 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:41:02,287 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:41:02,288 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:41:02,288 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,300 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,301 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,301 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,303 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:41:02,303 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:41:02,303 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:41:02,303 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,314 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,315 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,315 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,316 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:41:02,316 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:41:02,316 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:41:02,316 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,331 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:41:02,332 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:02,344 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:02,345 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:41:02,345 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:02,345 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:41:02,345 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:41:02,348 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 16:41:31,053 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:41:32,566 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:41:32,566 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:41:32,567 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:41:34,402 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:41:34,419 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:41:34,420 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:41:34,420 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:41:34,420 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:42:01,044 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:42:01,044 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:42:01,051 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:42:01,051 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:42:01,051 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,064 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,064 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,065 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,066 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:42:01,066 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:42:01,066 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:42:01,067 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,079 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,079 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,080 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,080 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:42:01,080 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:42:01,080 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:42:01,081 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,094 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,095 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,096 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,096 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:42:01,097 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:42:01,097 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:42:01,097 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,110 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,111 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,111 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,112 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:42:01,112 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:42:01,112 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:42:01,113 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,126 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,126 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,127 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,127 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:42:01,127 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:42:01,127 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:42:01,127 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:42:01,140 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:42:01,140 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:42:01,141 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:42:01,142 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:42:01,142 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:42:01,143 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 16:48:09,507 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:48:09,611 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:48:09,642 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:48:09,718 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:48:09,719 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:48:09,728 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:48:09,740 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:48:09,741 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:48:09,741 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:48:09,750 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:48:11,321 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:48:15,009 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:48:15,034 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:15,035 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:48:17,632 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:48:17,647 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:17,668 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:48:17,668 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:17,682 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:48:17,941 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:48:17,942 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:48:17,953 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:48:17,953 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:48:17,954 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:17,965 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:17,966 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:17,967 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:17,967 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:48:17,967 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:48:17,967 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:48:17,967 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:17,978 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:17,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:17,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:17,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:48:17,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:48:17,981 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:48:17,981 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:17,992 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:17,994 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:17,994 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:17,994 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:48:17,994 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:48:17,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:48:17,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:18,006 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:18,008 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:18,008 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:18,008 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:48:18,009 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:48:18,009 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:48:18,009 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:18,029 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:18,030 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:18,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:18,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:48:18,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:48:18,032 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:48:18,032 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:48:18,043 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:48:18,045 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:48:18,046 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:48:18,046 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:48:18,046 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:48:18,048 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 16:53:59,902 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 16:54:00,005 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 16:54:00,035 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 16:54:00,122 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 16:54:00,124 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 16:54:00,132 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 16:54:00,144 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 16:54:00,145 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 16:54:00,145 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 16:54:00,153 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 16:54:01,756 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 16:54:01,777 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 16:54:01,799 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:01,800 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 16:54:03,845 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 16:54:03,861 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:03,884 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 16:54:03,884 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:03,902 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 16:54:04,180 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 16:54:04,180 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 16:54:04,187 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 16:54:04,187 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 16:54:04,188 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,199 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,201 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,201 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,201 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 16:54:04,201 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 16:54:04,201 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 16:54:04,202 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,213 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,214 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 16:54:04,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 16:54:04,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 16:54:04,215 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,227 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 16:54:04,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 16:54:04,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 16:54:04,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,243 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,244 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 16:54:04,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 16:54:04,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 16:54:04,245 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,268 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,268 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 16:54:04,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 16:54:04,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 16:54:04,271 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 16:54:04,283 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 16:54:04,285 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 16:54:04,285 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 16:54:04,286 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 16:54:04,286 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 16:54:04,288 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 17:01:50,035 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 17:01:50,035 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 17:01:50,035 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:50,036 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 17:01:51,865 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 17:01:51,877 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:51,877 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 17:01:51,878 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:51,878 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 17:01:52,076 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 17:01:52,076 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 17:01:52,084 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 17:01:52,085 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 17:01:52,085 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,096 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,097 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:01:52,097 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,097 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 17:01:52,216 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 17:01:52,216 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 17:01:52,217 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,233 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,233 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:01:52,233 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,233 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 17:01:52,234 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 17:01:52,234 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 17:01:52,234 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,246 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,246 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:01:52,246 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 17:01:52,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 17:01:52,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 17:01:52,247 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,258 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,259 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:01:52,259 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,259 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 17:01:52,260 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 17:01:52,260 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 17:01:52,260 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,272 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,272 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:01:52,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 17:01:52,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 17:01:52,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 17:01:52,273 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:01:52,284 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:01:52,285 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:01:52,285 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:01:52,285 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 17:01:52,285 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 17:01:52,287 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 17:19:35,050 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 17:19:35,141 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 17:19:35,168 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 17:19:35,239 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 17:19:35,240 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 17:19:35,248 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 17:19:35,260 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 17:19:35,260 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 17:19:35,261 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 17:19:35,268 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 17:19:37,447 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 17:19:37,469 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 17:19:37,486 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:37,487 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 17:19:39,589 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 17:19:39,613 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:39,626 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 17:19:39,626 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:39,643 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 17:19:39,848 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 17:19:39,848 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 17:19:39,855 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 17:19:39,855 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 17:19:39,855 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:39,866 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:39,868 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:19:39,868 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:39,868 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 17:19:39,950 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 17:19:39,950 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 17:19:39,950 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:39,961 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 17:19:39,963 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:39,975 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:39,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:19:39,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:39,977 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 17:19:40,089 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 17:19:40,089 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 17:19:40,089 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:40,100 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:40,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:19:40,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:40,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 17:19:40,102 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 17:19:40,103 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 17:19:40,103 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:40,114 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:40,115 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:19:40,115 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:40,115 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 17:19:40,115 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 17:19:40,116 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 17:19:40,116 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:19:40,127 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:19:40,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:19:40,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:19:40,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 17:19:40,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 17:19:40,130 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 17:28:03,899 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 17:28:03,899 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 17:28:03,900 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:03,900 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 17:28:06,432 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 17:28:06,445 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,446 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 17:28:06,447 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,447 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 17:28:06,585 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 17:28:06,585 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 17:28:06,591 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 17:28:06,591 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 17:28:06,592 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,603 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,603 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:28:06,603 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,604 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 17:28:06,686 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 17:28:06,686 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 17:28:06,686 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,697 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,698 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:28:06,698 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,698 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 17:28:06,699 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 17:28:06,699 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 17:28:06,699 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,713 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,714 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:28:06,714 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,714 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 17:28:06,824 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 17:28:06,824 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 17:28:06,824 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,835 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,836 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:28:06,836 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,836 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 17:28:06,946 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 17:28:06,946 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 17:28:06,946 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,957 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,958 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:28:06,958 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,958 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 17:28:06,958 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 17:28:06,958 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 17:28:06,959 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:28:06,970 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:28:06,970 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:28:06,970 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:28:06,970 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 17:28:06,971 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 17:28:06,972 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 17:36:33,388 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-04-07 17:36:33,389 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-04-07 17:36:33,389 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:33,389 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-04-07 17:36:35,298 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 2779
+2016-04-07 17:36:35,315 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,316 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:10
+2016-04-07 17:36:35,316 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,316 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-04-07 17:36:35,484 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 用户107017,供应商G105992，模板Sl10rl50Wx，参数同行为空。
+2016-04-07 17:36:35,485 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--参数不完整，取消发送。
+2016-04-07 17:36:35,491 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-04-07 17:36:35,491 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-04-07 17:36:35,492 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,503 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,503 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:36:35,503 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,503 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-04-07 17:36:35,580 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-04-07 17:36:35,580 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-04-07 17:36:35,580 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,592 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,593 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:36:35,593 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,594 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-04-07 17:36:35,594 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-04-07 17:36:35,594 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-04-07 17:36:35,594 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,606 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,607 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:36:35,608 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,608 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-04-07 17:36:35,704 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-04-07 17:36:35,704 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-04-07 17:36:35,704 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,715 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,716 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:36:35,716 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,716 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-04-07 17:36:35,814 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-04-07 17:36:35,815 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-04-07 17:36:35,815 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,826 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,827 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:1
+2016-04-07 17:36:35,827 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,827 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-04-07 17:36:35,926 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-04-07 17:36:35,926 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-04-07 17:36:35,927 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-04-07 17:36:35,944 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-04-07 17:36:35,945 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-04-07 17:36:35,945 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-04-07 17:36:35,945 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-04-07 17:36:35,945 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-04-07 17:36:35,947 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-04-07 17:48:03,456 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 17:48:03,547 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 17:48:03,573 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 17:48:03,639 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 17:48:03,641 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 17:48:03,648 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 17:48:03,659 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 17:48:03,659 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 17:48:03,659 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 17:48:03,668 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 17:48:05,423 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 17:48:06,895 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 17:48:07,049 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 17:48:07,141 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 17:48:07,234 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 17:48:07,327 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 17:48:07,850 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 17:48:08,226 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 17:48:08,228 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 17:48:08,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 17:48:08,369 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 17:51:18,473 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 17:51:19,016 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 17:51:19,078 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 17:51:19,134 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 17:51:19,185 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 17:51:19,238 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 17:51:19,290 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 17:51:19,571 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 17:51:19,743 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 17:51:19,743 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 17:51:19,836 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第-1天；userId：60818；openId：o50kPuF7mL5Ld3WAVMl4iKTPWp4U；mobile：11111160695；email：
+2016-04-07 17:51:19,848 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-04-07 17:55:42,660 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-04-07 17:55:42,762 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-04-07 17:55:42,791 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-04-07 17:55:42,894 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-04-07 17:55:42,896 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-04-07 17:55:42,906 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-04-07 17:55:42,919 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-04-07 17:55:42,919 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-04-07 17:55:42,919 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-04-07 17:55:42,929 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-04-07 17:55:45,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-04-07 17:55:46,337 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：106360；openId：oYOv8tt5oXJuumOeDdi9HvgKxgWQ；mobile：13691913855；email：
+2016-04-07 17:55:46,508 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107308；openId：oYOv8tgESj3LGxrLYT45RECmOfMc；mobile：18221746982；email：
+2016-04-07 17:55:46,608 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107356；openId：oYOv8tpm2B1ssdN152SX-O9TpJ4g；mobile：13622308734；email：
+2016-04-07 17:55:46,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107357；openId：oYOv8tsnQpoO0TAs8MvPc-FQaH3Y；mobile：18676656854；email：
+2016-04-07 17:55:46,787 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107359；openId：oYOv8tmjSyN8ACt5SPwvBdmLmD1M；mobile：17085142012；email：
+2016-04-07 17:55:46,854 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：107369；openId：oYOv8tqcdHgVUg4JUDG37Om4UMEw；mobile：13510600395；email：
+2016-04-07 17:55:47,293 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【已认证已报名】没有满足条件的可推送用户，已结束。
+2016-04-07 17:55:47,478 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-日期类型：第7天；userId：107354；openId：；mobile：11096963636；email：
+2016-04-07 17:55:47,479 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-已报名需补充资料-用户107354第7天参数会员姓名为空，取消推送
+2016-04-07 17:55:47,632 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-【完善资料流程-商机截止前一天】没有满足条件的可推送用户，已结束。
+2016-04-07 17:55:47,632 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。

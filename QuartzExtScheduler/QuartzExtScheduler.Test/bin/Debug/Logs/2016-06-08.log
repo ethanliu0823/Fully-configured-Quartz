@@ -1,0 +1,379 @@
+2016-06-08 14:06:26,946 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 14:06:27,290 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 14:06:27,383 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 14:06:27,555 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 14:06:27,559 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 14:06:27,569 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 14:06:27,602 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 14:06:27,603 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 14:06:27,603 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 14:06:27,613 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 14:06:30,371 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 14:06:30,386 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--数据库连接字符串未配置，已结束。
+2016-06-08 14:06:48,580 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 14:06:53,306 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--数据库连接字符串未配置，已结束。
+2016-06-08 14:09:15,555 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 14:09:15,726 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 14:09:15,762 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 14:09:15,862 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 14:09:15,864 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 14:09:15,875 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 14:09:15,890 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 14:09:15,890 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 14:09:15,891 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 14:09:15,900 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 14:09:19,442 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 14:10:11,071 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 14:10:11,186 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 14:10:11,219 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 14:10:11,341 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 14:10:11,342 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 14:10:11,354 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 14:10:11,370 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 14:10:11,370 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 14:10:11,370 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 14:10:11,380 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 14:10:17,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 14:10:54,407 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:3133
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 MycaigouScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Common\JsonRequest.cs:行号 47
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 190
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process1() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 149
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 14:10:54,407 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:26:23,304 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 16:26:23,400 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 16:26:23,427 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 16:26:23,526 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 16:26:23,527 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 16:26:23,537 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 16:26:23,549 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 16:26:23,550 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 16:26:23,550 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 16:26:23,558 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 16:26:29,637 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:26:38,239 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:3133
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 MycaigouScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Common\JsonRequest.cs:行号 47
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 190
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process1() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 151
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 16:26:38,240 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:26:39,307 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:27:52,946 [_Worker-2] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:3133
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 MycaigouScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Common\JsonRequest.cs:行号 47
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 190
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process1() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 151
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 16:27:52,946 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:35:24,511 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:42:06,909 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:43:20,687 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:43:37,669 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:43:40,582 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:44:58,878 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:46:07,021 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:47:12,209 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:48:29,306 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:52:10,102 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 16:52:10,222 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 16:52:10,258 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 16:52:10,375 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 16:52:10,377 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 16:52:10,386 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 16:52:10,400 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 16:52:10,401 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 16:52:10,401 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 16:52:10,412 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 16:52:13,363 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:53:04,776 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:55:52,093 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:56:06,741 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:56:25,940 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:56:29,349 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:56:47,379 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:56:50,843 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:56:59,908 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:57:03,474 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 16:57:43,660 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 16:59:10,068 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:00:45,504 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:01:09,465 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:01:23,045 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:01:57,456 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:05:16,566 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:06:05,323 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:06:42,826 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:06:55,106 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:07:43,213 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:08:09,265 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:08:32,691 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:09:01,103 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:10:34,911 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:11:07,231 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:12:38,361 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:13:04,727 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:51:33,853 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 17:51:33,955 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 17:51:33,986 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 17:51:34,066 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 17:51:34,068 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 17:51:34,077 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 17:51:34,090 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 17:51:34,090 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 17:51:34,090 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 17:51:34,101 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 17:51:36,805 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:52:08,049 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:52:45,451 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:52:57,313 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:53:08,028 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:53:15,484 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 17:53:44,644 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 17:54:57,670 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:00:55,289 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:01:35,027 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:01:56,356 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:02:04,625 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:02:17,993 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:07:10,523 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:08:44,555 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:09:12,803 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:09:56,880 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:09:57,018 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:09:57,061 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:09:57,156 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:09:57,157 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:09:57,170 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:09:57,186 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:09:57,186 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:09:57,187 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:09:57,199 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:11:08,623 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:12:16,608 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:12:16,734 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:12:16,772 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:12:16,875 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:12:16,877 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:12:16,889 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:12:16,905 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:12:16,905 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:12:16,906 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:12:16,916 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:12:19,253 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:15:08,171 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:15:08,297 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:15:08,338 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:15:08,450 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:15:08,452 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:15:08,464 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:15:08,480 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:15:08,480 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:15:08,480 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:15:08,491 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:15:13,130 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:15:29,891 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 MycaigouScheduler.DataAccess.IdGeneration.NewSequentialId(String connectionString, String dbName, String tableName) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\IdGeneration.cs:行号 82
+   在 MycaigouScheduler.DataAccess.IdGeneration.NewSequentialId(String connectionString, String tableName) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\IdGeneration.cs:行号 92
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process2() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 160
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 18:15:29,891 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:15:46,837 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:16:02,948 [_Worker-2] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   在 MySql.Data.MySqlClient.NativeDriver.Open()
+   在 MySql.Data.MySqlClient.Driver.Open()
+   在 MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   在 MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   在 MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   在 MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   在 MySql.Data.MySqlClient.MySqlConnection.Open()
+   在 MycaigouScheduler.DataAccess.IdGeneration.NewSequentialId(String connectionString, String dbName, String tableName) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\IdGeneration.cs:行号 82
+   在 MycaigouScheduler.DataAccess.IdGeneration.NewSequentialId(String connectionString, String tableName) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\IdGeneration.cs:行号 92
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process2() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 160
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 18:16:02,949 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:17:02,131 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:17:02,250 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:17:02,280 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:17:02,366 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:17:02,368 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:17:02,377 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:17:02,389 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:17:02,390 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:17:02,390 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:17:02,398 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:17:07,745 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:19:11,044 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：System.ArgumentException: 已添加了具有相同键的项。
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process2() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 184
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 18:19:11,045 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:20:20,215 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:20:20,317 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:20:20,345 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:20:20,422 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:20:20,424 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:20:20,433 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:20:20,443 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:20:20,444 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:20:20,444 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:20:20,452 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:20:35,339 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:21:28,315 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：System.ArgumentException: 已添加了具有相同键的项。
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process2() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 184
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 86
+2016-06-08 18:21:28,316 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-08 18:22:06,600 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:22:06,702 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:22:06,732 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:22:06,820 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:22:06,822 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:22:06,831 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:22:06,845 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:22:06,846 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:22:06,846 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:22:06,857 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:22:20,040 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:24:52,099 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:24:52,207 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:24:52,238 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:24:52,332 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:24:52,334 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:24:52,346 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:24:52,357 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:24:52,358 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:24:52,358 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:24:52,368 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:25:27,441 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-08 18:25:27,579 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-08 18:25:27,613 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-08 18:25:27,709 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-08 18:25:27,712 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-08 18:25:27,723 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-08 18:25:27,738 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-08 18:25:27,739 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-08 18:25:27,739 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-08 18:25:27,749 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-08 18:25:32,122 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-08 18:26:49,374 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行

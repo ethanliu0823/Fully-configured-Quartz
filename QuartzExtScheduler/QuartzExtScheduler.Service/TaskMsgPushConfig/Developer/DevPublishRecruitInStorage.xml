@@ -1,0 +1,779 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>DevPublishRecruitInStorage</name>
+  <items>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第1周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">517</sms>
+        <email></email>
+        <wechat priority="1">518</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=8 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布1周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select count(DISTINCT a.item_id) as week_push_num,count(b.register_id) as week_reg_num From b2b_bidding.bid_recruit_item  a 
+                LEFT JOIN b2b_bidding.bid_recruit_item_register b on a.item_id=b.item_id
+                where 
+                a.user_id=@user_id and b.`storage`=0 and date(a.publish_time) >= date(DATE_ADD(now(),INTERVAL -8 DAY))
+             ]]>
+          </sql>
+          <description>上周发布的招募数量和总报名数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#招募数量#</key>
+              <value source="entity">week_push_num</value>
+            </parameter>
+            <parameter>
+              <key>#总报名数量#</key>
+              <value source="entity">week_reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第3周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">519</sms>
+        <email></email>
+        <wechat priority="1">520</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=22 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布3周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select count(DISTINCT a.item_id) as week_push_num,count(b.register_id) as week_reg_num From b2b_bidding.bid_recruit_item  a 
+                LEFT JOIN b2b_bidding.bid_recruit_item_register b on a.item_id=b.item_id
+                where 
+                a.user_id=@user_id and b.`storage`=0 and date(a.register_end_date) >= date(now())
+             ]]>
+          </sql>
+          <description>有效期内发布招募的总数和截止目前总报名数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#招募条数#</key>
+              <value source="entity">week_push_num</value>
+            </parameter>
+            <parameter>
+              <key>#报名供应商家数#</key>
+              <value source="entity">week_reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第5周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">521</sms>
+        <email></email>
+        <wechat priority="1">522</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=36 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布5周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select count(DISTINCT b.supplier_id) as week_reg_num From b2b_bidding.bid_recruit_item  a 
+                LEFT JOIN b2b_bidding.bid_recruit_item_register b on a.item_id=b.item_id
+                where a.user_id=@user_id  and b.`storage`=0
+             ]]>
+          </sql>
+          <description>发布招募截止目前总共供应商报名数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#报名家数#</key>
+              <value source="entity">week_reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第7周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">523</sms>
+        <email></email>
+        <wechat priority="1">524</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=50 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布7周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第9周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">525</sms>
+        <email></email>
+        <wechat priority="1">526</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=64 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布9周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+                select DATE_FORMAT(DATE_ADD(now(),INTERVAL -1 MONTH),'%c') as pre_month, sum(dev_num) as dev_num,sum(item_num) as item_num FROM
+                (
+                select count(DISTINCT a.developer_uid) as dev_num,count(a.uid) as item_num From b2b_bidding.bid_announcements a
+                where DATE_FORMAT(a.created_time,'%Y%m')=DATE_FORMAT(DATE_ADD(now(),INTERVAL -1 MONTH),'%Y%m')
+                union ALL
+                select count(DISTINCT a.company_id) as dev_num,count(a.item_id) as item_num from b2b_bidding.bid_recruit_item a
+                where DATE_FORMAT(a.publish_time,'%Y%m')=DATE_FORMAT(DATE_ADD(now(),INTERVAL -1 MONTH),'%Y%m')
+                ) a
+             ]]>
+          </sql>
+          <description>上月、上个月发布招标招募的开发商家数、上月新增发布招标总数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#上月#</key>
+              <value source="entity">pre_month</value>
+            </parameter>
+            <parameter>
+              <key>#开发商数量#</key>
+              <value source="entity">dev_num</value>
+            </parameter>
+            <parameter>
+              <key>#招募招标数量#</key>
+              <value source="entity">item_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+                select sum(num) as num FROM
+                (
+                    select count(a.supplier_id) num from 
+                    b2b_bidding.bid_announcements_register a 
+                    inner join b2b_bidding.bid_announcements b on a.bid_announcement_uid=b.uid  
+                    where a.finalist_flag =1 and DATE_FORMAT(b.finalist_time,'%Y%m')=DATE_FORMAT(DATE_ADD(now(),INTERVAL -1 MONTH),'%Y%m')
+                    union ALL
+                    select count(a.supplier_id) as num FROM
+                    b2b_bidding.bid_recruit_item_register a 
+                    where a.`storage`=1 and  DATE_FORMAT(a.storage_time,'%Y%m')=DATE_FORMAT(DATE_ADD(now(),INTERVAL -1 MONTH),'%Y%m')
+                ) a
+             ]]>
+          </sql>
+          <description>取上个月被入库+入围供应商总数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#入库供应商数量#</key>
+              <value source="entity">num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息第11周</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">527</sms>
+        <email></email>
+        <wechat priority="1">528</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat
+                from 
+                (
+										select a.item_id,a.user_id from b2b_bidding.bid_recruit_item a 
+										where  a.register_end_date>now() and DATEDIFF(now(),a.publish_time)=78 and
+										a.publish_time = 
+										(
+											select min(publish_time) 
+											from b2b_bidding.bid_recruit_item 
+											where register_end_date>now() and user_id = a.user_id
+										) 
+										GROUP BY a.user_id
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+                    GROUP BY b.user_id HAVING (sum(case when a.`storage` =0 then 1 else 0 end)/count(1))>0.5
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description>招募发布11周入库操作低于50%</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+              select count(DISTINCT b.supplier_id) as supplier_reg_num From b2b_bidding.bid_recruit_item  a 
+              LEFT JOIN b2b_bidding.bid_recruit_item_register b on a.item_id=b.item_id
+              where 
+              a.user_id=@user_id  and b.`storage`=0 and a.register_end_date > now()
+             ]]>
+          </sql>
+          <description>招募有效期内所有报名供应商数</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@user_id</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#报名供应商数量#</key>
+              <value source="entity">supplier_reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息招募报名截止一天一条</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">529</sms>
+        <email></email>
+        <wechat priority="1">530</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat,
+                a.category_name,a.reg_num
+                from 
+                (
+                    select user_id,b.category_name,count(DISTINCT reg.supplier_id) as reg_num 
+                    from b2b_bidding.bid_recruit_item  a 
+                    iNNER JOIN b2b_bidding.bid_recruit_item_register reg on a.item_id=reg.item_id
+                    INNER JOIN b2b_parameter.bsp_basic_forest b on a.categories=b.category_code
+                    where  date(a.register_end_date)=date(date_add(now() ,interval -1 DAY))
+                    gROUP BY a.user_id having count(distinct a.item_id)=1
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+										where a.`storage` =0
+                    GROUP BY b.user_id 
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+            <parameter>
+              <key>#招募分类#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#报名供应商数量#</key>
+              <value source="entity">reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>开发商签约用户已发招募入库推送消息招募报名截止一天多条</description>
+      <!--发送消息模板ID 不配置不发-->
+      <message-template-id>
+        <sms priority="2">531</sms>
+        <email></email>
+        <wechat priority="1">532</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.user_id,bcr.name,bcr.mobile,uui.company_id,wxa.openid,
+                if(ocx.user_name is null,'燕燕',ocx.user_name) as consultant_name,
+                if(ocx.wx_code is null,'yuncaigou01',ocx.wx_code) as consultant_wechat,
+                a.category_name,a.reg_num,a.recruit_num
+                from 
+                (
+                    select user_id,count(distinct a.item_id) as recruit_num,b.category_name,count(DISTINCT reg.supplier_id) as reg_num 
+                    from b2b_bidding.bid_recruit_item  a 
+                    iNNER JOIN b2b_bidding.bid_recruit_item_register reg on a.item_id=reg.item_id
+                    INNER JOIN b2b_parameter.bsp_basic_forest b on a.categories=b.category_code
+                    where  date(a.register_end_date)=date(date_add(now() ,interval -1 DAY))
+                    gROUP BY a.user_id having count(distinct a.item_id)>1
+                ) a 
+                left join b2b_user_business.business_card_record bcr on a.user_id=bcr.user_id
+                INNER JOIN b2b_user.uuc_user_identity uui on a.user_id=uui.user_id
+                inner join b2b_company.uuc_developer ud on uui.company_id=ud.developer_id
+                left join m_yct.m_wx2ycguser wxa on a.user_id=wxa.userid
+                left join (select openid from m_yct.zq_user where Appid=@appId) zqu on wxa.openid=zqu.openid 
+                inner join b2b_user.uuc_company_contract con on ud.developer_id=con.company_id and sign_status=1
+                left join dotnet_operation.op_connect_wxinfo ocx 
+                   ON FIND_IN_SET(con.contract_area,ocx.respon_areas) AND ocx.business_type=1
+                INNER JOIN
+                (
+                    select b.user_id
+                    From b2b_bidding.bid_recruit_item_register a
+                    INNER JOIN b2b_bidding.bid_recruit_item b on a.item_id=b.item_id
+										where a.`storage` =0
+                    GROUP BY b.user_id 
+                ) fit on a.user_id=fit.user_id
+                GROUP BY a.user_id,wxa.openid
+            ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理#</key>
+              <value source="entity">consultant_name</value>
+            </parameter>
+            <parameter>
+              <key>#运营经理微信号#</key>
+              <value source="entity">consultant_wechat</value>
+            </parameter>
+            <parameter>
+              <key>#招募分类#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#招募条数#</key>
+              <value source="entity">recruit_num</value>
+            </parameter>
+            <parameter>
+              <key>#报名供应商数量#</key>
+              <value source="entity">reg_num</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

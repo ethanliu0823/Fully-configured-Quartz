@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>SupplierWeeklyReport</name>
+  <items>
+    <item>
+      <description>供应商周报</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <wechat>671</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+         select u.`name`,  ar.supplier_id,u.user_id,w.openid,count(bid_announcement_uid) as cnt,usb.s_cnt
+              ,CONCAT(DATE_FORMAT(DATE_SUB(now(),INTERVAL 7 DAY),'%Y年%c月%e日'),'-',DATE_FORMAT(DATE_SUB(now(),INTERVAL 1 DAY),'%c月%e日')) as date_range
+              from 
+              (
+	              select ar.bid_announcement_uid, ar.supplier_id,ar.created_by,'bid' type from b2b_bidding.bid_announcements_register ar
+	              INNER JOIN b2b_bidding.bid_announcements a on ar.bid_announcement_uid=a.uid
+	              inner join  b2b_company.uuc_developer d on a.developer_uid=d.developer_id
+	              where d.company_name not like 'test_%' and date(ar.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+	              union all
+	              select rr.item_id, rr.supplier_id,rr.created_by,'rec' type From b2b_bidding.bid_recruit_item_register rr
+	              INNER JOIN b2b_bidding.bid_recruit_item i on rr.item_id=i.item_id
+	              inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+	              where d.company_name not like 'test_%' and date(rr.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+              ) ar
+              INNER JOIN b2b_user.uuc_user u on ar.created_by=u.user_id
+              left join b2b_user_business.business_card_record bcr on u.user_id=bcr.user_id 
+              INNER JOIN 
+              (
+	              SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	              INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	              WHERE zqu.appid=@appId
+              ) w on u.user_id=w.userid
+              cross join (select count(1) as s_cnt from b2b_company.uuc_supplier_basic where status=2 and state=2) usb 
+              GROUP BY ar.created_by
+            ]]>
+          </sql>
+          <description>供应商周报</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+                      <parameter>
+              <key>#上周日期#</key>
+              <value source="entity">date_range</value>
+            </parameter>
+              <parameter>
+              <key>#报名数#</key>
+              <value source="entity">cnt</value>
+            </parameter>
+            <parameter>
+              <key>#平台供应商家数#</key>
+              <value source="entity">s_cnt</value>
+            </parameter>
+            <parameter>
+              <key>#供应商ID#</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+            <parameter>
+              <key>#用户ID#</key>
+              <value source="entity">user_id</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+              <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+select concat(round(a.l_cnt/b.sum_cnt*100,2),'%') as defeat_percent
+from
+(
+		select count(1) as l_cnt from(
+				select created_by  from 
+				(
+												select ar.bid_announcement_uid, ar.supplier_id,ar.created_by,'bid' type from b2b_bidding.bid_announcements_register ar
+												INNER JOIN b2b_bidding.bid_announcements a on ar.bid_announcement_uid=a.uid
+												inner join  b2b_company.uuc_developer d on a.developer_uid=d.developer_id
+												where d.company_name not like 'test_%' and date(ar.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+												union all
+												select rr.item_id, rr.supplier_id,rr.created_by,'rec' type From b2b_bidding.bid_recruit_item_register rr
+												INNER JOIN b2b_bidding.bid_recruit_item i on rr.item_id=i.item_id
+												inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+												where d.company_name not like 'test_%' and date(rr.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+				)a GROUP BY created_by HAVING count( bid_announcement_uid) <=@cnt
+		) a
+) a
+cross join
+(
+		select count(distinct created_by) sum_cnt from
+		(
+						select ar.bid_announcement_uid, ar.supplier_id,ar.created_by,'bid' type from b2b_bidding.bid_announcements_register ar
+									INNER JOIN b2b_bidding.bid_announcements a on ar.bid_announcement_uid=a.uid
+									inner join  b2b_company.uuc_developer d on a.developer_uid=d.developer_id
+									where d.company_name not like 'test_%' and date(ar.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+									union all
+									select rr.item_id, rr.supplier_id,rr.created_by,'rec' type From b2b_bidding.bid_recruit_item_register rr
+									INNER JOIN b2b_bidding.bid_recruit_item i on rr.item_id=i.item_id
+									inner join b2b_company.uuc_developer d on i.company_id=d.developer_id
+									where d.company_name not like 'test_%' and date(rr.created_time) BETWEEN date(DATE_SUB(now(),INTERVAL 7 DAY)) and date(DATE_SUB(now(),INTERVAL 1 DAY))
+		)a
+)b
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@cnt</key>
+              <value source="entity">cnt</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#击败百分比#</key>
+              <value source="entity">defeat_percent</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>MondayBiz</name>
+  <items>
+    <item>
+      <description>每日商机推送（周一全量）</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms></sms>
+        <email></email>
+        <wechat>467</wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                SELECT user_id ,user_name ,mobile ,email,
+                supplier_id ,type ,openid
+                FROM `b2b_bidding`.`bid_recruit_biz_opps_clean`
+                where type='total' and openid is not null
+            ]]>
+          </sql>
+          <description>每日商机需要推送的用户</description>
+          <!--SQL参数-->
+
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">user_name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_1" type="content">
+          <sql>
+            <![CDATA[
+SELECT CONCAT('●',GROUP_CONCAT(nr SEPARATOR '●')) as nr,concat('&zbid=',ifnull(GROUP_CONCAT(if(type=1,itemId,null)),''),'&zmid=',ifnull(GROUP_CONCAT(if(type=2,itemId,null)),'')) as ids
+FROM (
+     select CONCAT('【',company_name,'】','发布了','【',title,'】','\r\n') as nr , itemId,type
+			from (
+                SELECT
+                b.uid as itemId,
+                CONCAT(d.category_name,'招标')  as title,
+                ifnull(c.short_name,c.company_name) as company_name,
+                c.developer_type as developerType,
+                1 as type,b.created_time
+                FROM
+                b2b_op_activity.op_fit_my_bidding a
+                INNER JOIN 
+                b2b_bidding.bid_announcements b ON a.item_id = b.uid
+                left join 
+                (
+		                select bid_announcement_uid as item_id from b2b_bidding.bid_announcements_register where supplier_id = @supplier_id
+                ) r on a.item_id=r.item_id
+                INNER JOIN b2b_company.uuc_developer c ON b.developer_uid = c.developer_id
+								inner join b2b_bidding.bid_announcement_categories cc on b.uid=cc.bid_announcement_uid 
+								INNER JOIN b2b_parameter.bsp_basic_forest d on cc.category_code=d.category_code
+                WHERE
+                a.supplier_id = @supplier_id and b.register_end_date>now()
+                AND c.company_name not like 'test_%' and r.item_id is null
+GROUP BY c.company_name
+                union all
+
+                SELECT DISTINCT
+                b.item_id as itemId,
+                CONCAT(d.category_name,'招募') as title ,
+                ifnull(c.short_name,c.company_name) as company_name,
+                c.developer_type AS developerType,
+                2 as type,b.create_time
+                FROM
+                b2b_op_activity.op_fit_my_recruit a
+                INNER JOIN 
+                b2b_bidding.bid_recruit_item b ON a.item_id = b.item_id
+                left join 
+                (
+	                select item_id from b2b_bidding.bid_recruit_item_register where supplier_id = @supplier_id
+                ) r on b.item_id=r.item_id
+                INNER JOIN b2b_company.uuc_developer c ON b.company_id = c.developer_id
+								INNER JOIN b2b_parameter.bsp_basic_forest d on b.categories=d.category_code
+								
+                WHERE
+                a.supplier_id = @supplier_id and a.is_complete_meet=1 and r.item_id is null and b.register_end_date>now()
+                AND c.company_name not like 'test_%' GROUP BY c.company_name
+			) a  ORDER BY type,developertype ,created_time desc LIMIT 3
+ ) z HAVING COUNT(1)>=1 
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#商机列表#</key>
+              <value source="entity">nr</value>
+            </parameter>
+            <parameter>
+              <key>#排序参数#</key>
+              <value source="entity">ids</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+			select COUNT(1) as opp_cnt,count(DISTINCT developer_id) as dev_cnt
+			from (
+                SELECT
+                b.uid as itemId,c.developer_id,1 as type
+                FROM
+                b2b_op_activity.op_fit_my_bidding a
+                INNER JOIN 
+                b2b_bidding.bid_announcements b ON a.item_id = b.uid
+                left join 
+                (
+		                select bid_announcement_uid as item_id from b2b_bidding.bid_announcements_register where supplier_id = @supplier_id
+                ) r on a.item_id=r.item_id
+                INNER JOIN b2b_company.uuc_developer c ON b.developer_uid = c.developer_id
+                WHERE a.supplier_id = @supplier_id and b.register_end_date>now() AND c.company_name not like 'test_%' and r.item_id is null
+                union all
+
+									SELECT DISTINCT
+									b.item_id as itemId,c.developer_id,2 as type
+									FROM
+									b2b_op_activity.op_fit_my_recruit a
+									INNER JOIN 
+									b2b_bidding.bid_recruit_item b ON a.item_id = b.item_id
+									left join 
+									(
+										select item_id from b2b_bidding.bid_recruit_item_register where supplier_id = @supplier_id
+									) r on b.item_id=r.item_id
+									INNER JOIN
+									b2b_company.uuc_developer c ON b.company_id = c.developer_id
+									WHERE
+									a.supplier_id = @supplier_id and a.is_complete_meet=1 and r.item_id is null  and b.register_end_date>now()
+									AND c.company_name not like 'test_%'  
+        ) a 
+             ]]>
+          </sql>
+          <description></description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或source="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#商机数#</key>
+              <value source="entity">opp_cnt</value>
+            </parameter>
+            <parameter>
+              <key>#开发商家数#</key>
+              <value source="entity">dev_cnt</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

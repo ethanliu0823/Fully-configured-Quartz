@@ -1,0 +1,1005 @@
+2016-06-15 09:50:33,956 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 09:50:34,063 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 09:50:34,092 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 09:50:34,188 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 09:50:34,190 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 09:50:34,199 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 09:50:34,212 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 09:50:34,212 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 09:50:34,212 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 09:50:34,222 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 09:50:36,635 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:50:37,797 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:50:38,428 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:50:54,266 [_Worker-1] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 191
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process6() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 940
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 91
+2016-06-15 09:50:54,267 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 09:50:59,638 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:51:01,326 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:51:02,199 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:51:04,134 [_Worker-2] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 191
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process6() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 940
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 91
+2016-06-15 09:51:04,135 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 09:51:28,039 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:51:43,795 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:52:03,555 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:52:15,286 [_Worker-3] ERROR MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--执行异常：Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: {. Path 'message', line 1, position 27.
+   在 Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   在 Newtonsoft.Json.JsonTextReader.ReadAsString()
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   在 MycaigouScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.DataAccess\MessageQueue.cs:行号 191
+   在 MycaigouScheduler.Plugins.VisitWebPush.Process6() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 940
+   在 MycaigouScheduler.Plugins.VisitWebPush.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\VisitWebPush.cs:行号 91
+2016-06-15 09:52:15,286 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 09:53:39,612 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:53:41,257 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:53:42,325 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:54:36,582 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: 发送结果：True
+2016-06-15 09:54:36,582 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 09:56:56,753 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:56:58,296 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:56:58,924 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:57:25,374 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: 发送结果：True
+2016-06-15 09:57:25,375 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 09:59:20,684 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 09:59:22,218 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 09:59:22,871 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 09:59:55,506 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: 发送结果：True
+2016-06-15 09:59:55,506 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 10:00:47,199 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 10:00:48,825 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 10:00:49,698 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 10:00:52,355 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: 发送结果：True
+2016-06-15 10:00:52,355 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 10:07:25,582 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 10:07:25,672 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 10:07:25,702 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 10:07:25,782 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 10:07:25,783 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 10:07:25,792 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 10:07:25,802 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 10:07:25,803 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 10:07:25,803 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 10:07:25,812 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 10:07:28,495 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 10:07:30,833 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=105325 商机为空或商机开发商为空
+2016-06-15 10:07:31,856 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: user_id=159101 商机为空或商机开发商为空
+2016-06-15 10:07:32,512 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--注册未认证: 发送结果：True
+2016-06-15 10:07:32,512 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 11:11:15,706 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 11:11:15,801 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 11:11:15,827 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 11:11:15,909 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 11:11:15,911 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 11:11:15,919 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 11:11:15,931 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 11:11:15,932 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 11:11:15,932 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 11:11:15,942 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 11:11:17,847 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 11:11:17,864 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 11:11:19,140 [_Worker-2] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-06-15 11:11:20,789 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送开始。
+2016-06-15 11:11:21,237 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送开始。
+2016-06-15 11:11:21,394 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始执行
+2016-06-15 11:11:21,398 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，报名次数＜50'查询数据开始
+2016-06-15 11:11:21,406 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:11:21,406 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages查询数据库开始。
+2016-06-15 11:11:21,962 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-06-15 11:11:22,046 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-06-14； userId：159100；openId：；mobile：13027975939；email：
+2016-06-15 11:11:22,129 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第2天；注册日期：2016-06-14； userId：159101；openId：oYOv8tuKhUMhyb3H8x5-ui7KVV1M；mobile：13027975931；email：
+2016-06-15 11:11:22,407 [_Worker-7] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-06-15 11:11:22,547 [_Worker-7] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-06-15 11:11:22,750 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第3天；注册日期：2016-06-13； userId：159093；openId：；mobile：11022221032；email：
+2016-06-15 11:11:23,060 [_Worker-3] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送完成。
+2016-06-15 11:11:23,079 [_Worker-8] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务开始
+2016-06-15 11:11:23,084 [_Worker-8] INFO  MycaigouScheduler.Plugins.SendMarketingMessage - -----定向营销发送消息-----服务结束
+2016-06-15 11:11:23,874 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务开始
+2016-06-15 11:11:23,882 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159063；openId：；mobile：17911111111；email：
+2016-06-15 11:11:24,459 [_Worker-10] INFO  MycaigouScheduler.Plugins.CMSAdStatusPublish - -----CMS广告状态更新及自动发布-----服务开始
+2016-06-15 11:11:25,033 [_Worker-1] INFO  MycaigouScheduler.Plugins.SupplierCollect - 同步供应商档案采集停止收集状态开始...
+2016-06-15 11:11:25,496 [_Worker-7] INFO  MycaigouScheduler.Plugins.HolidaySetInform - 节假日通知（招标预告审核）服务开始。
+2016-06-15 11:11:25,561 [_Worker-7] INFO  MycaigouScheduler.Plugins.HolidaySetInform - 今天不是节假日期。
+2016-06-15 11:11:25,561 [_Worker-7] INFO  MycaigouScheduler.Plugins.HolidaySetInform - 节假日通知（招标预告审核）服务结束。
+2016-06-15 11:11:25,962 [_Worker-3] INFO  MycaigouScheduler.Plugins.SupplierStatistics - -----供应商频道页-供应商数据-----服务开始
+2016-06-15 11:11:26,454 [_Worker-1] INFO  MycaigouScheduler.Plugins.SupplierCollect - 同步供应商档案采集停止收集状态完成，更新 984 条。
+2016-06-15 11:11:26,454 [_Worker-1] INFO  MycaigouScheduler.Plugins.SupplierCollect - 同步供应商档案采集激活状态开始...
+2016-06-15 11:11:26,494 [_Worker-10] INFO  MycaigouScheduler.Plugins.CMSAdStatusPublish - -----CMS广告状态更新及自动发布----服务结束
+2016-06-15 11:11:27,231 [_Worker-3] INFO  MycaigouScheduler.Plugins.SupplierStatistics - -----供应商频道页-供应商数据-----热门供应商数据生成成功
+2016-06-15 11:11:28,662 [_Worker-3] INFO  MycaigouScheduler.Plugins.SupplierStatistics - ------供应商频道页-感兴趣的供应商【临时】数据准备完成--------
+2016-06-15 11:11:28,716 [_Worker-3] INFO  MycaigouScheduler.Plugins.SupplierStatistics - ------供应商频道页-感兴趣的供应商【正式】数据准备完成--------
+2016-06-15 11:11:28,716 [_Worker-3] INFO  MycaigouScheduler.Plugins.SupplierStatistics - -----供应商频道页-供应商数据-----服务结束
+2016-06-15 11:11:29,669 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159065；openId：；mobile：11022228580；email：
+2016-06-15 11:11:30,995 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按日清洗）----完成
+2016-06-15 11:11:30,998 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按周清洗）----今天不是Friday不清洗
+2016-06-15 11:11:31,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-按月清洗）----今天不是1号不清洗
+2016-06-15 11:11:33,152 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159067；openId：；mobile：11022225251；email：
+2016-06-15 11:11:35,261 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159068；openId：；mobile：11022221085；email：
+2016-06-15 11:11:35,693 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-清洗当天）----完成
+2016-06-15 11:11:36,280 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：159062；openId：；mobile：18611111111；email：test@163.com
+2016-06-15 11:11:36,442 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159069；openId：；mobile：17611111111；email：
+2016-06-15 11:11:36,673 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：159098；openId：；mobile：13766678889；email：2137821389@qq.com
+2016-06-15 11:11:36,964 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第2天；userId：159099；openId：；mobile：15818700962；email：23423@qq.com
+2016-06-15 11:11:37,306 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：159089；openId：；mobile：13334221424；email：1112333@qq.com
+2016-06-15 11:11:37,581 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159070；openId：；mobile：13027975938；email：
+2016-06-15 11:11:37,593 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户159070第7天参数符合商机开发商名称为空，取消推送
+2016-06-15 11:11:37,602 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159071；openId：；mobile：11022228596；email：23@11.33
+2016-06-15 11:11:39,317 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：159090；openId：；mobile：12124212312；email：aaaa@qq.com
+2016-06-15 11:11:39,843 [_Worker-2] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--结束执行
+2016-06-15 11:11:40,678 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-未报名-日期类型：第3天；userId：159091；openId：；mobile：15555555555；email：fasdfas@qq.com
+2016-06-15 11:11:40,831 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159072；openId：；mobile：11022221589；email：
+2016-06-15 11:11:41,441 [_Worker-6] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-06-15 11:11:42,083 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159073；openId：；mobile：13027975555；email：
+2016-06-15 11:11:42,100 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户159073第7天参数符合商机开发商名称为空，取消推送
+2016-06-15 11:11:42,109 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159074；openId：；mobile：17511111111；email：
+2016-06-15 11:11:42,546 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159075；openId：；mobile：11022225934；email：zhuym@mysoft.com.cn
+2016-06-15 11:11:44,590 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159076；openId：；mobile：17411111111；email：
+2016-06-15 11:11:45,010 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159077；openId：；mobile：11022228574；email：
+2016-06-15 11:11:46,186 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159078；openId：；mobile：11022228968；email：
+2016-06-15 11:11:47,481 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159079；openId：；mobile：17311111111；email：jinjb@mycaigou.com
+2016-06-15 11:11:48,233 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159080；openId：；mobile：11022228598；email：
+2016-06-15 11:11:49,746 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159081；openId：；mobile：15665445986；email：
+2016-06-15 11:11:50,158 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159082；openId：；mobile：17211111111；email：zhuym@mysoft.com.cn
+2016-06-15 11:11:51,301 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159083；openId：；mobile：11058585855；email：
+2016-06-15 11:11:52,702 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第7天；注册日期：2016-06-07； userId：159084；openId：；mobile：16911111111；email：zhuym@mysoft.com.cn
+2016-06-15 11:11:54,864 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152875；openId：；mobile：19900000000；email：
+2016-06-15 11:11:55,481 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152876；openId：；mobile：19900000000；email：
+2016-06-15 11:11:55,842 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152877；openId：；mobile：19900000000；email：
+2016-06-15 11:11:56,944 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152879；openId：；mobile：19900000000；email：
+2016-06-15 11:11:57,461 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152880；openId：；mobile：19900000000；email：
+2016-06-15 11:11:57,897 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152881；openId：；mobile：19900000000；email：
+2016-06-15 11:11:58,484 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152882；openId：；mobile：19900000000；email：
+2016-06-15 11:11:58,989 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152883；openId：；mobile：19900000000；email：
+2016-06-15 11:11:59,414 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152884；openId：；mobile：19900000000；email：
+2016-06-15 11:11:59,736 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152885；openId：；mobile：19900000000；email：
+2016-06-15 11:12:00,181 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152886；openId：；mobile：19900000000；email：
+2016-06-15 11:12:00,647 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152887；openId：；mobile：19900000000；email：
+2016-06-15 11:12:02,192 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152888；openId：；mobile：19900000000；email：
+2016-06-15 11:12:02,613 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152889；openId：；mobile：19900000000；email：
+2016-06-15 11:12:02,899 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152890；openId：；mobile：19900000000；email：
+2016-06-15 11:12:03,403 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（供应商-累计）----完成
+2016-06-15 11:12:03,483 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152891；openId：；mobile：19900000000；email：
+2016-06-15 11:12:03,588 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-06-15 11:12:04,078 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152892；openId：；mobile：19900000000；email：
+2016-06-15 11:12:04,264 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-06-15 11:12:04,489 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152893；openId：；mobile：19900000000；email：
+2016-06-15 11:12:04,555 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-06-15 11:12:04,666 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - 10861
+2016-06-15 11:12:04,729 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:04,741 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:04,741 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:04,756 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:437
+2016-06-15 11:12:04,756 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:437
+2016-06-15 11:12:04,756 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库＜10，成功案例＜5，报名次数＞20'查询数据开始
+2016-06-15 11:12:04,758 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:04,814 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:04,819 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152893第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:04,821 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:04,821 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:04,822 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:440
+2016-06-15 11:12:04,822 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:440
+2016-06-15 11:12:04,822 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'入库≥10'查询数据开始
+2016-06-15 11:12:04,822 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:04,830 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152894；openId：；mobile：19900000000；email：
+2016-06-15 11:12:04,884 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:04,889 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:04,889 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:04,890 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:442
+2016-06-15 11:12:04,890 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:442
+2016-06-15 11:12:04,890 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＜20'查询数据开始
+2016-06-15 11:12:04,891 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:04,951 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:04,960 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:04,960 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:04,961 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:446
+2016-06-15 11:12:04,961 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:446
+2016-06-15 11:12:04,961 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＜5，报名＞=20'查询数据开始
+2016-06-15 11:12:04,961 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:05,037 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:05,039 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:05,040 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:05,040 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:447
+2016-06-15 11:12:05,041 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:447
+2016-06-15 11:12:05,041 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＜20次'查询数据开始
+2016-06-15 11:12:05,041 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:05,095 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:05,097 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:05,098 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:05,098 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:450
+2016-06-15 11:12:05,098 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:450
+2016-06-15 11:12:05,098 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--'成功案例＞5，报名＞=20次'查询数据开始
+2016-06-15 11:12:05,098 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages开始。
+2016-06-15 11:12:05,154 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据开始。
+2016-06-15 11:12:05,156 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages,筛选数据结束。count:0
+2016-06-15 11:12:05,156 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--方法GetMessages结束。
+2016-06-15 11:12:05,157 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--开始发送消息：消息模板id:451
+2016-06-15 11:12:05,157 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束发送消息：消息模板id:451
+2016-06-15 11:12:05,182 [_Worker-5] INFO  MycaigouScheduler.Plugins.NotSignUpSupplierMsgPush - NotSignUpSupplierMsgPush--结束执行
+2016-06-15 11:12:05,967 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152896；openId：；mobile：19900000000；email：
+2016-06-15 11:12:06,200 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-06-15 11:12:06,269 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-06-15 11:12:06,392 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-06-15 11:12:06,406 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152897；openId：；mobile：19900000000；email：
+2016-06-15 11:12:06,492 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-06-15 11:12:06,496 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-06-15 11:12:06,570 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-06-15 11:12:06,571 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按日清洗）----完成
+2016-06-15 11:12:06,574 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按周清洗）----今天不是Friday不清洗
+2016-06-15 11:12:06,577 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-按月清洗）----今天不是1号不清洗
+2016-06-15 11:12:06,646 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-06-15 11:12:07,080 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152898；openId：；mobile：19900000000；email：
+2016-06-15 11:12:07,383 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-06-15 11:12:07,561 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-06-15 11:12:08,260 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152899；openId：；mobile：19900000000；email：
+2016-06-15 11:12:08,915 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152902；openId：；mobile：19900000000；email：
+2016-06-15 11:12:09,199 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-06-15 11:12:09,269 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-06-15 11:12:09,392 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-06-15 11:12:09,491 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-06-15 11:12:09,495 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-06-15 11:12:09,569 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-06-15 11:12:09,570 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-清洗当天）----完成
+2016-06-15 11:12:09,682 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--001
+2016-06-15 11:12:09,717 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152903；openId：；mobile：19900000000；email：
+2016-06-15 11:12:10,318 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--002
+2016-06-15 11:12:10,487 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--003
+2016-06-15 11:12:10,910 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152905；openId：；mobile：19900000000；email：
+2016-06-15 11:12:11,301 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152906；openId：；mobile：19900000000；email：
+2016-06-15 11:12:11,912 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152907；openId：；mobile：19900000000；email：
+2016-06-15 11:12:12,067 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--004
+2016-06-15 11:12:12,180 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--005
+2016-06-15 11:12:12,383 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--006
+2016-06-15 11:12:12,485 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--007
+2016-06-15 11:12:12,630 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152908；openId：；mobile：19900000000；email：
+2016-06-15 11:12:12,660 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--008
+2016-06-15 11:12:13,215 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152912；openId：；mobile：19900000000；email：
+2016-06-15 11:12:13,562 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152913；openId：；mobile：19900000000；email：
+2016-06-15 11:12:13,854 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152915；openId：；mobile：19900000000；email：
+2016-06-15 11:12:14,275 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152916；openId：；mobile：19900000000；email：
+2016-06-15 11:12:15,036 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152917；openId：；mobile：19900000000；email：
+2016-06-15 11:12:15,416 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152917第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:15,430 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152918；openId：；mobile：19900000000；email：
+2016-06-15 11:12:15,895 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152919；openId：；mobile：19900000000；email：
+2016-06-15 11:12:16,180 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--009
+2016-06-15 11:12:16,199 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152919第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:16,207 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152920；openId：；mobile：19900000000；email：
+2016-06-15 11:12:16,373 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--010
+2016-06-15 11:12:16,379 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--011
+2016-06-15 11:12:16,451 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控--CalculateDeveloperByType--012
+2016-06-15 11:12:16,452 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - ------运营数据监控（开发商-累计）----完成
+2016-06-15 11:12:16,452 [_Worker-9] INFO  MycaigouScheduler.Plugins.OperationDataMonitor - -----运营数据监控-----服务结束
+2016-06-15 11:12:17,593 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152922；openId：；mobile：19900000000；email：
+2016-06-15 11:12:18,029 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152923；openId：；mobile：19900000000；email：
+2016-06-15 11:12:19,271 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152925；openId：；mobile：19900000000；email：
+2016-06-15 11:12:19,843 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152926；openId：；mobile：19900000000；email：
+2016-06-15 11:12:20,770 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152927；openId：；mobile：19900000000；email：
+2016-06-15 11:12:21,425 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152928；openId：；mobile：19900000000；email：
+2016-06-15 11:12:21,933 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152929；openId：；mobile：19900000000；email：
+2016-06-15 11:12:22,812 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152930；openId：；mobile：19900000000；email：
+2016-06-15 11:12:23,236 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152932；openId：；mobile：19900000000；email：
+2016-06-15 11:12:23,498 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152932第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:23,505 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152934；openId：；mobile：19900000000；email：
+2016-06-15 11:12:24,009 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152936；openId：；mobile：19900000000；email：
+2016-06-15 11:12:24,527 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152937；openId：；mobile：19900000000；email：
+2016-06-15 11:12:24,950 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152938；openId：；mobile：19900000000；email：
+2016-06-15 11:12:25,313 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152940；openId：；mobile：19900000000；email：
+2016-06-15 11:12:25,730 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152941；openId：；mobile：19900000000；email：
+2016-06-15 11:12:26,252 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152942；openId：；mobile：19900000000；email：
+2016-06-15 11:12:26,628 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152944；openId：；mobile：19900000000；email：
+2016-06-15 11:12:26,928 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152945；openId：；mobile：19900000000；email：
+2016-06-15 11:12:27,427 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152947；openId：；mobile：19900000000；email：
+2016-06-15 11:12:27,811 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152948；openId：；mobile：19900000000；email：
+2016-06-15 11:12:28,281 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152951；openId：；mobile：19900000000；email：
+2016-06-15 11:12:28,540 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152952；openId：；mobile：19900000000；email：
+2016-06-15 11:12:28,885 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152954；openId：；mobile：19900000000；email：
+2016-06-15 11:12:29,247 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152955；openId：；mobile：19900000000；email：
+2016-06-15 11:12:29,624 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152956；openId：；mobile：19900000000；email：
+2016-06-15 11:12:29,943 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152957；openId：；mobile：19900000000；email：
+2016-06-15 11:12:30,228 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152957第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:30,238 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152959；openId：；mobile：19900000000；email：
+2016-06-15 11:12:30,624 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152960；openId：；mobile：19900000000；email：
+2016-06-15 11:12:30,959 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152961；openId：；mobile：19900000000；email：
+2016-06-15 11:12:31,237 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152963；openId：；mobile：19900000000；email：
+2016-06-15 11:12:31,721 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152965；openId：；mobile：19900000000；email：
+2016-06-15 11:12:32,063 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152967；openId：；mobile：19900000000；email：
+2016-06-15 11:12:32,400 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152969；openId：；mobile：19900000000；email：
+2016-06-15 11:12:32,757 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152970；openId：；mobile：19900000000；email：
+2016-06-15 11:12:33,413 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152971；openId：；mobile：19900000000；email：
+2016-06-15 11:12:33,658 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152971第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:33,663 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152972；openId：；mobile：19900000000；email：
+2016-06-15 11:12:34,174 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152973；openId：；mobile：19900000000；email：
+2016-06-15 11:12:34,372 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户152973第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:34,379 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152974；openId：；mobile：19900000000；email：
+2016-06-15 11:12:34,698 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152976；openId：；mobile：19900000000；email：
+2016-06-15 11:12:35,124 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152977；openId：；mobile：19900000000；email：
+2016-06-15 11:12:35,465 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152979；openId：；mobile：19900000000；email：
+2016-06-15 11:12:35,747 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152980；openId：；mobile：19900000000；email：
+2016-06-15 11:12:36,069 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152982；openId：；mobile：19900000000；email：
+2016-06-15 11:12:36,349 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152983；openId：；mobile：19900000000；email：
+2016-06-15 11:12:36,725 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152985；openId：；mobile：19900000000；email：
+2016-06-15 11:12:37,351 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152987；openId：；mobile：19900000000；email：
+2016-06-15 11:12:37,650 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152993；openId：；mobile：19900000000；email：
+2016-06-15 11:12:37,956 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152994；openId：；mobile：19900000000；email：
+2016-06-15 11:12:38,268 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152995；openId：；mobile：19900000000；email：
+2016-06-15 11:12:38,497 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152996；openId：；mobile：19900000000；email：
+2016-06-15 11:12:38,780 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152997；openId：；mobile：19900000000；email：
+2016-06-15 11:12:39,427 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：152998；openId：；mobile：19900000000；email：
+2016-06-15 11:12:39,718 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153001；openId：；mobile：19900000000；email：
+2016-06-15 11:12:40,058 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153002；openId：；mobile：19900000000；email：
+2016-06-15 11:12:40,385 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153004；openId：；mobile：19900000000；email：
+2016-06-15 11:12:40,591 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户153004第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:40,599 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153005；openId：；mobile：19900000000；email：
+2016-06-15 11:12:40,895 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153007；openId：；mobile：19900000000；email：
+2016-06-15 11:12:41,095 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 用户153007第45天参数同行公司名称为空，取消推送
+2016-06-15 11:12:41,101 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153008；openId：；mobile：19900000000；email：
+2016-06-15 11:12:41,787 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153010；openId：；mobile：19900000000；email：
+2016-06-15 11:12:42,504 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第45天；注册日期：2016-04-14； userId：153011；openId：；mobile：19900000000；email：
+2016-06-15 11:12:43,016 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：149998；openId：；mobile：19900000000；email：
+2016-06-15 11:12:44,966 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150001；openId：；mobile：19900000000；email：
+2016-06-15 11:12:46,478 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150002；openId：；mobile：19900000000；email：
+2016-06-15 11:12:47,845 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150007；openId：；mobile：19900000000；email：
+2016-06-15 11:12:49,135 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150012；openId：；mobile：19900000000；email：
+2016-06-15 11:12:50,494 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150014；openId：；mobile：19900000000；email：
+2016-06-15 11:12:51,938 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150016；openId：；mobile：19900000000；email：
+2016-06-15 11:12:53,456 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150018；openId：；mobile：19900000000；email：
+2016-06-15 11:12:54,812 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150021；openId：；mobile：19900000000；email：
+2016-06-15 11:12:56,173 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150022；openId：；mobile：19900000000；email：
+2016-06-15 11:12:57,607 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150024；openId：；mobile：19900000000；email：
+2016-06-15 11:12:59,482 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150025；openId：；mobile：19900000000；email：
+2016-06-15 11:13:01,244 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150027；openId：；mobile：19900000000；email：
+2016-06-15 11:13:02,913 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150028；openId：；mobile：19900000000；email：
+2016-06-15 11:13:04,330 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150029；openId：；mobile：19900000000；email：
+2016-06-15 11:13:05,653 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150032；openId：；mobile：19900000000；email：
+2016-06-15 11:13:07,014 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150033；openId：；mobile：19900000000；email：
+2016-06-15 11:13:08,475 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150039；openId：；mobile：19900000000；email：
+2016-06-15 11:13:09,845 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150043；openId：；mobile：19900000000；email：
+2016-06-15 11:13:11,163 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150045；openId：；mobile：19900000000；email：
+2016-06-15 11:13:12,777 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150046；openId：；mobile：19900000000；email：
+2016-06-15 11:13:14,149 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150047；openId：；mobile：19900000000；email：
+2016-06-15 11:13:15,560 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150048；openId：；mobile：19900000000；email：
+2016-06-15 11:13:17,065 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150050；openId：；mobile：19900000000；email：
+2016-06-15 11:13:18,626 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150051；openId：；mobile：19900000000；email：
+2016-06-15 11:13:19,987 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150052；openId：；mobile：19900000000；email：
+2016-06-15 11:13:21,417 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150056；openId：；mobile：19900000000；email：
+2016-06-15 11:13:23,016 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150057；openId：；mobile：19900000000；email：
+2016-06-15 11:13:24,413 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150058；openId：；mobile：19900000000；email：
+2016-06-15 11:13:25,821 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150060；openId：；mobile：19900000000；email：
+2016-06-15 11:13:27,296 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150061；openId：；mobile：19900000000；email：
+2016-06-15 11:13:28,290 [_Worker-1] ERROR Quartz.Core.JobRunShell - Job Test.SupplierCollect threw an unhandled Exception: 
+MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.SupplierCollect.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\SupplierCollect.cs:行号 186
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+2016-06-15 11:13:28,401 [_Worker-1] ERROR Quartz.Core.ErrorLogger - Job (Test.SupplierCollect threw an exception.
+Quartz.SchedulerException: Job threw an unhandled exception. ---> MySql.Data.MySqlClient.MySqlException: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.SupplierCollect.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\SupplierCollect.cs:行号 186
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187
+   --- 内部异常堆栈跟踪的结尾 --- [See nested exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.TimeoutException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.IO.IOException: 无法从传输连接中读取数据: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。。 ---> System.Net.Sockets.SocketException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 MySql.Data.Common.MyNetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.TimedStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.IO.BufferedStream.Read(Byte[] array, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.ReadFully(Stream stream, Byte[] buffer, Int32 offset, Int32 count)
+   在 MySql.Data.MySqlClient.MySqlStream.LoadPacket()
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.ExceptionInterceptor.Throw(Exception exception)
+   在 MySql.Data.MySqlClient.MySqlConnection.Throw(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlConnection.HandleTimeoutOrThreadAbort(Exception ex)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.SupplierCollect.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\SupplierCollect.cs:行号 186
+   在 Quartz.Core.JobRunShell.Run() 位置 c:\Work\OpenSource\Quartz.NET\quartznet\src\Quartz\Core\JobRunShell.cs:行号 187]
+2016-06-15 11:13:28,830 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150062；openId：；mobile：19900000000；email：
+2016-06-15 11:13:30,355 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150064；openId：；mobile：19900000000；email：
+2016-06-15 11:13:31,785 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150068；openId：；mobile：19900000000；email：
+2016-06-15 11:13:33,243 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150069；openId：；mobile：19900000000；email：
+2016-06-15 11:13:35,097 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150071；openId：；mobile：19900000000；email：
+2016-06-15 11:13:36,919 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150072；openId：；mobile：19900000000；email：
+2016-06-15 11:13:39,044 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150074；openId：；mobile：19900000000；email：
+2016-06-15 11:13:40,629 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150075；openId：；mobile：19900000000；email：
+2016-06-15 11:13:42,231 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150076；openId：；mobile：19900000000；email：
+2016-06-15 11:13:44,532 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150077；openId：；mobile：19900000000；email：
+2016-06-15 11:13:46,662 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150082；openId：；mobile：19900000000；email：
+2016-06-15 11:13:48,463 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150085；openId：；mobile：19900000000；email：
+2016-06-15 11:13:50,977 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150088；openId：；mobile：19900000000；email：
+2016-06-15 11:13:52,938 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150089；openId：；mobile：19900000000；email：
+2016-06-15 11:13:54,607 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150094；openId：；mobile：19900000000；email：
+2016-06-15 11:13:56,019 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150095；openId：；mobile：19900000000；email：
+2016-06-15 11:13:57,934 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150097；openId：；mobile：19900000000；email：
+2016-06-15 11:13:59,480 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150100；openId：；mobile：19900000000；email：
+2016-06-15 11:14:01,099 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150101；openId：；mobile：19900000000；email：
+2016-06-15 11:14:02,663 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150104；openId：；mobile：19900000000；email：
+2016-06-15 11:14:04,809 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150106；openId：；mobile：19900000000；email：
+2016-06-15 11:14:06,854 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150107；openId：；mobile：19900000000；email：
+2016-06-15 11:14:09,012 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150108；openId：；mobile：19900000000；email：
+2016-06-15 11:14:11,327 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150110；openId：；mobile：19900000000；email：
+2016-06-15 11:14:12,886 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150112；openId：；mobile：19900000000；email：
+2016-06-15 11:14:14,653 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150114；openId：；mobile：19900000000；email：
+2016-06-15 11:14:16,546 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150115；openId：；mobile：19900000000；email：
+2016-06-15 11:14:18,307 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150116；openId：；mobile：19900000000；email：
+2016-06-15 11:14:20,383 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150117；openId：；mobile：19900000000；email：
+2016-06-15 11:14:22,388 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150118；openId：；mobile：19900000000；email：
+2016-06-15 11:14:23,917 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150119；openId：；mobile：19900000000；email：
+2016-06-15 11:14:25,745 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150120；openId：；mobile：19900000000；email：
+2016-06-15 11:14:27,830 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150122；openId：；mobile：19900000000；email：
+2016-06-15 11:14:29,239 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150125；openId：；mobile：19900000000；email：
+2016-06-15 11:14:31,157 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150127；openId：；mobile：19900000000；email：
+2016-06-15 11:14:32,739 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150128；openId：；mobile：19900000000；email：
+2016-06-15 11:14:34,179 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150131；openId：；mobile：19900000000；email：
+2016-06-15 11:14:35,811 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150132；openId：；mobile：19900000000；email：
+2016-06-15 11:14:37,118 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150133；openId：；mobile：19900000000；email：
+2016-06-15 11:14:38,429 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150134；openId：；mobile：19900000000；email：
+2016-06-15 11:14:39,774 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150136；openId：；mobile：19900000000；email：
+2016-06-15 11:14:41,100 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150137；openId：；mobile：19900000000；email：
+2016-06-15 11:14:43,036 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150139；openId：；mobile：19900000000；email：
+2016-06-15 11:14:44,925 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150140；openId：；mobile：19900000000；email：
+2016-06-15 11:14:46,261 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150141；openId：；mobile：19900000000；email：
+2016-06-15 11:14:47,648 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150142；openId：；mobile：19900000000；email：
+2016-06-15 11:14:48,987 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150144；openId：；mobile：19900000000；email：
+2016-06-15 11:14:50,807 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150145；openId：；mobile：19900000000；email：
+2016-06-15 11:14:52,350 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150146；openId：；mobile：19900000000；email：
+2016-06-15 11:14:53,734 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-日期类型：第60天；注册日期：2016-03-24； userId：150147；openId：；mobile：19900000000；email：
+2016-06-15 11:14:55,635 [_Worker-4] INFO  MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush - 未认证供应商信息推送-未认证供应商信息推送完成。
+2016-06-15 16:34:52,531 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:34:52,640 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:34:52,669 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:34:52,771 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:34:52,772 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:34:52,782 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:34:52,795 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:34:52,796 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:34:52,796 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:34:52,805 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:34:54,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:35:08,474 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:35:49,031 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:35:49,146 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:35:49,179 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:35:49,276 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:35:49,279 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:35:49,289 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:35:49,302 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:35:49,303 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:35:49,303 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:35:49,314 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:37:00,057 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:37:33,288 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:39:17,240 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:39:17,345 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:39:17,407 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:39:17,511 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:39:17,512 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:39:17,522 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:39:17,534 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:39:17,535 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:39:17,535 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:39:17,543 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:40:00,060 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:40:02,819 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:40:59,999 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:41:01,776 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:44:56,196 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:44:56,322 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:44:56,356 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:44:56,458 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:44:56,460 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:44:56,473 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:44:56,489 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:44:56,490 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:44:56,490 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:44:56,500 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:45:00,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:45:07,284 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:45:59,998 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:46:02,727 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:47:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:47:01,439 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:47:59,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:48:06,542 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:48:29,868 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:48:29,968 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:48:29,997 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:48:30,085 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:48:30,087 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:48:30,096 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:48:30,108 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:48:30,109 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:48:30,109 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:48:30,118 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:49:00,057 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:49:03,405 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:49:56,363 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-15 16:49:56,471 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-15 16:49:56,501 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-15 16:49:56,586 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-15 16:49:56,588 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-15 16:49:56,600 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-15 16:49:56,612 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-15 16:49:56,613 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-15 16:49:56,613 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-15 16:49:56,623 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-15 16:50:00,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:50:02,629 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:51:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:51:02,917 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:51:59,999 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:52:04,897 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:52:59,998 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:52:59,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:53:59,999 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:54:00,000 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:54:59,999 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:55:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:55:59,999 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:56:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:56:59,999 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:57:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:58:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:58:00,002 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 16:58:59,999 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 16:59:00,000 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:00:00,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:00:04,912 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:00:07,328 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:01:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:01:03,394 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:01:05,162 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:01:59,998 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:02:03,340 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:02:05,304 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:02:59,998 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:03:04,312 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:03:06,255 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:03:59,998 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:04:03,279 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:04:05,083 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:04:59,998 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:05:04,263 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:05:06,252 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:06:00,005 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:06:03,832 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:06:05,569 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:06:59,998 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:07:04,006 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:07:06,737 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:07:59,998 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:08:03,336 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:08:05,255 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:08:59,998 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:09:04,161 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:09:06,059 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:09:59,998 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:10:03,360 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:10:05,085 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:10:59,999 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:11:03,356 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:11:06,031 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:11:59,998 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:12:03,560 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:12:05,470 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:12:59,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:13:03,446 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:13:05,202 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:13:59,998 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:14:03,740 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:14:05,700 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:15:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:15:03,274 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:15:05,285 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:15:59,999 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:16:04,616 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:16:06,879 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:16:59,998 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:17:03,356 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:17:05,206 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:17:59,998 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:18:03,733 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:18:06,123 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:18:59,998 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:19:03,567 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:19:05,547 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:19:59,998 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:20:03,590 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:20:06,637 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:20:59,998 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:21:04,047 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:21:05,854 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:21:59,999 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:22:03,457 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:22:05,292 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:22:59,998 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:23:04,615 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:23:07,398 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:23:59,998 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:24:03,403 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:24:05,150 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:24:59,999 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:25:03,894 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:25:05,750 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:26:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:26:03,366 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:26:05,143 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:26:59,999 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:27:03,892 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:27:06,542 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:27:59,999 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:28:03,587 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:28:05,381 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:28:59,998 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:29:04,501 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:29:07,437 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:29:59,998 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:30:03,299 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:30:05,176 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:30:59,999 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:31:03,232 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:31:05,013 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:31:59,999 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:32:03,634 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:32:05,443 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:33:00,013 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:33:03,518 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:33:05,353 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:34:00,004 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:34:03,807 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:34:05,574 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:35:00,002 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:35:03,340 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:35:05,077 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:36:00,012 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:36:03,454 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:36:06,035 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:37:00,011 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:37:04,202 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:37:05,981 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:38:00,003 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:38:04,005 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:38:06,483 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:39:00,003 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:39:03,655 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:39:05,446 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:40:00,003 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:40:03,863 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:40:06,371 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:41:00,003 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:41:04,295 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:41:06,094 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:42:00,003 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:42:03,368 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:42:05,164 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:43:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:43:03,476 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:43:05,314 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:44:00,001 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:44:03,813 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:44:05,570 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:45:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:45:03,677 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:45:05,974 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:46:00,003 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:46:03,425 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:46:05,248 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:47:00,001 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:47:04,748 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:47:07,093 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:48:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:48:03,422 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:48:05,486 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:49:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:49:03,433 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:49:05,479 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:50:00,001 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:50:03,701 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:50:05,540 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:51:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:51:03,424 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:51:05,480 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:52:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:52:04,111 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:52:06,238 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:53:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:53:03,407 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:53:05,692 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:54:00,001 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:54:03,628 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:54:05,961 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:54:59,999 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:55:03,296 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:55:05,171 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:56:00,001 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:56:04,509 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:56:06,321 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:57:00,002 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:57:03,318 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:57:05,105 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:58:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:58:04,605 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:58:07,375 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 17:59:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 17:59:03,888 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--已认证--有符合商机有报名比例低于60%-有符合的商机不在符合区域: 发送实体为空
+2016-06-15 17:59:05,640 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:00:00,002 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:00:00,002 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:01:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:01:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:02:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:02:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:03:00,000 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:03:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:04:00,000 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:04:00,001 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:05:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:05:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:06:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:06:00,001 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:07:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:07:00,001 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:08:00,000 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:08:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:09:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:09:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:10:00,003 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:10:00,003 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:11:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:11:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:12:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:12:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:13:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:13:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:14:00,000 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:14:00,001 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:15:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:15:00,003 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:16:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:16:00,001 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:17:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:17:00,001 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:18:00,000 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:18:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:19:00,000 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:19:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:20:00,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:20:00,001 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:21:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:21:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:22:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:22:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:23:00,000 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:23:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:24:00,000 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:24:00,001 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:25:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:25:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:26:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:26:00,001 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:27:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:27:00,001 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:28:00,000 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:28:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:29:00,000 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:29:00,001 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:30:00,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:30:00,001 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:31:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:31:00,002 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:32:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:32:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:33:00,000 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:33:00,001 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:34:00,002 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:34:00,002 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:35:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:35:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:36:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:36:00,001 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:37:00,002 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:37:00,002 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:38:00,001 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:38:00,002 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:39:00,000 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:39:00,002 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:40:00,002 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:40:00,002 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:41:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:41:00,001 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:42:00,000 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:42:00,001 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:42:59,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:43:00,000 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:43:59,998 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:43:59,999 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:45:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:45:00,001 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:45:59,999 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:46:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:47:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:47:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:47:59,999 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:48:00,000 [_Worker-9] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:49:00,002 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:49:00,002 [_Worker-10] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:49:59,999 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:50:00,000 [_Worker-1] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:50:59,999 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:51:00,000 [_Worker-2] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:51:59,999 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:52:00,003 [_Worker-3] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:52:59,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:53:00,000 [_Worker-4] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:53:59,999 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:54:00,000 [_Worker-5] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:54:59,999 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:55:00,000 [_Worker-6] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:55:59,999 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:56:00,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行
+2016-06-15 18:56:59,999 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--开始执行
+2016-06-15 18:57:00,000 [_Worker-8] INFO  MycaigouScheduler.Plugins.VisitWebPush - VisitWebPush--结束执行

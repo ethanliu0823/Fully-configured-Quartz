@@ -1,0 +1,54 @@
+2016-06-16 15:17:20,342 [10260] INFO  MycaigouScheduler.Service.NewService - 通用调度服务初始化...
+2016-06-16 15:17:20,463 [10260] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-16 15:17:20,618 [10260] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-16 15:17:20,683 [10260] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-16 15:17:20,759 [10260] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-16 15:17:20,760 [10260] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-16 15:17:20,771 [10260] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-16 15:17:20,792 [10260] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-16 15:17:20,793 [10260] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-16 15:17:20,793 [10260] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-16 15:17:20,795 [10260] INFO  MycaigouScheduler.Service.NewService - 通用调度服务初始化完成。
+2016-06-16 15:17:20,796 [10260] INFO  MycaigouScheduler.Service.NewService - 开始通用调度任务...
+2016-06-16 15:17:20,809 [10260] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-16 15:17:20,811 [10260] INFO  MycaigouScheduler.Service.NewService - 通用调度任务已开始。
+2016-06-16 15:17:20,910 [10260] ERROR MycaigouScheduler.Service.NewService - 通用调度服务初始化失败，原因：未能找到路径“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Service\bin\Debug\TaskConfig\Summary.xml”的一部分。
+2016-06-16 15:23:31,987 [7160] INFO  MycaigouScheduler.Service.NewService - 停止通用调度任务。
+2016-06-16 15:23:31,995 [7160] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-06-16 15:23:31,997 [7160] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-06-16 15:23:32,111 [7160] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2016-06-16 15:23:32,116 [7160] INFO  MycaigouScheduler.Service.NewService - 执行了 0 个任务。
+2016-06-16 15:23:45,462 [6108] INFO  MycaigouScheduler.Service.NewService - 通用调度服务初始化...
+2016-06-16 15:23:45,535 [6108] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-06-16 15:23:45,673 [6108] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-06-16 15:23:45,712 [6108] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-06-16 15:23:45,756 [6108] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-06-16 15:23:45,759 [6108] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-06-16 15:23:45,773 [6108] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-06-16 15:23:45,792 [6108] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-06-16 15:23:45,793 [6108] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-06-16 15:23:45,793 [6108] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-06-16 15:23:45,796 [6108] INFO  MycaigouScheduler.Service.NewService - 通用调度服务初始化完成。
+2016-06-16 15:23:45,796 [6108] INFO  MycaigouScheduler.Service.NewService - 开始通用调度任务...
+2016-06-16 15:23:45,811 [6108] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-06-16 15:23:45,813 [6108] INFO  MycaigouScheduler.Service.NewService - 通用调度任务已开始。
+2016-06-16 15:23:45,829 [6108] ERROR MycaigouScheduler.Service.NewService - 通用调度服务初始化失败，原因：未能找到路径“E:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Service\bin\Debug\TaskConfig\Summary.xml”的一部分。
+2016-06-16 15:26:30,411 [772] INFO  MycaigouScheduler.Service.NewService - 停止通用调度任务。
+2016-06-16 15:26:30,421 [772] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-06-16 15:26:30,424 [772] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-06-16 15:26:30,785 [772] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2016-06-16 15:26:30,790 [772] INFO  MycaigouScheduler.Service.NewService - 执行了 0 个任务。

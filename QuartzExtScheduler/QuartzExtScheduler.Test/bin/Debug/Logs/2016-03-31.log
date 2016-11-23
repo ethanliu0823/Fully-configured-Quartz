@@ -1,0 +1,85 @@
+2016-03-31 14:59:06,393 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-03-31 14:59:06,507 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-03-31 14:59:06,541 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-03-31 14:59:06,656 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-03-31 14:59:06,658 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-03-31 14:59:06,668 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-03-31 14:59:06,682 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 14:59:06,682 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-03-31 14:59:06,683 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-03-31 14:59:06,692 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-03-31 14:59:11,532 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送开始。
+2016-03-31 14:59:13,356 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC06-test033106-18221749987第2天参数行业招募数量为空，取消推送
+2016-03-31 14:59:13,697 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC09-test033109-18221749990第2天参数行业招募数量为空，取消推送
+2016-03-31 14:59:13,861 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC10-test033110-18221749991第2天参数行业招募数量为空，取消推送
+2016-03-31 14:59:13,862 [_Worker-1] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送完成。
+2016-03-31 15:10:24,196 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送开始。
+2016-03-31 15:10:25,195 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC05-test033105-18221749986第2天参数行业招募数量为空，取消推送
+2016-03-31 15:10:25,284 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC06-test033106-18221749987第2天参数行业招募数量为空，取消推送
+2016-03-31 15:10:25,578 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC09-test033109-18221749990第2天参数行业招募数量为空，取消推送
+2016-03-31 15:10:25,664 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-CCC10-test033110-18221749991第2天参数行业招募数量为空，取消推送
+2016-03-31 15:10:25,664 [_Worker-2] INFO  MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush - 未注册供应商信息推送-未注册供应商信息推送完成。
+2016-03-31 18:27:12,595 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-03-31 18:27:12,702 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-03-31 18:27:12,732 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-03-31 18:27:12,803 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-03-31 18:27:12,804 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-03-31 18:27:12,814 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-03-31 18:27:12,827 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 18:27:12,827 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-03-31 18:27:12,827 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-03-31 18:27:12,837 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-03-31 18:27:16,112 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-03-31 18:27:16,807 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送完成。
+2016-03-31 18:28:59,858 [_Worker-2] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-03-31 18:30:57,989 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-03-31 18:30:58,096 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-03-31 18:30:58,127 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-03-31 18:30:58,232 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-03-31 18:30:58,234 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-03-31 18:30:58,244 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-03-31 18:30:58,258 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 18:30:58,259 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-03-31 18:30:58,259 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-03-31 18:30:58,268 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-03-31 18:31:02,366 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-03-31 18:32:27,931 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-03-31 18:32:28,053 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-03-31 18:32:28,086 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-03-31 18:32:28,186 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-03-31 18:32:28,188 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-03-31 18:32:28,198 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-03-31 18:32:28,212 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-03-31 18:32:28,213 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-03-31 18:32:28,213 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-03-31 18:32:28,223 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-03-31 18:32:32,622 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-新用户推动报名消息推送开始。
+2016-03-31 18:32:33,313 [_Worker-1] INFO  MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush - 新用户推动报名消息推送-没有满足条件的可推送用户，已结束。

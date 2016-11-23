@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+  <schedule>
+    <job>
+      <name>HolidaySetInform</name>
+      <group>Plugins</group>
+      <description>节假日通知服务</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.HolidaySetInform, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <!--短信标题-->
+          <key>SMSTitle</key>
+          <value>招标预告审核通知</value>
+        </entry>
+        <entry>
+          <!--短信模版-->
+          <key>SMSTemplate</key>
+          <value>您好，云采购存在@total条待审核的招标预告，请及时登录中台进行审核，祝您生活愉快！</value>
+        </entry>
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>SyncRegUser2ContactList</name>
+      <group>Plugins</group>
+      <description>云采购自主注册用户同步至采集联系人表</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.SyncRegUser2ContactList, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+        <!-- 同步范围(单位：天，默认1, 最小值 1) 注册超过3天的-->
+        <entry>
+          <key>SyncRange</key>
+          <value>3</value>
+        </entry>
+        <!-- 同步范围(单位：天，默认1, 最小值 1) 1天内会员信息有更新的-->
+        <entry>
+          <key>UpdateRange</key>
+          <value>1</value>
+        </entry>
+        <!-- 分配超过15天未认证，清空认证责任人-->
+        <entry>
+          <key>ResetRange</key>
+          <value>15</value>
+        </entry>
+        <!-- 中台联系人为确认加入云采购状态，7天内，同公司名称下注册的用户自动抓取分配给对应人-->
+        <entry>
+          <key>JoinInRange</key>
+          <value>7</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>SendMarketingMessage</name>
+      <group>Plugins</group>
+      <description>定向营销发送消息</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.SendMarketingMessage, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+        <!-- 时间间隔(分钟)-小于此时间间隔的就发送-->
+        <entry>
+          <key>Interval</key>
+          <value>10</value>
+        </entry>
+        <!-- 微信公众账号配置 -->
+        <entry>
+          <key>AppId</key>
+          <value>wxf6b64cbaa338b8c4</value>
+        </entry>
+        <entry>
+          <key>AppSecret</key>
+          <value>1ed58823f17e9591788537f535991b48</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>OKRStatistics</name>
+      <group>Plugins</group>
+      <description>OKR数据定时清洗</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.OKRStatistics, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+        <!-- 按周清洗的时间，周日为0，周一为1，一般为周五 -->
+        <entry>
+          <key>DayOfWeek</key>
+          <value>5</value>
+        </entry>
+        <!-- 按月清洗的时间，一般为1号 -->
+        <entry>
+          <key>DayOfMonth</key>
+          <value>1</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>ActivityStatistics</name>
+      <group>Plugins</group>
+      <description>招募活动数据清洗</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.ActivityStatistics, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>SupplierStatistics</name>
+      <group>Plugins</group>
+      <description>供应商频道页供应商数据</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.SupplierStatistics, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>CMSAdStatusPublish</name>
+      <group>Plugins</group>
+      <description>CMS广告状态更新及自动发布</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.CMSAdStatusPublish, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>LEDMonitor</name>
+      <group>Plugins</group>
+      <description>LED电视滚屏数据监控</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.LEDMonitor, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+        <!-- 抓取间隔 分钟-->
+        <entry>
+          <key>Interval</key>
+          <value>5</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>LEDOkrMonitor</name>
+      <group>Plugins</group>
+      <description>LED_Okr电视滚屏数据监控</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.LEDOkrMonitor, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>OperationDataMonitor</name>
+      <group>Plugins</group>
+      <description>运营数据监控</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.OperationDataMonitor, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Dev</value>
+        </entry>
+        <!-- 按周清洗的时间，周日为0，周一为1，一般为周五 -->
+        <entry>
+          <key>DayOfWeek</key>
+          <value>5</value>
+        </entry>
+        <!-- 按月清洗的时间，一般为1号 -->
+        <entry>
+          <key>DayOfMonth</key>
+          <value>1</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>NotCertifiedSupplierMsgPush</name>
+      <group>Plugins</group>
+      <description>未认证供应商用户消息推送</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.NotCertifiedSupplierMsgPush, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>NotRegisteredSupplierMsgPush</name>
+      <group>Plugins</group>
+      <description>未注册供应商用户消息推送</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.NotRegisteredSupplierMsgPush, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>NewUserPushEnrollMsgPush</name>
+      <group>Plugins</group>
+      <description>供应商会员推动报名消息推送</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.NewUserPushEnrollMsgPush,MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>CleanAllBizOpps</name>
+      <group>Plugins</group>
+      <description>符合条件的招募项数据清洗</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.CleanAllBizOpps, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>BizPush</name>
+      <group>Plugins</group>
+      <description>每日商机推送</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.BizPush, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <job>
+      <name>VisitWebPush</name>
+      <group>Plugins</group>
+      <description>当日登陆用户推送</description>
+      <!-- 任务完整类名，程序集名 -->
+      <job-type>MycaigouScheduler.Plugins.VisitWebPush, MycaigouScheduler.Plugins</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+      <job-data-map>
+        <!-- 要传递给任务的参数列表 -->
+        <entry>
+          <key>ConnectionName</key>
+          <value>Mycaigou_Mir</value>
+        </entry>
+      </job-data-map>
+    </job>
+    <trigger>
+      <cron>
+        <name>VisitWebPushTrigger</name>
+        <group>Plugins</group>
+        <description>当日登陆用户推送</description>
+        <job-name>VisitWebPush</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔1小时触发1次-->
+        <cron-expression>0 35 15 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>OperationDataMonitorTrigger</name>
+        <group>Plugins</group>
+        <description>运营数据监控</description>
+        <job-name>OperationDataMonitor</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔1小时触发1次-->
+        <cron-expression>0 0 0/1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>LEDOkrMonitorTrigger</name>
+        <group>Plugins</group>
+        <description>Okr电视滚屏数据监控</description>
+        <job-name>LEDOkrMonitor</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔5分触发-->
+        <cron-expression>0 0/5 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>LEDMonitorTrigger</name>
+        <group>Plugins</group>
+        <description>电视滚屏数据监控</description>
+        <job-name>LEDMonitor</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔5分触发-->
+        <cron-expression>0 0/5 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>HolidaySetInformTrigger</name>
+        <group>Plugins</group>
+        <description>节假日通知服务</description>
+        <job-name>HolidaySetInform</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天8：00 - 20：00 每2小时执行-->
+        <cron-expression>0 0 8,10,12,14,16,18,20 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>SyncRegUser2ContactListTrigger</name>
+        <group>Plugins</group>
+        <description>云采购自主注册用户同步至采集联系人表调度服务</description>
+        <job-name>SyncRegUser2ContactList</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天凌晨 1：00执行-->
+        <cron-expression>0 0 1 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>SendMarketingMessageTrigger</name>
+        <group>Plugins</group>
+        <description>定向营销发送消息调度服务</description>
+        <job-name>SendMarketingMessage</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔10分触发-->
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>OKRStatisticsTrigger</name>
+        <group>Plugins</group>
+        <description>OKR数据定时清洗调度服务</description>
+        <job-name>OKRStatistics</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天凌晨 3：00执行-->
+        <cron-expression>0 0 3 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>ActivityStatisticsTrigger</name>
+        <group>Plugins</group>
+        <description>招募活动数据清洗调度服务</description>
+        <job-name>ActivityStatistics</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天凌晨 4：00执行-->
+        <cron-expression>0 0 4 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>SupplierStatisticsTrigger</name>
+        <group>Plugins</group>
+        <description>供应商频道页供应商数据调度服务</description>
+        <job-name>SupplierStatistics</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天凌晨 5：00执行-->
+        <cron-expression>0 0 5 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>CMSAdStatusPublishTrigger</name>
+        <group>Plugins</group>
+        <description>CMS广告状态更新及自动发布调度服务</description>
+        <job-name>CMSAdStatusPublish</job-name>
+        <job-group>Plugins</job-group>
+        <!--每隔10分钟执行-->
+        <cron-expression>0 0/10 * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>NotCertifiedSupplierMsgPushTrigger</name>
+        <group>Plugins</group>
+        <description>未认证供应商用户消息推送调度服务</description>
+        <job-name>NotCertifiedSupplierMsgPush</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天10：30执行-->
+        <cron-expression>0 40 14 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>NotRegisteredSupplierMsgPush</name>
+        <group>Plugins</group>
+        <description>未注册供应商用户消息推送</description>
+        <job-name>NotRegisteredSupplierMsgPush</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天10：00执行-->
+        <cron-expression>0 00 10 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>NewUserPushEnrollMsgPush</name>
+        <group>Plugins</group>
+        <description>供应商会员推动报名消息推送</description>
+        <job-name>NewUserPushEnrollMsgPush</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天10：00执行-->
+        <cron-expression>0 8 17 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>CleanAllBizOpps</name>
+        <group>Plugins</group>
+        <description>符合条件的招募项数据清洗</description>
+        <job-name>CleanAllBizOpps</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天1：10执行-->
+        <cron-expression>0 33 17 * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <trigger>
+      <cron>
+        <name>BizPush</name>
+        <group>Plugins</group>
+        <description>每日商机推送</description>
+        <job-name>BizPush</job-name>
+        <job-group>Plugins</job-group>
+        <!--每天2：10执行-->
+        <cron-expression>0 30 18 * * ?</cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>

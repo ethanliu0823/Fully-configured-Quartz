@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <!--调度名称，必须标签，主要用于输出日志-->
+  <name>GoldAndNotGoldSupplierInfo</name>
+  <!--调度描述，必须标签，主要用于输出日志-->
+  <description>大数据已升级供应商与昨日登录非金牌</description>
+  <items>
+    <!--清洗任务项，针对业务划分，可有多个，必须标签-->
+    <!--属性name和description必须填写，用于输出日志-->
+    <item name="UpgradedGoldInfo" description="已升级金牌数据">
+
+      <!--选择器，必须标签，用于查询数据，也可以执行一段sql-->
+      <!--属性name和description必须填写,用于输出日志-->
+      <!--dayOfWeek属性表示每周几执行,all表示每天执行、1,2,3,4表示周一至周四执行-->
+      <!--type表示执行方式：nonQuery、dataTable-->
+
+      <selector name="s1" description="d1" dayOfWeek="all" type="dataTable">
+        <![CDATA[ 
+              SELECT
+              b.supplier_id,
+              b.company_name as  company_name,
+              cat.zyyw as main_services,
+              MIN(i.created_time) certification_time,
+              b.reg_capital_cny reg_capital,
+              area.item_name area_name,
+              COUNT(DISTINCT i.user_id) before_upgrade_users,
+              COUNT(DISTINCT case when FIND_IN_SET('总经理',i.postion) or  FIND_IN_SET('副总经理',i.postion) or FIND_IN_SET('营销总监',i.postion) then i.user_id end) before_upgrade_users_leaders,
+              0 before_upgrade_projects,
+              0 before_upgrade_gold_count,
+              0 before_upgrade_30day_login_times,              
+              COUNT(DISTINCT case when DATE(r.created_time) 
+		              between DATE(DATE_SUB(gold.begin_date,INTERVAL 30 DAY)) and DATE(DATE_SUB(gold.begin_date,INTERVAL 1 DAY)) then r.register_id end)  before_upgrade_30day_zmbms,
+              COUNT(DISTINCT case when r.storage=1 then r.register_id end) before_upgrade_rks,
+              0 before_upgrade_30day_zbbms,
+              0 before_upgrade_zbrws,
+              ifnull(v.llcs,0) before_upgrade_view_gold_times,
+              0 before_upgrade_pay_times,
+              0 before_upgrade_is_apply_gold
+              FROM b2b_company.uuc_supplier_basic b 
+              inner join b2b_company.uuc_supplier_gold gold on b.supplier_id=gold.supplier_id 
+              left join b2b_parameter.bizp_area area on b.province_code=area.item_code
+              left join (
+	              SELECT i.company_id,i.user_id,c.postion,i.created_time 
+	              FROM b2b_user.uuc_user_identity i
+	              inner join b2b_user_business.business_card_record c on i.user_id=c.user_id
+              ) i on b.supplier_id=i.company_id AND i.created_time<=gold.begin_date 
+              left join (
+	              SELECT c.supplier_id,GROUP_CONCAT(f.category_name) zyyw
+	              FROM b2b_company.uuc_supplier_service_category c
+	              inner join b2b_parameter.bsp_basic_forest f on c.category_code=f.category_code
+	              WHERE c.is_main=1 group by c.supplier_id
+              ) cat on cat.supplier_id=b.supplier_id
+              left join b2b_bidding.bid_recruit_item_register r on b.supplier_id=r.supplier_id AND r.created_time<=gold.begin_date 
+              left join (
+	              SELECT company_id,SUM(IFNULL(visit_times,0)) llcs
+	              FROM b2b_op_activity.`op_gold_supplier_view` group by company_id
+              ) v on b.supplier_id=v.company_id
+              group by b.supplier_id
+	      ]]>
+      </selector>
+
+      <!--非必须标签，表示清洗的目标表，table-name为目标表名，必填-->
+      <target table-name="dotnet_operation.bigData_gold_supplier_model">
+        <!--插入数据到目标表前执行的sql，非必须-->
+        <before-sql>
+          <![CDATA[ 
+		      DELETE FROM dotnet_operation.bigData_gold_supplier_model
+		      ]]>
+        </before-sql>
+        <!--插入数据到目标表后执行的sql，非必须-->
+        <after-sql>
+          <![CDATA[
+          -- 更新升级前成功案例、升级前30登录次数、升级前30天招标报名数、升级前入围总数
+          update dotnet_operation.bigData_gold_supplier_model t
+          INNER JOIN
+          (
+		          select gold.supplier_id, COUNT(DISTINCT p.uid) project_cnt,
+		          COUNT(DISTINCT case when DATE(r.created_time) between 
+			          DATE(DATE_SUB(gold.begin_date,INTERVAL 30 DAY)) and DATE(DATE_SUB(gold.begin_date,INTERVAL 1 DAY)) then r.uid end)  before_upgrade_30day_zbbms,
+		          COUNT(DISTINCT case when r.finalist_flag=1 then r.uid end) before_upgrade_zbrws,
+		          ifnull(login.login_cnt,0) before_upgrade_30day_login_times
+		          From 
+		          b2b_company.uuc_supplier_gold gold
+		          LEFT JOIN b2b_company.uuc_supplier_project p on gold.supplier_id=p.company_id and p.status=2 AND p.created_time<=gold.begin_date 
+		          left join b2b_bidding.bid_announcements_register r on gold.supplier_id=r.supplier_id  AND r.created_time<=gold.begin_date 
+		          left join (
+			          SELECT i.company_id,COUNT(DISTINCT l.login_log_id) as login_cnt FROM b2b_user.uuc_user_identity i
+			          inner join b2b_company.uuc_supplier_gold gold on i.company_id=gold.supplier_id
+			          inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+			          where l.login_time<=gold.begin_date AND l.login_time >=DATE_SUB(gold.begin_date,INTERVAL 30 DAY)
+				          GROUP BY i.company_id
+		          ) login on login.company_id=gold.supplier_id 
+		          group by gold.supplier_id
+          ) s on t.supplier_id= s.supplier_id
+          set t.before_upgrade_projects=s.project_cnt,
+		          t.before_upgrade_30day_zbbms=s.before_upgrade_30day_zbbms,
+		          t.before_upgrade_zbrws=s.before_upgrade_zbrws,
+		          t.before_upgrade_30day_login_times=s.before_upgrade_30day_login_times;
+              
+              
+              -- 更新是否同行金牌数
+              update dotnet_operation.bigData_gold_supplier_model t
+              INNER JOIN
+              (
+		              select gold.supplier_id,COUNT(DISTINCT sc.supplier_id2) before_upgrade_gold_count from 
+		              b2b_company.uuc_supplier_gold gold
+		              left join (
+			              SELECT c.supplier_id,g.begin_date,g.supplier_id supplier_id2
+			              FROM b2b_company.uuc_supplier_service_category c
+			              inner join b2b_company.uuc_supplier_service_category c2 on c.category_code=c2.category_code
+			              inner join b2b_company.uuc_supplier_basic bas on c2.supplier_id=bas.supplier_id 
+			              inner join b2b_company.uuc_supplier_gold g on bas.supplier_id=g.supplier_id
+			              WHERE bas.supplier_level=1 
+		              ) sc on gold.supplier_id=sc.supplier_id AND sc.begin_date<=gold.begin_date
+		              group by gold.supplier_id
+              ) s on t.supplier_id= s.supplier_id
+              set t.before_upgrade_gold_count=s.before_upgrade_gold_count ;
+              
+              
+              -- 更新是否申请过金牌
+              update dotnet_operation.bigData_gold_supplier_model t
+              INNER JOIN
+              (
+		              select gold.supplier_id,case when audit.company_id is not null then 1 else 0 end before_upgrade_is_apply_gold 
+		              From b2b_company.uuc_supplier_gold gold 
+		              left join b2b_company.uuc_company_level_apply audit on gold.supplier_id=audit.company_id and audit.created_time<gold.begin_date
+              )s on t.supplier_id= s.supplier_id
+                        set t.before_upgrade_is_apply_gold=s.before_upgrade_is_apply_gold;
+                        
+                        
+             
+             -- 更新升级前在线支付对接会次数
+              update dotnet_operation.bigData_gold_supplier_model t
+              INNER JOIN
+              (
+		              select gold.supplier_id,count(bcp.uid) as before_upgrade_pay_times From b2b_company.uuc_supplier_gold gold 
+		              left JOIN b2b_op_activity.op_business_connect_pay_order bcp on gold.supplier_id=bcp.supplier_id  and bcp.create_time<gold.begin_date
+		              GROUP BY gold.supplier_id
+              )s on t.supplier_id= s.supplier_id
+                        set t.before_upgrade_pay_times=s.before_upgrade_pay_times;
+          
+		      ]]>
+        </after-sql>
+      </target>
+    </item>
+    <item name="YesterdayLoginNotGoldInfo" description="昨日登录的非金牌">
+
+      <!--选择器，必须标签，用于查询数据，也可以执行一段sql-->
+      <!--属性name和description必须填写,用于输出日志-->
+      <!--dayOfWeek属性表示每周几执行,all表示每天执行、1,2,3,4表示周一至周四执行-->
+      <!--type表示执行方式：nonQuery、dataTable-->
+
+      <selector name="s1" description="d1" dayOfWeek="all" type="dataTable">
+        <![CDATA[ 
+              SELECT
+              b.supplier_id,
+              b.company_name as  company_name,
+							b.created_time register_time ,
+              cat.zyyw as main_services,
+              i.rzsj certification_time,
+              b.reg_capital_cny reg_capital,
+              area.item_name area_name,
+              i.hyrs users,
+              i.hyrs users_leaders,
+              0 projects,
+              0 gold_count,
+              0 30day_login_times,              
+              COUNT(DISTINCT case when DATE(r.created_time) 
+		              between DATE(DATE_SUB(now(),INTERVAL 30 DAY)) and DATE(now()) then r.register_id end)  30day_zmbms,
+              COUNT(DISTINCT case when r.storage=1 then r.register_id end) rks,
+              0 30day_zbbms,
+              0 zbrws,	              
+							ifnull(v.llcs,0) view_gold_times,
+              0 is_apply_gold,
+              0 pay_times
+              FROM b2b_company.uuc_supplier_basic b 
+							INNER JOIN
+							(
+									SELECT i.company_id FROM b2b_user.uuc_user_identity i
+									inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+									where date(l.login_time)=date(DATE_SUB(now(),INTERVAL 1 DAY))
+										GROUP BY i.company_id
+							)login on b.supplier_id=login.company_id
+              left join b2b_parameter.bizp_area area on b.province_code=area.item_code
+							left join
+							(
+								SELECT i.company_id,COUNT(1) hyrs,
+								SUM(case when FIND_IN_SET('总经理',c.postion) or  FIND_IN_SET('副总经理',c.postion) or FIND_IN_SET('营销总监',c.postion) then 1 else 0 end) lzrs,
+								MIN(i.created_time) rzsj
+								FROM b2b_user.uuc_user_identity i
+								inner join b2b_user_business.business_card_record c on i.user_id=c.user_id
+								group by i.company_id
+							) i on b.supplier_id=i.company_id
+              left join (
+	              SELECT c.supplier_id,GROUP_CONCAT(f.category_name) zyyw
+	              FROM b2b_company.uuc_supplier_service_category c
+	              inner join b2b_parameter.bsp_basic_forest f on c.category_code=f.category_code
+	              WHERE c.is_main=1 group by c.supplier_id
+              ) cat on cat.supplier_id=b.supplier_id
+              left join b2b_bidding.bid_recruit_item_register r on b.supplier_id=r.supplier_id 
+              left join (
+	              SELECT company_id,SUM(IFNULL(visit_times,0)) llcs
+	              FROM b2b_op_activity.`op_gold_supplier_view` group by company_id
+              ) v on b.supplier_id=v.company_id
+							where b.supplier_level<>1 and ifnull(b.supplier_id,'')<>''
+              group by b.supplier_id
+	      ]]>
+      </selector>
+
+      <!--非必须标签，表示清洗的目标表，table-name为目标表名，必填-->
+      <target table-name="dotnet_operation.bigData_yesterday_login_notgold_supplier_model">
+        <!--插入数据到目标表前执行的sql，非必须-->
+        <before-sql>
+          <![CDATA[ 
+		      DELETE FROM dotnet_operation.bigData_yesterday_login_notgold_supplier_model
+		      ]]>
+        </before-sql>
+        <!--插入数据到目标表后执行的sql，非必须-->
+        <after-sql>
+          <![CDATA[
+          -- 更新成功案例、近30天登录次数、近30天招标报名数、入围总数
+          update dotnet_operation.bigData_yesterday_login_notgold_supplier_model t
+          INNER JOIN
+          (
+		          select b.supplier_id, COUNT(DISTINCT p.uid) project_cnt,
+		          COUNT(DISTINCT case when DATE(r.created_time) between 
+			          DATE(DATE_SUB(now(),INTERVAL 30 DAY)) and DATE(now()) then r.uid end) 30day_zbbms,
+		          COUNT(DISTINCT case when r.finalist_flag=1 then r.uid end) zbrws,
+		          ifnull(login.login_cnt,0) 30day_login_times
+		          From b2b_company.uuc_supplier_basic b
+							INNER JOIN
+							(
+									SELECT i.company_id FROM b2b_user.uuc_user_identity i
+									inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+									where date(l.login_time)=date(DATE_SUB(now(),INTERVAL 1 DAY))
+										GROUP BY i.company_id
+							)loginY on b.supplier_id=loginY.company_id
+		          LEFT JOIN b2b_company.uuc_supplier_project p on b.supplier_id=p.company_id and p.status=2 
+		          left join b2b_bidding.bid_announcements_register r on b.supplier_id=r.supplier_id  
+		          left join (
+			          SELECT i.company_id,COUNT(DISTINCT l.login_log_id) as login_cnt FROM b2b_user.uuc_user_identity i
+			          inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+			          where l.login_time >=DATE_SUB(now(),INTERVAL 30 DAY)
+				          GROUP BY i.company_id
+		          ) login on login.company_id=b.supplier_id 
+							where b.supplier_level<>1
+		          group by b.supplier_id
+          ) s on t.supplier_id= s.supplier_id
+          set t.projects=s.project_cnt,
+		          t.30day_zbbms=s.30day_zbbms,
+		          t.zbrws=s.zbrws,
+		          t.30day_login_times=s.30day_login_times;
+              
+              
+              -- 更新是否同行金牌数
+              update dotnet_operation.bigData_yesterday_login_notgold_supplier_model t
+              INNER JOIN
+              (
+		              select b.supplier_id,COUNT(DISTINCT sc.supplier_id2) gold_count 
+		              From b2b_company.uuc_supplier_basic b
+									INNER JOIN
+									(
+											SELECT i.company_id FROM b2b_user.uuc_user_identity i
+											inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+											where date(l.login_time)=date(DATE_SUB(now(),INTERVAL 1 DAY))
+												GROUP BY i.company_id
+									)loginY on b.supplier_id=loginY.company_id
+		              left join
+									(
+											SELECT c.supplier_id,g.begin_date,g.supplier_id supplier_id2
+											FROM b2b_company.uuc_supplier_service_category c
+											inner join b2b_company.uuc_supplier_service_category c2 on c.category_code=c2.category_code
+											inner join b2b_company.uuc_supplier_basic bas on c2.supplier_id=bas.supplier_id 
+											inner join b2b_company.uuc_supplier_gold g on bas.supplier_id=g.supplier_id
+											WHERE bas.supplier_level=1 
+		              ) sc on b.supplier_id=sc.supplier_id 
+									WHERE b.supplier_level<>1 
+		              group by b.supplier_id
+              ) s on t.supplier_id= s.supplier_id
+              set t.gold_count=s.gold_count ;
+              
+              
+              -- 更新是否申请过金牌
+		          update dotnet_operation.bigData_yesterday_login_notgold_supplier_model t
+              INNER JOIN
+              (
+									select b.supplier_id,case when audit.company_id is not null then 1 else 0 end is_apply_gold 
+		              From b2b_company.uuc_supplier_basic b
+									INNER JOIN
+									(
+											SELECT i.company_id FROM b2b_user.uuc_user_identity i
+											inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+											where date(l.login_time)=date(DATE_SUB(now(),INTERVAL 1 DAY))
+												GROUP BY i.company_id
+									)loginY on b.supplier_id=loginY.company_id
+		              left join 
+									(
+											select company_id,count(uid) as cnt From b2b_company.uuc_company_level_apply GROUP BY company_id 
+									)	audit on b.supplier_id=audit.company_id 
+									WHERE b.supplier_level<>1 
+              )s on t.supplier_id= s.supplier_id
+                        set t.is_apply_gold=s.is_apply_gold;
+                        
+                        
+             
+             -- 更新在线支付对接会次数
+              update dotnet_operation.bigData_yesterday_login_notgold_supplier_model t
+              INNER JOIN
+              (
+		              select b.supplier_id,count(bcp.uid) as pay_times 
+									From b2b_company.uuc_supplier_basic b
+									INNER JOIN
+									(
+											SELECT i.company_id FROM b2b_user.uuc_user_identity i
+											inner join b2b_user.uuc_user_login_log l on i.user_id = l.user_id
+											where date(l.login_time)=date(DATE_SUB(now(),INTERVAL 1 DAY))
+												GROUP BY i.company_id
+									)loginY on b.supplier_id=loginY.company_id
+		              left JOIN b2b_op_activity.op_business_connect_pay_order bcp on b.supplier_id=bcp.supplier_id 
+									WHERE b.supplier_level<>1 
+		              GROUP BY b.supplier_id
+              )s on t.supplier_id= s.supplier_id
+                        set t.pay_times=s.pay_times;
+          
+		      ]]>
+        </after-sql>
+      </target>
+    </item>
+  </items>
+</task>

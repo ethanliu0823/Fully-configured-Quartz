@@ -1,0 +1,649 @@
+2016-07-21 09:57:40,600 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 09:57:40,716 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 09:57:40,750 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 09:57:40,872 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 09:57:40,875 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 09:57:40,886 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 09:57:40,905 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 09:57:40,907 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 09:57:40,908 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 09:57:40,917 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 09:57:48,594 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 09:57:49,443 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 09:58:27,643 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 09:58:37,947 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:01:33,284 [_Worker-3] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:03:49,721 [_Worker-3] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:05:49,004 [_Worker-4] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:05:50,758 [_Worker-4] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:06:10,364 [_Worker-5] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:06:14,030 [_Worker-5] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:43:56,815 [_Worker-6] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:43:58,817 [_Worker-6] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:45:15,944 [_Worker-7] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:45:17,704 [_Worker-7] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:45:36,982 [_Worker-8] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:45:56,521 [_Worker-8] ERROR MycaigouScheduler.Plugins.BizPush - 每日商机推送(全量)--周四--消息模板有内容参数未被替换：
+2016-07-21 10:45:56,522 [_Worker-8] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 10:47:19,619 [_Worker-9] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 10:47:29,211 [_Worker-9] ERROR MycaigouScheduler.Plugins.BizPush - 每日商机推送(全量)--周四--消息模板有内容参数未被替换：
+2016-07-21 10:47:29,211 [_Worker-9] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 12:32:32,523 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 12:32:32,635 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 12:32:32,674 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 12:32:32,794 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 12:32:32,797 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 12:32:32,808 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 12:32:32,823 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 12:32:32,824 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 12:32:32,824 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 12:32:32,834 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 12:33:17,300 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 12:33:18,065 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--推送用户为空：
+2016-07-21 12:33:18,065 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 12:34:15,067 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 12:34:29,739 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 12:35:27,870 [_Worker-3] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 12:35:27,897 [_Worker-3] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 12:35:45,403 [_Worker-4] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 12:35:45,768 [_Worker-4] ERROR MycaigouScheduler.Plugins.BizPush - 每日商机推送(全量)--微信消息模板有内容参数未被替换：
+2016-07-21 12:35:52,475 [_Worker-4] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 14:08:08,378 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 14:08:08,494 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 14:08:08,530 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 14:08:08,633 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 14:08:08,635 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 14:08:08,644 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 14:08:08,658 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 14:08:08,659 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 14:08:08,659 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 14:08:08,671 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 14:08:18,905 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,905 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,906 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,907 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,911 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,908 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,908 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,909 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:18,909 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:08:20,190 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空：
+2016-07-21 14:08:20,190 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:08:21,102 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空：
+2016-07-21 14:08:21,638 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-21 14:08:33,685 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-21 14:08:33,688 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空：
+2016-07-21 14:08:40,649 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-21 14:08:49,997 [_Worker-7] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换：
+2016-07-21 14:08:55,924 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-21 14:09:24,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空：
+2016-07-21 14:09:26,983 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第5周- 2条消息返回结果为true
+2016-07-21 14:09:26,983 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年1至5月注册未认证供应商会员- 1条消息返回结果为true
+2016-07-21 14:09:26,983 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:09:27,630 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空：
+2016-07-21 14:09:28,426 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 1条消息返回结果为true
+2016-07-21 14:09:29,747 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 4条消息返回结果为true
+2016-07-21 14:09:29,747 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:09:29,806 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- user_id=159054发送异常:False
+2016-07-21 14:09:29,807 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- 0条消息返回结果为true
+2016-07-21 14:09:29,807 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:09:47,808 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空：
+2016-07-21 14:09:48,182 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空：
+2016-07-21 14:09:48,807 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空：
+2016-07-21 14:09:52,898 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空：
+2016-07-21 14:09:52,899 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:10:04,168 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天多条- 1条消息返回结果为true
+2016-07-21 14:10:04,169 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:10:20,518 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录2周未发布招募推送消息--推送用户为空：
+2016-07-21 14:13:40,217 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 14:13:40,330 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 14:13:40,363 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 14:13:40,456 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 14:13:40,458 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 14:13:40,468 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 14:13:40,483 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 14:13:40,484 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 14:13:40,484 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 14:13:40,495 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 14:13:44,443 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 14:13:45,216 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 14:14:53,008 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,008 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,009 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,010 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,013 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,014 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,028 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,029 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,030 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:14:53,484 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空：
+2016-07-21 14:14:53,485 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:14:54,451 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空：
+2016-07-21 14:14:55,077 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空：
+2016-07-21 14:14:55,272 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-21 14:14:55,284 [_Worker-10] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换：
+2016-07-21 14:14:55,284 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- 0条消息返回结果为true
+2016-07-21 14:14:55,285 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:14:57,035 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-21 14:14:58,360 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-21 14:15:02,556 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-21 14:15:05,205 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年1至5月注册未认证供应商会员- 1条消息返回结果为true
+2016-07-21 14:15:05,205 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:15:06,800 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 4条消息返回结果为true
+2016-07-21 14:15:06,805 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:15:24,122 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 14:15:27,006 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第5周- 2条消息返回结果为true
+2016-07-21 14:15:27,037 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 14:15:27,423 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空：
+2016-07-21 14:15:47,369 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空：
+2016-07-21 14:15:47,697 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空：
+2016-07-21 14:15:48,199 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空：
+2016-07-21 14:16:01,567 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 1条消息返回结果为true
+2016-07-21 14:16:02,455 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空：
+2016-07-21 14:16:03,626 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天多条- 1条消息返回结果为true
+2016-07-21 14:16:03,627 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:16:20,247 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空：
+2016-07-21 14:16:20,247 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:16:55,585 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录--推送用户为空：
+2016-07-21 14:16:58,891 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录2周未发布招募推送消息--推送用户为空：
+2016-07-21 14:17:36,098 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,099 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,099 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,100 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,101 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,101 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:36,268 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空：
+2016-07-21 14:17:36,269 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:17:37,109 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空：
+2016-07-21 14:17:37,412 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-21 14:17:37,611 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空：
+2016-07-21 14:17:37,630 [_Worker-6] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换：
+2016-07-21 14:17:37,631 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- 0条消息返回结果为true
+2016-07-21 14:17:37,631 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:17:38,703 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-21 14:17:39,667 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年1至5月注册未认证供应商会员- 1条消息返回结果为true
+2016-07-21 14:17:39,667 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:17:39,731 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-21 14:17:42,761 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-21 14:17:48,396 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年6月至今注册未认证供应商会员- 37条消息返回结果为true
+2016-07-21 14:17:48,396 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:17:48,398 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:17:57,638 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录45天未发布招募推送消息--推送用户为空：
+2016-07-21 14:17:58,311 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 4条消息返回结果为true
+2016-07-21 14:17:58,312 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:18:00,500 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第5周- 2条消息返回结果为true
+2016-07-21 14:18:00,932 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空：
+2016-07-21 14:18:01,426 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约90天未登录- 58条消息返回结果为true
+2016-07-21 14:18:21,721 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空：
+2016-07-21 14:18:22,145 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空：
+2016-07-21 14:18:22,825 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空：
+2016-07-21 14:18:38,823 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天多条- 1条消息返回结果为true
+2016-07-21 14:18:38,824 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:19:00,331 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录91天未发布招募推送消息- 1条消息返回结果为true
+2016-07-21 14:19:00,331 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:19:00,342 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:19:02,879 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约120天未登录- 20条消息返回结果为true
+2016-07-21 14:19:08,895 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空：
+2016-07-21 14:19:08,895 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:20:02,485 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约151天未登录--推送用户为空：
+2016-07-21 14:20:02,486 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:20:02,487 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:20:04,850 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空：
+2016-07-21 14:20:15,266 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年6月至今注册未认证供应商会员- 37条消息返回结果为true
+2016-07-21 14:20:15,266 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:20:54,199 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录2周未发布招募推送消息--推送用户为空：
+2016-07-21 14:20:54,640 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 1条消息返回结果为true
+2016-07-21 14:23:01,510 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 14:23:01,622 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 14:23:01,652 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 14:23:01,733 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 14:23:01,735 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 14:23:01,745 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 14:23:01,757 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 14:23:01,758 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 14:23:01,758 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 14:23:01,768 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 14:23:04,959 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,960 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,959 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,960 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,964 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,961 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,966 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,967 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:04,968 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:23:06,069 [_Worker-10] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 14:23:06,516 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空：
+2016-07-21 14:23:06,517 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:23:06,731 [_Worker-10] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 14:23:07,494 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空：
+2016-07-21 14:23:07,509 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空：
+2016-07-21 14:23:07,815 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空：
+2016-07-21 14:23:07,872 [_Worker-9] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换！
+2016-07-21 14:23:07,873 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- 0条消息返回结果为true
+2016-07-21 14:23:07,873 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:23:08,737 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空：
+2016-07-21 14:23:09,839 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空：
+2016-07-21 14:23:10,685 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年1至5月注册未认证供应商会员- 1条消息返回结果为true
+2016-07-21 14:23:10,685 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:23:12,974 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空：
+2016-07-21 14:23:14,501 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 4条消息返回结果为true
+2016-07-21 14:23:14,501 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:23:28,205 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第5周- 2条消息返回结果为true
+2016-07-21 14:23:28,576 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空：
+2016-07-21 14:23:49,768 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空：
+2016-07-21 14:23:50,158 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空：
+2016-07-21 14:23:51,015 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空：
+2016-07-21 14:24:08,551 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天多条- 1条消息返回结果为true
+2016-07-21 14:24:08,551 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:24:12,613 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空：
+2016-07-21 14:24:13,973 [_Worker-4] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录--短信消息模板有内容参数未被替换！
+2016-07-21 14:24:13,973 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 0条消息返回结果为true
+2016-07-21 14:24:33,146 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空：
+2016-07-21 14:24:33,146 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:26:33,300 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 14:26:33,388 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 14:26:33,415 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 14:26:33,506 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 14:26:33,508 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 14:26:33,515 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 14:26:33,526 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 14:26:33,526 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 14:26:33,526 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 14:26:33,534 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 14:26:39,735 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,735 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,736 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,735 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,736 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,736 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,738 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,739 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:39,739 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 14:26:40,722 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空！
+2016-07-21 14:26:40,722 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:26:41,657 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空！
+2016-07-21 14:26:41,851 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空！
+2016-07-21 14:26:42,047 [_Worker-9] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换！
+2016-07-21 14:26:42,048 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- 0条消息返回结果为true
+2016-07-21 14:26:42,048 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:26:42,149 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空！
+2016-07-21 14:26:42,891 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空！
+2016-07-21 14:26:43,991 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空！
+2016-07-21 14:26:44,191 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年1至5月注册未认证供应商会员- 1条消息返回结果为true
+2016-07-21 14:26:44,192 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:26:46,460 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空！
+2016-07-21 14:26:47,776 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册3个月未认证- 4条消息返回结果为true
+2016-07-21 14:26:47,776 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:27:02,017 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第5周- 2条消息返回结果为true
+2016-07-21 14:27:02,408 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空！
+2016-07-21 14:27:23,993 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空！
+2016-07-21 14:27:24,468 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空！
+2016-07-21 14:27:25,229 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空！
+2016-07-21 14:27:39,616 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天多条- 1条消息返回结果为true
+2016-07-21 14:27:39,616 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:27:44,462 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空！
+2016-07-21 14:27:45,897 [_Worker-5] ERROR MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录--短信消息模板有内容参数未被替换！
+2016-07-21 14:27:45,898 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约10天未登录- 0条消息返回结果为true
+2016-07-21 14:28:05,475 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空！
+2016-07-21 14:28:05,475 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:28:41,404 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录2周未发布招募推送消息--推送用户为空！
+2016-07-21 14:28:43,697 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录--推送用户为空！
+2016-07-21 14:28:56,195 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年6月至今注册未认证供应商会员- 37条消息返回结果为true
+2016-07-21 14:28:56,196 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:29:36,825 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录45天未发布招募推送消息--推送用户为空！
+2016-07-21 14:29:40,394 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约90天未登录- 58条消息返回结果为true
+2016-07-21 14:30:30,117 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录91天未发布招募推送消息- 1条消息返回结果为true
+2016-07-21 14:30:30,118 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 14:30:32,095 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约120天未登录- 20条消息返回结果为true
+2016-07-21 14:31:15,781 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约151天未登录--推送用户为空！
+2016-07-21 14:31:15,782 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:00:02,311 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:00:02,391 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:00:02,416 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:00:02,508 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:00:02,510 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:00:02,517 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:00:02,528 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:00:02,528 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:00:02,528 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:00:02,538 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:00:36,327 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,327 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,329 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,329 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,334 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,338 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,338 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,336 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:36,336 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:00:37,333 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空！
+2016-07-21 15:00:37,334 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:00:38,066 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空！
+2016-07-21 15:00:38,352 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空！
+2016-07-21 15:00:38,452 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空！
+2016-07-21 15:00:52,409 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空！
+2016-07-21 15:00:52,419 [_Worker-7] ERROR MycaigouScheduler.DataAccess.MessageQueue - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换！
+2016-07-21 15:01:01,970 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空！
+2016-07-21 15:01:03,700 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 所有用户当天有访问过金牌页面的用户- user_id=159054发送异常:False
+2016-07-21 15:01:03,700 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:01:03,734 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:01:04,254 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空！
+2016-07-21 15:02:27,970 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:02:28,073 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:02:28,104 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:02:28,214 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:02:28,217 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:02:28,226 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:02:28,239 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:02:28,240 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:02:28,241 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:02:28,251 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:02:31,636 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,637 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,638 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,640 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,640 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,641 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,642 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,642 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:31,643 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:02:32,546 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空！
+2016-07-21 15:02:32,547 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:02:33,572 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空！
+2016-07-21 15:02:33,850 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空！
+2016-07-21 15:02:40,818 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空！
+2016-07-21 15:02:40,823 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空！
+2016-07-21 15:02:40,832 [_Worker-7] ERROR MycaigouScheduler.DataAccess.MessageQueue - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换！
+2016-07-21 15:02:46,667 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:02:47,362 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:02:47,781 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空！
+2016-07-21 15:02:51,965 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空！
+2016-07-21 15:02:56,676 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:03:08,940 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空！
+2016-07-21 15:03:29,258 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空！
+2016-07-21 15:03:29,644 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空！
+2016-07-21 15:03:30,294 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空！
+2016-07-21 15:03:47,877 [_Worker-5] ERROR MycaigouScheduler.DataAccess.MessageQueue - 开发商签约10天未登录--短信消息模板有内容参数未被替换！
+2016-07-21 15:03:47,881 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录1周未发布招募推送消息--推送用户为空！
+2016-07-21 15:03:47,970 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:03:58,015 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 当天有访问认证用户有符合商机有报名案例数量不符合商机要求--推送用户为空！
+2016-07-21 15:03:58,015 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:04:45,487 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约60天未登录--推送用户为空！
+2016-07-21 15:04:46,120 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户登录2周未发布招募推送消息--推送用户为空！
+2016-07-21 15:05:12,039 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:06:51,666 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:06:51,738 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:06:51,759 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:06:51,820 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:06:51,823 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:06:51,829 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:06:51,838 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:06:51,838 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:06:51,839 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:06:51,845 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:06:59,993 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:07:02,254 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:08:11,963 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:08:17,439 [_Worker-2] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数未被替换！
+2016-07-21 15:08:17,497 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:08:19,994 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:19,995 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:19,997 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:19,998 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:19,999 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:20,000 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:20,002 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:20,010 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:20,016 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:08:20,423 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空！
+2016-07-21 15:08:20,423 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:08:21,273 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空！
+2016-07-21 15:08:21,574 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空！
+2016-07-21 15:08:21,722 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空！
+2016-07-21 15:08:25,784 [_Worker-1] ERROR MycaigouScheduler.DataAccess.MessageQueue - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数未被替换！
+2016-07-21 15:08:25,785 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:08:25,792 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空！
+2016-07-21 15:08:26,972 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空！
+2016-07-21 15:08:27,913 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:08:29,985 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空！
+2016-07-21 15:08:31,172 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:08:41,842 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空！
+2016-07-21 15:09:03,054 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空！
+2016-07-21 15:09:03,435 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空！
+2016-07-21 15:09:04,151 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空！
+2016-07-21 15:29:21,434 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:29:21,538 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:29:21,570 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:29:21,661 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:29:21,663 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:29:21,672 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:29:21,685 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:29:21,686 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:29:21,686 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:29:21,697 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:29:24,332 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:29:25,040 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:29:35,223 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:29:35,701 [_Worker-2] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：未被替换！
+2016-07-21 15:29:36,372 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:30:33,756 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:30:33,854 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:30:33,884 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:30:33,987 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:30:33,989 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:30:33,998 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:30:34,010 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:30:34,010 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:30:34,010 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:30:34,019 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:30:41,109 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:32:05,372 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:32:05,481 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:32:05,514 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:32:05,603 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:32:05,605 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:32:05,615 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:32:05,629 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:32:05,630 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:32:05,630 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:32:05,641 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:32:16,978 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:36:04,374 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:36:04,464 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:36:04,490 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:36:04,563 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:36:04,564 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:36:04,572 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:36:04,584 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:36:04,585 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:36:04,585 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:36:04,593 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:36:07,426 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:36:08,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:36:43,259 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:36:50,805 [_Worker-2] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：#青蛙#、未被替换！
+2016-07-21 15:36:57,346 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:39:33,065 [8] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 15:39:33,161 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 15:39:33,191 [8] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 15:39:33,271 [8] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 15:39:33,273 [8] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 15:39:33,281 [8] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 15:39:33,292 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 15:39:33,293 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 15:39:33,293 [8] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 15:39:33,302 [8] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 15:39:36,418 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 15:39:37,753 [_Worker-1] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：#青蛙#、#青蛙1#未被替换！
+2016-07-21 15:39:41,351 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 15:40:03,479 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,479 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,481 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,482 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,485 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,487 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,497 [_Worker-8] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,507 [_Worker-7] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,509 [_Worker-4] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-21 15:40:03,796 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年以前注册未认证供应商会员--推送用户为空！
+2016-07-21 15:40:03,796 [_Worker-6] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:40:04,626 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第1周--推送用户为空！
+2016-07-21 15:40:04,918 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商前1天注册--推送用户为空！
+2016-07-21 15:40:05,055 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第3周--推送用户为空！
+2016-07-21 15:40:05,749 [_Worker-10] ERROR MycaigouScheduler.DataAccess.MessageQueue - 所有用户当天有访问过金牌页面的用户--微信消息模板有内容参数：#青蛙#未被替换！
+2016-07-21 15:40:05,749 [_Worker-10] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:40:06,087 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 注册1周未认证--推送用户为空！
+2016-07-21 15:40:07,182 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册1个月未认证--推送用户为空！
+2016-07-21 15:40:08,978 [_Worker-5] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:40:09,893 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商注册2个月未认证--推送用户为空！
+2016-07-21 15:40:11,205 [_Worker-9] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 15:40:26,515 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第7周--推送用户为空！
+2016-07-21 15:40:46,839 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第9周--推送用户为空！
+2016-07-21 15:40:47,201 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息第11周--推送用户为空！
+2016-07-21 15:40:47,840 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开发商签约用户已发招募入库推送消息招募报名截止一天一条--推送用户为空！
+2016-07-21 15:41:03,884 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-21 16:32:46,891 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 16:32:46,983 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 16:32:47,010 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 16:32:47,081 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 16:32:47,082 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 16:32:47,092 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 16:32:47,103 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 16:32:47,104 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 16:32:47,104 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 16:32:47,112 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 16:32:58,803 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 16:33:40,134 [_Worker-1] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：#青蛙#、#飞鹤奶粉#未被替换！
+2016-07-21 16:33:42,580 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 16:50:24,242 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-21 16:50:24,363 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-21 16:50:24,395 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-21 16:50:24,493 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-21 16:50:24,495 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-21 16:50:24,505 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-21 16:50:24,523 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-21 16:50:24,524 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-21 16:50:24,524 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-21 16:50:24,538 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-21 16:50:27,757 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 16:50:28,457 [_Worker-1] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 16:52:28,492 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 16:54:27,035 [_Worker-2] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--结束执行
+2016-07-21 16:54:58,778 [_Worker-3] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--开始执行
+2016-07-21 16:57:02,125 [_Worker-4] INFO  MycaigouScheduler.Plugins.BizPush - BizPush--开始执行
+2016-07-21 16:59:23,616 [_Worker-4] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：#青蛙#、#飞鹤奶粉#未被替换！
+2016-07-21 17:00:20,427 [_Worker-3] INFO  MycaigouScheduler.Plugins.CleanAllBizOpps - CleanAllBizOpps--结束执行
+2016-07-21 17:01:00,722 [_Worker-4] ERROR MycaigouScheduler.DataAccess.MessageQueue - 每日商机推送(全量)--微信消息模板有内容参数：#青蛙#、#飞鹤奶粉#未被替换！

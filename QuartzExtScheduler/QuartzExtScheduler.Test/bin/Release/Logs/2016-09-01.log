@@ -1,0 +1,85 @@
+2016-09-01 13:45:40,691 [1] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-09-01 13:45:40,782 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-09-01 13:45:40,808 [1] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-09-01 13:45:40,909 [1] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-09-01 13:45:40,912 [1] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-09-01 13:45:40,934 [1] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-09-01 13:45:40,946 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-09-01 13:45:40,946 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-09-01 13:45:40,947 [1] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-09-01 13:45:40,956 [1] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-09-01 13:45:43,116 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行通用数据清洗调度.
+2016-09-01 13:45:43,116 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化开始。
+2016-09-01 13:45:43,547 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化完毕,配置参数：{"Name":"GoldAndNotGoldSupplierInfo","ChildPath":"BigData\\GoldAndNotGoldSupplierInfo.xml","Description":"大数据已升级供应商与昨日登录非金牌","CronExpression":"0 0 3 * * ?","ConnectionName":"Mycaigou_Dev"}
+2016-09-01 13:45:43,547 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml开始。
+2016-09-01 13:45:43,563 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml完成。
+2016-09-01 13:45:43,564 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 执行脚本开始，name:GoldAndNotGoldSupplierInfo, description:大数据已升级供应商与昨日登录非金牌
+2016-09-01 13:45:43,568 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:45:43,594 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:45:48,974 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:45:48,975 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行selector,name=s1 description=d1
+2016-09-01 13:45:52,724 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行selector,name=s1 description=d1
+2016-09-01 13:46:08,466 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:46:08,467 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=YesterdayLoginNotGoldInfo description=昨日登录的非金牌
+2016-09-01 13:46:08,467 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_yesterday_login_notgold_supplier_model
+2016-09-01 13:46:44,389 [_Worker-1] ERROR MycaigouScheduler.Plugins.CommonDataCleaner - 执行脚本异常：System.ArgumentNullException: 值不能为 null。
+参数名: dataReader
+   在 System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.CreateTargetMainSql(String tableName, IList`1 defaultFields, IList`1 notNullFields) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 388
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.InitTarget(Target target, IDictionary`2 variables, IList`1 defaultFields, IList`1 notNullFields) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 379
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.Process() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 94
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 71。
+2016-09-01 13:46:44,390 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行通用数据清洗调度
+2016-09-01 13:46:57,367 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行通用数据清洗调度.
+2016-09-01 13:46:57,367 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化开始。
+2016-09-01 13:46:57,368 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化完毕,配置参数：{"Name":"GoldAndNotGoldSupplierInfo","ChildPath":"BigData\\GoldAndNotGoldSupplierInfo.xml","Description":"大数据已升级供应商与昨日登录非金牌","CronExpression":"0 0 3 * * ?","ConnectionName":"Mycaigou_Dev"}
+2016-09-01 13:46:57,368 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml开始。
+2016-09-01 13:46:57,369 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml完成。
+2016-09-01 13:46:57,369 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 执行脚本开始，name:GoldAndNotGoldSupplierInfo, description:大数据已升级供应商与昨日登录非金牌
+2016-09-01 13:46:57,369 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:46:57,369 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:47:13,251 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:47:13,251 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行selector,name=s1 description=d1
+2016-09-01 13:47:28,094 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行selector,name=s1 description=d1
+2016-09-01 13:47:38,237 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:47:38,238 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=YesterdayLoginNotGoldInfo description=昨日登录的非金牌
+2016-09-01 13:47:38,239 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_yesterday_login_notgold_supplier_model
+2016-09-01 13:48:28,412 [_Worker-2] ERROR MycaigouScheduler.Plugins.CommonDataCleaner - 执行脚本异常：System.ArgumentNullException: 值不能为 null。
+参数名: dataReader
+   在 System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, Int32 commandTimeout, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 81
+   在 MycaigouScheduler.Utility.Data.MySQLHelper.ExecuteDataTable(String connectionString, String commandText, MySqlParameter[] parameter) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Utility\Data\MySQLHelper.cs:行号 90
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.CreateTargetMainSql(String tableName, IList`1 defaultFields, IList`1 notNullFields) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 388
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.InitTarget(Target target, IDictionary`2 variables, IList`1 defaultFields, IList`1 notNullFields) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 379
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.Process() 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 94
+   在 MycaigouScheduler.Plugins.CommonDataCleaner.Execute(IJobExecutionContext context) 位置 e:\云采购2.0.0\源代码\Branch\中台深圳运营\云采购调度服务\MycaigouScheduler\MycaigouScheduler.Plugins\CommonDataCleaner.cs:行号 71。
+2016-09-01 13:48:28,412 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行通用数据清洗调度
+2016-09-01 13:48:34,853 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行通用数据清洗调度.
+2016-09-01 13:48:34,854 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化开始。
+2016-09-01 13:48:34,854 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 初始化完毕,配置参数：{"Name":"GoldAndNotGoldSupplierInfo","ChildPath":"BigData\\GoldAndNotGoldSupplierInfo.xml","Description":"大数据已升级供应商与昨日登录非金牌","CronExpression":"0 0 3 * * ?","ConnectionName":"Mycaigou_Dev"}
+2016-09-01 13:48:34,854 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml开始。
+2016-09-01 13:48:34,855 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 解析xml完成。
+2016-09-01 13:48:34,855 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 执行脚本开始，name:GoldAndNotGoldSupplierInfo, description:大数据已升级供应商与昨日登录非金牌
+2016-09-01 13:48:34,855 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:48:34,855 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:48:55,597 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行target,table-name=dotnet_operation.bigData_gold_supplier_model
+2016-09-01 13:48:55,597 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行selector,name=s1 description=d1
+2016-09-01 13:48:58,303 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行selector,name=s1 description=d1
+2016-09-01 13:49:15,668 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 结束执行item,name=UpgradedGoldInfo description=已升级金牌数据
+2016-09-01 13:49:15,668 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行item,name=YesterdayLoginNotGoldInfo description=昨日登录的非金牌
+2016-09-01 13:49:15,668 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonDataCleaner - 开始执行target,table-name=dotnet_operation.bigData_yesterday_login_notgold_supplier_model

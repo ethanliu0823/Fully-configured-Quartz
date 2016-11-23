@@ -1,0 +1,4 @@
+E:\QuartzExtension\MycaigouScheduler\MycaigouScheduler.Entity\bin\Debug\QuartzExtScheduler.Entity.dll
+E:\QuartzExtension\MycaigouScheduler\MycaigouScheduler.Entity\bin\Debug\QuartzExtScheduler.Entity.pdb
+E:\QuartzExtension\MycaigouScheduler\MycaigouScheduler.Entity\obj\Debug\QuartzExtScheduler.Entity.dll
+E:\QuartzExtension\MycaigouScheduler\MycaigouScheduler.Entity\obj\Debug\QuartzExtScheduler.Entity.pdb

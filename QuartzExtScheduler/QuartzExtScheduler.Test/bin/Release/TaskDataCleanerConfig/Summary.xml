@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task-list>
+  <task>
+    <name>GoldAndNotGoldSupplierInfo</name>
+    <childPath>BigData\GoldAndNotGoldSupplierInfo.xml</childPath>
+    <description>大数据已升级供应商与昨日登录非金牌</description>
+    <!--每天3：00执行-->
+    <cron-expression>0 0 3 * * ?</cron-expression>
+    <connection-name>Mycaigou_Dev</connection-name>
+  </task>
+</task-list>

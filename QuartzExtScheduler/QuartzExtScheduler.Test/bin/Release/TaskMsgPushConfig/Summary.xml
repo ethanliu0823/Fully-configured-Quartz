@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task-list>
+  <task>
+    <name>CompletelyFitNewBusiOppt_Bid</name>
+    <childPath>Supplier\CompletelyFitNewBusiOppt\CompletelyFitNewBusiOppt_Bid.xml</childPath>
+    <description>发布10分钟的招标完全符合的认证会员</description>
+    <!--业务类型id 配置在dotnet_operation.op_push_msg_business_type-->
+    <business-type>12</business-type>
+    <!--微信控制 1: 一周一批（一批最多最多五条） 2：1条/1人天  3: 5条/1人天 -->
+    <send-control-type>3</send-control-type>
+    <!--短信控制 1: 3条/1人天 (op_wx_message_log_special类型10)  -->
+    <sms-send-control-type>1</sms-send-control-type>
+    <!--邮件控制 1: 一天一次 (op_wx_message_log_special类型20)-->
+    <email-send-control-type></email-send-control-type>
+    <!--每天早上6点到20点 10分钟执行一次-->
+    <cron-expression>0 */10 6-20 * * ?</cron-expression>
+    <!--周末是否推送 0 不推送，1 推送-->
+    <weekend-push>1</weekend-push>
+    <connection-name>Mycaigou_Mir</connection-name>
+  </task>
+</task-list>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task-list>
+  <task>
+    <name>ExcuteSQL</name>
+    <childPath>ExcuteSQL\ClearData.xml</childPath>
+    <description>无用过期数据清除</description>
+    <!--每天10点执行-->
+    <cron-expression>0 20 18 * * ?</cron-expression>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>GoldAndNotGoldSupplierInfo</name>
+    <childPath>BigData\GoldAndNotGoldSupplierInfo.xml</childPath>
+    <description>大数据已升级供应商与昨日登录非金牌</description>
+    <!--每天3：00执行-->
+    <cron-expression>0 0 3 * * ?</cron-expression>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+  <task>
+    <name>ChangeData</name>
+    <childPath>ExcuteSQL\ChangeData.xml</childPath>
+    <description>定期更新数据</description>
+    <!--每20分钟执行一次-->
+    <cron-expression>0 0/20 0 * * ?</cron-expression>
+    <connection-name>QuartzExt_Mir</connection-name>
+  </task>
+</task-list>

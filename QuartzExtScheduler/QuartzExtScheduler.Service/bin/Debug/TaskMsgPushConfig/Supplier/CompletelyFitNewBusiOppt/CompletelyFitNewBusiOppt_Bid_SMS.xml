@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>CompletelyFitNewBusiOppt_Bid_SMS</name>
+  <items>
+    <item>
+      <description>发布10分钟的招标--完全符合的认证会员（短信第1次）</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms>704</sms>
+        <email></email>
+        <wechat></wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.supplier_id,u.user_id,r.mobile ,w.openid,u.`name` 
+                From b2b_op_activity.op_fit_my_bidding a
+                inner join b2b_bidding.bid_announcements i on a.item_id=i.uid
+                INNER JOIN b2b_user.uuc_user_identity ui on ui.company_id=a.supplier_id 
+                INNER join b2b_user.uuc_user u on ui.user_id=u.user_id and u.user_biz_type=1
+                left join b2b_user_business.business_card_record r on u.user_id=r.user_id
+                left join 
+                (
+	                SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	                INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	                WHERE zqu.appid=@appId
+                ) w on u.user_id=w.userid
+                left JOIN
+								(
+										select user_id,send_times from dotnet_operation.op_wx_message_log_special where bussiness_type=11
+								) wxc on u.user_id=wxc.user_id
+                WHERE  i.created_time BETWEEN DATE_ADD(now(),INTERVAL -20 MINUTE) and DATE_ADD(now(),INTERVAL -10 MINUTE) and i.register_end_date>now() and i.procurement_type=0
+                and ifnull(r.mobile,'')<>'' and w.userid is null and wxc.user_id is null
+                GROUP BY u.user_id ,w.openid
+            ]]>
+          </sql>
+          <description>发布10分钟的招标--完全符合的认证会员（短信第1次）</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+    SELECT a.uid,a.title, case WHEN item.service_area='china' then  '全国' ELSE  area.item_name end  as areaName, 
+         (
+									select CASE WHEN basq.province_code='china' THEN '全国'  ELSE  GROUP_CONCAT(IFNULL(area2.item_name,area1.item_name)) END 
+                  from b2b_bidding.bid_announcements_service_area  basq  
+                  LEFT JOIN b2b_parameter.bizp_area area1 
+                  on area1.item_code=basq.province_code
+                  LEFT JOIN b2b_parameter.bizp_area area2 
+                  on area2.item_code=basq.city_code
+                  where basq.bid_announcement_uid=a.uid
+        ) as serviceAreaName,
+                  if(ifnull(cond.project_count,0)=0 and ifnull(cond.register_fund,0)=0,'暂无',
+                     if(ifnull(cond.project_count,0)>0,concat('注资',cond.register_fund,'万元及以上，案例',cond.project_count,'个以上'),concat('注资',cond.register_fund,'万元及以上'))) as register_condition,
+                  bbf.category_name,ifnull(c.short_name,c.company_name) as company_name,ifnull(cond.register_fund,0) as register_fund,
+                  date_format(a.created_time,'%Y-%c-%e') as created_time, date_format(a.register_end_date,'%Y-%c-%e') as register_end_date,
+                  concat('https://m.QuartzExt.com/bidding/detail-',a.uid,'.html?registerSource=zb-dx-xzts') as shortURL,
+									concat(ifnull(c.short_name,c.company_name),bbf.category_name,'招标公告') as newTitle
+                  from b2b_bidding.bid_announcements a
+                  inner join b2b_bidding.bid_announcement_categories ca on a.uid=ca.bid_announcement_uid
+                  INNER JOIN b2b_parameter.bsp_basic_forest bbf on ca.category_code=bbf.category_code
+                  INNER JOIN b2b_bidding.bid_announcements_area item on a.uid=item.bid_announcement_uid
+                  left JOIN b2b_bidding.bid_ann_register_condition cond on a.uid=cond.bid_announcement_uid
+                  left join b2b_parameter.bizp_area area on area.item_code = item.service_area
+                  left join 
+                  (
+		                  select uid as item_id from b2b_bidding.bid_announcements_register where supplier_id = @supplier_id and bid_announcement_uid=@item_id
+                  ) r on a.uid=r.item_id
+                  INNER JOIN b2b_company.uuc_developer c on a.developer_uid=c.developer_id
+                  left JOIN
+	                (
+			               SELECT company_id,supplier_id
+			               FROM b2b_company.bid_developer_mysupplier a
+			               WHERE a.status = 3 AND a.is_del = 0 and supplier_id=@supplier_id
+	                ) black on c.developer_id=black.company_id
+                  where a.uid=@item_id and r.item_id is null AND c.company_name not like 'test_%' and black.company_id is null 
+                  GROUP BY a.uid
+             ]]>
+          </sql>
+          <description>替换内容</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商简称#</key>
+              <value source="entity">company_name</value>
+            </parameter>
+            <parameter>
+              <key>#商机名称#</key>
+              <value source="entity">title</value>
+            </parameter>
+            <parameter>
+              <key>#商机新名称#</key>
+              <value source="entity">newTitle</value>
+            </parameter>
+            <parameter>
+              <key>#招标类别#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#招标区域#</key>
+              <value source="entity">serviceAreaName</value>
+            </parameter>
+            <parameter>
+              <key>#发布时间#</key>
+              <value source="entity">created_time</value>
+            </parameter>
+            <parameter>
+              <key>#项目所在地#</key>
+              <value source="entity">areaName</value>
+            </parameter>
+            <parameter>
+              <key>#截止时间#</key>
+              <value source="entity">register_end_date</value>
+            </parameter>
+            <parameter>
+              <key>#招标条件#</key>
+              <value source="entity">register_condition</value>
+            </parameter>
+            <parameter>
+              <key>#招标ID#</key>
+              <value source="entity">uid</value>
+            </parameter>
+            <parameter>
+              <key>#短地址#</key>
+              <value source="entity" convert-short-url="1">shortURL</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>发布10分钟的招标--完全符合的认证会员（短信第2次）</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms>705</sms>
+        <email></email>
+        <wechat></wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.supplier_id,u.user_id,r.mobile ,w.openid,u.`name` 
+                From b2b_op_activity.op_fit_my_bidding a
+                inner join b2b_bidding.bid_announcements i on a.item_id=i.uid
+                INNER JOIN b2b_user.uuc_user_identity ui on ui.company_id=a.supplier_id 
+                INNER join b2b_user.uuc_user u on ui.user_id=u.user_id and u.user_biz_type=1
+                left join b2b_user_business.business_card_record r on u.user_id=r.user_id
+                left join 
+                (
+	                SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	                INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	                WHERE zqu.appid=@appId
+                ) w on u.user_id=w.userid
+								inner JOIN
+								(
+										select user_id,send_times from dotnet_operation.op_wx_message_log_special where bussiness_type=11 and send_times=1
+                    and date(last_updated_time)<date(now())
+								) wxc on u.user_id=wxc.user_id
+                WHERE  i.created_time BETWEEN DATE_ADD(now(),INTERVAL -20 MINUTE) and DATE_ADD(now(),INTERVAL -10 MINUTE) and i.register_end_date>now() and i.procurement_type=0
+                and ifnull(r.mobile,'')<>'' and w.userid is null
+                GROUP BY u.user_id ,w.openid
+            ]]>
+          </sql>
+          <description>发布10分钟的招标--完全符合的认证会员（短信第2次）</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+    SELECT a.uid,a.title, case WHEN item.service_area='china' then  '全国' ELSE  area.item_name end  as areaName, 
+         (
+									select CASE WHEN basq.province_code='china' THEN '全国'  ELSE  GROUP_CONCAT(IFNULL(area2.item_name,area1.item_name)) END 
+                  from b2b_bidding.bid_announcements_service_area  basq  
+                  LEFT JOIN b2b_parameter.bizp_area area1 
+                  on area1.item_code=basq.province_code
+                  LEFT JOIN b2b_parameter.bizp_area area2 
+                  on area2.item_code=basq.city_code
+                  where basq.bid_announcement_uid=a.uid
+        ) as serviceAreaName,
+                  if(ifnull(cond.project_count,0)=0 and ifnull(cond.register_fund,0)=0,'暂无',
+                     if(ifnull(cond.project_count,0)>0,concat('注资',cond.register_fund,'万元及以上，案例',cond.project_count,'个以上'),concat('注资',cond.register_fund,'万元及以上'))) as register_condition,
+                  bbf.category_name,ifnull(c.short_name,c.company_name) as company_name,ifnull(cond.register_fund,0) as register_fund,
+                  date_format(a.created_time,'%Y-%c-%e') as created_time, date_format(a.register_end_date,'%Y-%c-%e') as register_end_date,
+                  concat('https://m.QuartzExt.com/bidding/detail-',a.uid,'.html?registerSource=zb-dx-xzts') as shortURL,
+									concat(ifnull(c.short_name,c.company_name),bbf.category_name,'招标公告') as newTitle
+                  from b2b_bidding.bid_announcements a
+                  inner join b2b_bidding.bid_announcement_categories ca on a.uid=ca.bid_announcement_uid
+                  INNER JOIN b2b_parameter.bsp_basic_forest bbf on ca.category_code=bbf.category_code
+                  INNER JOIN b2b_bidding.bid_announcements_area item on a.uid=item.bid_announcement_uid
+                  left JOIN b2b_bidding.bid_ann_register_condition cond on a.uid=cond.bid_announcement_uid
+                  left join b2b_parameter.bizp_area area on area.item_code = item.service_area
+                  left join 
+                  (
+		                  select uid as item_id from b2b_bidding.bid_announcements_register where supplier_id = @supplier_id and bid_announcement_uid=@item_id
+                  ) r on a.uid=r.item_id
+                  INNER JOIN b2b_company.uuc_developer c on a.developer_uid=c.developer_id
+                  left JOIN
+	                (
+			               SELECT company_id,supplier_id
+			               FROM b2b_company.bid_developer_mysupplier a
+			               WHERE a.status = 3 AND a.is_del = 0 and supplier_id=@supplier_id
+	                ) black on c.developer_id=black.company_id
+                  where a.uid=@item_id and r.item_id is null AND c.company_name not like 'test_%' and black.company_id is null 
+                  GROUP BY a.uid
+             ]]>
+          </sql>
+          <description>替换内容</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商简称#</key>
+              <value source="entity">company_name</value>
+            </parameter>
+            <parameter>
+              <key>#商机名称#</key>
+              <value source="entity">title</value>
+            </parameter>
+            <parameter>
+              <key>#商机新名称#</key>
+              <value source="entity">newTitle</value>
+            </parameter>
+            <parameter>
+              <key>#招标类别#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#招标区域#</key>
+              <value source="entity">serviceAreaName</value>
+            </parameter>
+            <parameter>
+              <key>#发布时间#</key>
+              <value source="entity">created_time</value>
+            </parameter>
+            <parameter>
+              <key>#项目所在地#</key>
+              <value source="entity">areaName</value>
+            </parameter>
+            <parameter>
+              <key>#截止时间#</key>
+              <value source="entity">register_end_date</value>
+            </parameter>
+            <parameter>
+              <key>#招标条件#</key>
+              <value source="entity">register_condition</value>
+            </parameter>
+            <parameter>
+              <key>#招标ID#</key>
+              <value source="entity">uid</value>
+            </parameter>
+            <parameter>
+              <key>#短地址#</key>
+              <value source="entity" convert-short-url="1">shortURL</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+    <item>
+      <description>发布10分钟的招标--完全符合的认证会员（短信第3次）</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms>706</sms>
+        <email></email>
+        <wechat></wechat>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+                select a.item_id,a.supplier_id,u.user_id,r.mobile ,w.openid,u.`name` 
+                From b2b_op_activity.op_fit_my_bidding a
+                inner join b2b_bidding.bid_announcements i on a.item_id=i.uid
+                INNER JOIN b2b_user.uuc_user_identity ui on ui.company_id=a.supplier_id 
+                INNER join b2b_user.uuc_user u on ui.user_id=u.user_id and u.user_biz_type=1
+                left join b2b_user_business.business_card_record r on u.user_id=r.user_id
+                left join 
+                (
+	                SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	                INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	                WHERE zqu.appid=@appId
+                ) w on u.user_id=w.userid
+								inner JOIN
+								(
+										select user_id,send_times from dotnet_operation.op_wx_message_log_special where bussiness_type=11 and send_times=2
+                    and date(last_updated_time)<date(now())
+								) wxc on u.user_id=wxc.user_id
+                WHERE  i.created_time BETWEEN DATE_ADD(now(),INTERVAL -20 MINUTE) and DATE_ADD(now(),INTERVAL -10 MINUTE) and i.register_end_date>now() and i.procurement_type=0
+                and ifnull(r.mobile,'')<>'' and w.userid is null 
+                GROUP BY u.user_id ,w.openid
+            ]]>
+          </sql>
+          <description>发布10分钟的招标--完全符合的认证会员（短信第3次）</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员姓名#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+        <!--发送内容SQL部分-->
+        <sql-item id="sql_2" type="content">
+          <sql>
+            <![CDATA[
+    SELECT a.uid,a.title, case WHEN item.service_area='china' then  '全国' ELSE  area.item_name end  as areaName, 
+         (
+									select CASE WHEN basq.province_code='china' THEN '全国'  ELSE  GROUP_CONCAT(IFNULL(area2.item_name,area1.item_name)) END 
+                  from b2b_bidding.bid_announcements_service_area  basq  
+                  LEFT JOIN b2b_parameter.bizp_area area1 
+                  on area1.item_code=basq.province_code
+                  LEFT JOIN b2b_parameter.bizp_area area2 
+                  on area2.item_code=basq.city_code
+                  where basq.bid_announcement_uid=a.uid
+        ) as serviceAreaName,
+                  if(ifnull(cond.project_count,0)=0 and ifnull(cond.register_fund,0)=0,'暂无',
+                     if(ifnull(cond.project_count,0)>0,concat('注资',cond.register_fund,'万元及以上，案例',cond.project_count,'个以上'),concat('注资',cond.register_fund,'万元及以上'))) as register_condition,
+                  bbf.category_name,ifnull(c.short_name,c.company_name) as company_name,ifnull(cond.register_fund,0) as register_fund,
+                  date_format(a.created_time,'%Y-%c-%e') as created_time, date_format(a.register_end_date,'%Y-%c-%e') as register_end_date,
+                  concat('https://m.QuartzExt.com/bidding/detail-',a.uid,'.html?registerSource=zb-dx-xzts') as shortURL,
+									concat(ifnull(c.short_name,c.company_name),bbf.category_name,'招标公告') as newTitle
+                  from b2b_bidding.bid_announcements a
+                  inner join b2b_bidding.bid_announcement_categories ca on a.uid=ca.bid_announcement_uid
+                  INNER JOIN b2b_parameter.bsp_basic_forest bbf on ca.category_code=bbf.category_code
+                  INNER JOIN b2b_bidding.bid_announcements_area item on a.uid=item.bid_announcement_uid
+                  left JOIN b2b_bidding.bid_ann_register_condition cond on a.uid=cond.bid_announcement_uid
+                  left join b2b_parameter.bizp_area area on area.item_code = item.service_area
+                  left join 
+                  (
+		                  select uid as item_id from b2b_bidding.bid_announcements_register where supplier_id = @supplier_id and bid_announcement_uid=@item_id
+                  ) r on a.uid=r.item_id
+                  INNER JOIN b2b_company.uuc_developer c on a.developer_uid=c.developer_id
+                  left JOIN
+	                (
+			               SELECT company_id,supplier_id
+			               FROM b2b_company.bid_developer_mysupplier a
+			               WHERE a.status = 3 AND a.is_del = 0 and supplier_id=@supplier_id
+	                ) black on c.developer_id=black.company_id
+                  where a.uid=@item_id and r.item_id is null AND c.company_name not like 'test_%' and black.company_id is null 
+                  GROUP BY a.uid
+             ]]>
+          </sql>
+          <description>替换内容</description>
+          <!--SQL参数： value为source="entity"时scope中的字段或source="system"的系统配置值，格式为【Value】-->
+          <sql-parameters>
+            <parameter>
+              <key>@item_id</key>
+              <value source="entity">item_id</value>
+            </parameter>
+            <parameter>
+              <key>@supplier_id</key>
+              <value source="entity">supplier_id</value>
+            </parameter>
+          </sql-parameters>
+          <!--内容参数： value为本SQL中的字段或sourcr="system"的系统配置值，格式为【Value】-->
+          <content-parameters>
+            <parameter>
+              <key>#开发商简称#</key>
+              <value source="entity">company_name</value>
+            </parameter>
+            <parameter>
+              <key>#商机名称#</key>
+              <value source="entity">title</value>
+            </parameter>
+            <parameter>
+              <key>#商机新名称#</key>
+              <value source="entity">newTitle</value>
+            </parameter>
+            <parameter>
+              <key>#招标类别#</key>
+              <value source="entity">category_name</value>
+            </parameter>
+            <parameter>
+              <key>#招标区域#</key>
+              <value source="entity">serviceAreaName</value>
+            </parameter>
+            <parameter>
+              <key>#发布时间#</key>
+              <value source="entity">created_time</value>
+            </parameter>
+            <parameter>
+              <key>#项目所在地#</key>
+              <value source="entity">areaName</value>
+            </parameter>
+            <parameter>
+              <key>#截止时间#</key>
+              <value source="entity">register_end_date</value>
+            </parameter>
+            <parameter>
+              <key>#招标条件#</key>
+              <value source="entity">register_condition</value>
+            </parameter>
+            <parameter>
+              <key>#招标ID#</key>
+              <value source="entity">uid</value>
+            </parameter>
+            <parameter>
+              <key>#短地址#</key>
+              <value source="entity" convert-short-url="1">shortURL</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<task>
+  <name>SilverVisitWeb</name>
+  <items>
+    <item>
+      <description>银牌用户当天访问</description>
+      <!--发送消息模板ID 不配置不发; priority属性，可以不设置，设置后优先推送值小的信息类型，最小的无法推送则推送第二小，以此类推-->
+      <message-template-id>
+        <sms priority="3">687</sms>
+        <email></email>
+        <wechat priority="2">688</wechat>
+        <wechat-custom></wechat-custom>
+        <wechat-custom-news priority="1">689</wechat-custom-news>
+      </message-template-id>
+      <content>
+        <!--发送范围SQL部分,只有一个-->
+        <sql-item id="scope" type="scope">
+          <!--必需字段说明：【user_id】； 【SMS节点有值时 mobile字段必需】； 【email 节点有值时 mail字段必需】； 【wechat节点有值时 openid必需有值】-->
+          <sql>
+            <![CDATA[
+     SELECT u.user_id,r.mobile,w.openid,u.`name` from b2b_rights.uuc_supplier_silver_order a
+            INNER join b2b_user.uuc_user u on a.pay_user_id=u.user_id and u.user_biz_type=1
+            left join b2b_user_business.business_card_record r on u.user_id=r.user_id
+            left join 
+            (
+	            SELECT wxa.userid,wxa.openid FROM	m_yct.m_wx2ycguser wxa 
+	            INNER join m_yct.zq_user zqu on wxa.openid=zqu.openid 
+	            WHERE zqu.appid=@appId
+            ) w on u.user_id=w.userid 
+            where  a.pay_user_id not in(select pay_user_id from b2b_rights.uuc_supplier_silver_order where pay_status=1 GROUP BY pay_user_id) and
+			     a.pay_user_id not in (
+		                               select pay_user_id from b2b_rights.uuc_supplier_silver_order 
+		                               where date(submit_time)>date('2016-10-20') and pay_status<>1 and submit_time BETWEEN DATE_SUB(now(),INTERVAL 30 DAY) and DATE_SUB(now(),INTERVAL 1 DAY) GROUP BY pay_user_id
+														    ) and
+			     a.pay_user_id not in (
+																    select u.user_id  From b2b_op_activity.op_gold_supplier_view a
+																    INNER JOIN b2b_user.uuc_user u on a.user_id=u.user_id 
+																    left join (select supplier_id from b2b_company.uuc_supplier_basic where supplier_level =1) b on a.company_id=b.supplier_id
+																    where date(a.last_visit_time)=date(date_add(now(),interval -1 DAY)) and u.user_biz_type=1 and b.supplier_id is null
+														    ) and
+          a.submit_time BETWEEN DATE_SUB(now(),INTERVAL 1 day) and now()
+          group by u.user_id,w.openid
+            ]]>
+          </sql>
+          <description>银牌用户当天访问</description>
+          <!--SQL参数-->
+          <sql-parameters>
+            <parameter>
+              <key>@appid</key>
+              <value source="system">APPID</value>
+            </parameter>
+          </sql-parameters>
+          <!--模板参数-->
+          <content-parameters>
+            <parameter>
+              <key>#会员名称#</key>
+              <value source="entity">name</value>
+            </parameter>
+          </content-parameters>
+        </sql-item>
+      </content>
+    </item>
+  </items>
+</task>

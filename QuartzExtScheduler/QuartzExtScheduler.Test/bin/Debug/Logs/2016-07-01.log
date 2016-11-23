@@ -1,0 +1,23 @@
+2016-07-01 14:33:08,957 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-07-01 14:33:09,047 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-07-01 14:33:09,074 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-07-01 14:33:09,149 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-07-01 14:33:09,152 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-07-01 14:33:09,159 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-07-01 14:33:09,169 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-07-01 14:33:09,170 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-07-01 14:33:09,170 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-07-01 14:33:09,177 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-07-01 14:33:17,281 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-01 14:33:50,947 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年6月至今注册未认证供应商会员- 发送结果:True
+2016-07-01 14:33:50,947 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-07-01 14:35:08,639 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-07-01 14:35:57,790 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 2016年6月至今注册未认证供应商会员- 发送结果:True
+2016-07-01 14:35:57,791 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行

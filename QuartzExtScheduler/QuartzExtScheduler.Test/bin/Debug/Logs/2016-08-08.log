@@ -1,0 +1,419 @@
+2016-08-08 13:11:46,854 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 13:11:46,967 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 13:11:46,999 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 13:11:47,091 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 13:11:47,092 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 13:11:47,100 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 13:11:47,113 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 13:11:47,113 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 13:11:47,113 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 13:11:47,122 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 13:11:51,720 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 13:14:05,876 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 13:14:20,398 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:14:20,534 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:14:20,894 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:14:20,929 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:14:21,042 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:14:21,163 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:14:21,207 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 13:14:21,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:14:21,286 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:14:45,419 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 13:33:28,099 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 13:33:28,170 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 13:33:28,192 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 13:33:28,253 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 13:33:28,254 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 13:33:28,260 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 13:33:28,269 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 13:33:28,270 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 13:33:28,270 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 13:33:28,276 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 13:33:32,452 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 13:35:42,458 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 13:35:54,658 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:35:54,692 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:35:55,104 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:35:55,165 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:35:55,261 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:35:55,351 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:35:55,441 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 13:35:55,478 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:35:55,518 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:36:24,545 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 13:47:28,588 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 13:47:28,712 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 13:47:28,744 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 13:47:28,854 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 13:47:28,855 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 13:47:28,865 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 13:47:28,878 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 13:47:28,878 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 13:47:28,879 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 13:47:28,888 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 13:47:31,651 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 13:49:36,679 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 13:49:48,611 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:49:48,721 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:49:49,031 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:49:49,045 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:49:49,118 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:49:49,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:49:49,277 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 13:49:49,326 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:49:49,450 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:50:11,118 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 13:52:06,638 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 13:52:06,732 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--推送用户为空！
+2016-08-08 13:52:06,732 [_Worker-2] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 13:54:15,571 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 13:56:22,153 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 13:56:35,283 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:56:35,362 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 13:56:35,808 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:56:35,824 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:56:35,935 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:56:36,041 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 13:56:36,086 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 13:56:36,128 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:56:36,233 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 13:56:58,403 [_Worker-3] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 18:20:33,900 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 18:20:33,998 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 18:20:34,028 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 18:20:34,114 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 18:20:34,116 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 18:20:34,124 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 18:20:34,136 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 18:20:34,137 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 18:20:34,137 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 18:20:34,145 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 18:21:11,557 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 18:21:11,670 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 18:21:11,703 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 18:21:11,796 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 18:21:11,799 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 18:21:11,810 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 18:21:11,823 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 18:21:11,824 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 18:21:11,824 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 18:21:11,836 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 18:21:13,641 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 18:21:20,243 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159054--替换内容记录为空！
+2016-08-08 18:21:20,257 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97683--替换内容记录为空！
+2016-08-08 18:21:22,631 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97633--替换内容记录为空！
+2016-08-08 18:21:27,830 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=108486--替换内容记录为空！
+2016-08-08 18:21:30,408 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96269--替换内容记录为空！
+2016-08-08 18:21:31,767 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114069--替换内容记录为空！
+2016-08-08 18:21:32,351 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=98973--替换内容记录为空！
+2016-08-08 18:21:34,780 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117198--替换内容记录为空！
+2016-08-08 18:21:35,004 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117264--替换内容记录为空！
+2016-08-08 18:21:35,088 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117432--替换内容记录为空！
+2016-08-08 18:21:37,360 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=119702--替换内容记录为空！
+2016-08-08 18:21:38,159 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120256--替换内容记录为空！
+2016-08-08 18:21:38,214 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=117155--替换内容记录为空！
+2016-08-08 18:21:40,975 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=122342--替换内容记录为空！
+2016-08-08 18:21:41,017 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120797--替换内容记录为空！
+2016-08-08 18:21:42,154 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=124832--替换内容记录为空！
+2016-08-08 18:21:43,010 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126329--替换内容记录为空！
+2016-08-08 18:21:43,170 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120422--替换内容记录为空！
+2016-08-08 18:21:51,918 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134136--替换内容记录为空！
+2016-08-08 18:21:51,952 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134076--替换内容记录为空！
+2016-08-08 18:21:51,988 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134138--替换内容记录为空！
+2016-08-08 18:21:52,155 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133468--替换内容记录为空！
+2016-08-08 18:21:58,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140741--替换内容记录为空！
+2016-08-08 18:21:58,142 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=139145--替换内容记录为空！
+2016-08-08 18:21:58,160 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140703--替换内容记录为空！
+2016-08-08 18:21:58,312 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=94415--替换内容记录为空！
+2016-08-08 18:21:59,512 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143875--替换内容记录为空！
+2016-08-08 18:22:00,348 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145100--替换内容记录为空！
+2016-08-08 18:22:00,363 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145106--替换内容记录为空！
+2016-08-08 18:22:00,377 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145115--替换内容记录为空！
+2016-08-08 18:22:00,412 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130536--替换内容记录为空！
+2016-08-08 18:22:00,432 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130014--替换内容记录为空！
+2016-08-08 18:22:00,704 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 18:22:02,412 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143276--替换内容记录为空！
+2016-08-08 18:22:02,716 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146481--替换内容记录为空！
+2016-08-08 18:22:03,117 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146929--替换内容记录为空！
+2016-08-08 18:22:03,569 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=147368--替换内容记录为空！
+2016-08-08 18:22:03,590 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146665--替换内容记录为空！
+2016-08-08 18:22:03,854 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149135--替换内容记录为空！
+2016-08-08 18:22:04,882 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145469--替换内容记录为空！
+2016-08-08 18:22:05,253 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150525--替换内容记录为空！
+2016-08-08 18:22:06,916 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=151512--替换内容记录为空！
+2016-08-08 18:22:08,316 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=142215--替换内容记录为空！
+2016-08-08 18:22:08,349 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149406--替换内容记录为空！
+2016-08-08 18:22:08,458 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:22:08,488 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:22:08,502 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159019--替换内容记录为空！
+2016-08-08 18:22:08,580 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143978--替换内容记录为空！
+2016-08-08 18:22:08,592 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:22:08,607 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:22:08,648 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:22:08,682 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:22:08,702 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 18:22:08,717 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:22:08,744 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:22:08,758 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159213--替换内容记录为空！
+2016-08-08 18:22:11,754 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=95539--替换内容记录为空！
+2016-08-08 18:22:12,141 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96912--替换内容记录为空！
+2016-08-08 18:22:17,295 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=97726--替换内容记录为空！
+2016-08-08 18:22:23,575 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 18:41:39,256 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 18:41:39,359 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 18:41:39,389 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 18:41:39,485 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 18:41:39,487 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 18:41:39,495 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 18:41:39,510 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 18:41:39,511 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 18:41:39,511 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 18:41:39,525 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 18:41:41,130 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 18:41:57,270 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96269--替换内容记录为空！
+2016-08-08 18:41:58,661 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114069--替换内容记录为空！
+2016-08-08 18:42:09,127 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=124832--替换内容记录为空！
+2016-08-08 18:42:09,913 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126329--替换内容记录为空！
+2016-08-08 18:42:10,073 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120422--替换内容记录为空！
+2016-08-08 18:42:18,082 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134136--替换内容记录为空！
+2016-08-08 18:42:18,095 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134076--替换内容记录为空！
+2016-08-08 18:42:18,109 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134138--替换内容记录为空！
+2016-08-08 18:42:18,179 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133468--替换内容记录为空！
+2016-08-08 18:42:23,997 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140741--替换内容记录为空！
+2016-08-08 18:42:24,015 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=139145--替换内容记录为空！
+2016-08-08 18:42:24,029 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140703--替换内容记录为空！
+2016-08-08 18:42:24,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=94415--替换内容记录为空！
+2016-08-08 18:42:26,169 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145100--替换内容记录为空！
+2016-08-08 18:42:26,185 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145106--替换内容记录为空！
+2016-08-08 18:42:26,199 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145115--替换内容记录为空！
+2016-08-08 18:42:26,235 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130536--替换内容记录为空！
+2016-08-08 18:42:26,248 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130014--替换内容记录为空！
+2016-08-08 18:42:26,441 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 18:42:27,929 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143276--替换内容记录为空！
+2016-08-08 18:42:28,248 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146481--替换内容记录为空！
+2016-08-08 18:42:28,672 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146929--替换内容记录为空！
+2016-08-08 18:42:29,072 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=147368--替换内容记录为空！
+2016-08-08 18:42:29,089 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146665--替换内容记录为空！
+2016-08-08 18:42:29,361 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149135--替换内容记录为空！
+2016-08-08 18:42:30,295 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145469--替换内容记录为空！
+2016-08-08 18:42:30,646 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150525--替换内容记录为空！
+2016-08-08 18:42:33,123 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=142215--替换内容记录为空！
+2016-08-08 18:42:33,150 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149406--替换内容记录为空！
+2016-08-08 18:42:33,287 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:42:33,352 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:42:33,382 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159019--替换内容记录为空！
+2016-08-08 18:42:33,559 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:42:33,575 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:42:33,623 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:42:33,665 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:42:33,687 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 18:42:33,706 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:42:33,753 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:42:33,776 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159213--替换内容记录为空！
+2016-08-08 18:42:48,576 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 18:51:56,276 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 18:51:56,373 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 18:51:56,403 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 18:51:56,492 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 18:51:56,494 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 18:51:56,503 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 18:51:56,515 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 18:51:56,516 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 18:51:56,517 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 18:51:56,525 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 18:51:58,346 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 18:52:15,082 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=96269--替换内容记录为空！
+2016-08-08 18:52:16,341 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=114069--替换内容记录为空！
+2016-08-08 18:52:25,425 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=124832--替换内容记录为空！
+2016-08-08 18:52:26,291 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=126329--替换内容记录为空！
+2016-08-08 18:52:26,565 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=120422--替换内容记录为空！
+2016-08-08 18:52:34,594 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134136--替换内容记录为空！
+2016-08-08 18:52:34,606 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134076--替换内容记录为空！
+2016-08-08 18:52:34,620 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=134138--替换内容记录为空！
+2016-08-08 18:52:34,688 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=133468--替换内容记录为空！
+2016-08-08 18:52:40,620 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140741--替换内容记录为空！
+2016-08-08 18:52:40,638 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=139145--替换内容记录为空！
+2016-08-08 18:52:40,651 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=140703--替换内容记录为空！
+2016-08-08 18:52:40,805 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=94415--替换内容记录为空！
+2016-08-08 18:52:42,728 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145100--替换内容记录为空！
+2016-08-08 18:52:42,743 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145106--替换内容记录为空！
+2016-08-08 18:52:42,756 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145115--替换内容记录为空！
+2016-08-08 18:52:42,788 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130536--替换内容记录为空！
+2016-08-08 18:52:42,802 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=130014--替换内容记录为空！
+2016-08-08 18:52:42,992 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=144188--替换内容记录为空！
+2016-08-08 18:52:44,263 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=143276--替换内容记录为空！
+2016-08-08 18:52:44,566 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146481--替换内容记录为空！
+2016-08-08 18:52:44,801 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146929--替换内容记录为空！
+2016-08-08 18:52:45,126 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=147368--替换内容记录为空！
+2016-08-08 18:52:45,139 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=146665--替换内容记录为空！
+2016-08-08 18:52:45,496 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149135--替换内容记录为空！
+2016-08-08 18:52:46,370 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=145469--替换内容记录为空！
+2016-08-08 18:52:46,683 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=150525--替换内容记录为空！
+2016-08-08 18:52:48,854 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=142215--替换内容记录为空！
+2016-08-08 18:52:48,882 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=149406--替换内容记录为空！
+2016-08-08 18:52:48,980 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:52:48,993 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=158962--替换内容记录为空！
+2016-08-08 18:52:49,020 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159019--替换内容记录为空！
+2016-08-08 18:52:49,127 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:52:49,140 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:52:49,153 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:52:49,180 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159108--替换内容记录为空！
+2016-08-08 18:52:49,208 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159021--替换内容记录为空！
+2016-08-08 18:52:49,222 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:52:49,235 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159163--替换内容记录为空！
+2016-08-08 18:52:49,265 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 发布10分钟的招募--完全符合的认证会员--user_id=159213--替换内容记录为空！
+2016-08-08 18:53:03,737 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行
+2016-08-08 19:10:13,140 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-08-08 19:10:13,237 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-08-08 19:10:13,266 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-08-08 19:10:13,375 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-08-08 19:10:13,378 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-08-08 19:10:13,387 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-08-08 19:10:13,398 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-08-08 19:10:13,399 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-08-08 19:10:13,400 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-08-08 19:10:13,411 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-08-08 19:10:15,818 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 开始执行
+2016-08-08 19:10:21,143 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,183 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,221 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,284 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,320 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,366 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,400 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,449 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,495 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,539 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:21,724 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:21,791 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:21,852 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:21,923 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=119003--记录为空！
+2016-08-08 19:10:22,058 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,097 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,128 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,182 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,264 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,312 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,367 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,415 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,448 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,525 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,557 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,587 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,656 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,696 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,744 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,795 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,850 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,897 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:22,937 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:22,979 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,012 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,063 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,106 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,150 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,180 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,224 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,262 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,300 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,474 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,506 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,551 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,589 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,627 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,665 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,704 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,753 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,832 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:23,893 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:23,941 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,004 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,064 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,124 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,158 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,205 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,249 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,287 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,325 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,363 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,401 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,439 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,474 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,519 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,557 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,602 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,642 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,673 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,718 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,757 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,795 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,841 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,879 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,918 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:24,956 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:24,995 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:25,029 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:25,073 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:25,113 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=130484--记录为空！
+2016-08-08 19:10:25,151 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153113--记录为空！
+2016-08-08 19:10:25,191 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=153924--记录为空！
+2016-08-08 19:10:25,229 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 每日商机推送（周二全量）--user_id=93038--记录为空！
+2016-08-08 19:10:25,230 [_Worker-1] INFO  MycaigouScheduler.Plugins.CommonMsgPush - 结束执行

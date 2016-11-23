@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<task>
+  <!--调度名称，必须标签，主要用于输出日志-->
+  <name>UpdateData</name>
+  <!--调度描述，必须标签，主要用于输出日志-->
+  <description>定期更新数据</description>
+  <items>
+    <!--清洗任务项，针对业务划分，可有多个，必须标签-->
+    <!--属性name和description必须填写，用于输出日志-->
+    <item name="定期更新数据" description="testItem">
+      <!--选择器，必须标签，用于查询数据，也可以执行一段sql-->
+      <!--属性name和description必须填写,用于输出日志-->
+      <!--dayOfWeek属性表示每周几执行,all表示每天执行、1,2,3,4表示周一至周四执行-->
+      <!--type表示执行方式：nonQuery、dataTable-->
+      <selector name="updateData" description="定期更新数据" dayOfWeek="all" type="nonQuery">
+        <![CDATA[ 
+          UPDATE b2b_bidding.bid_announcements a
+          inner join b2b_company.uuc_developer d on a.developer_uid=d.developer_id
+          inner join b2b_bidding.bid_announcements_register r on a.uid=r.bid_announcement_uid
+          inner join b2b_user_business.business_card_record c on r.mobile=c.mobile
+          SET r.register_user_id=c.user_id
+          WHERE a.procurement_type=1 AND r.register_user_id='' AND ISNULL(r.mobile)!='';
+	      ]]>
+      </selector>
+    </item>
+  </items>
+</task>

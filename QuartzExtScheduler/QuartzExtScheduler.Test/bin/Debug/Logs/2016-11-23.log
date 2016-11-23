@@ -1,0 +1,64 @@
+2016-11-23 11:16:20,517 [9] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-23 11:16:20,624 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-23 11:16:20,653 [9] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-23 11:16:20,762 [9] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-23 11:16:20,763 [9] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-23 11:16:20,771 [9] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-23 11:16:20,782 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-23 11:16:20,782 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-23 11:16:20,783 [9] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-23 11:16:20,790 [9] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-23 11:16:30,477 [_Worker-1] INFO  QuartzExtScheduler.Plugins.CommonMsgPush - MyNotice开始执行
+2016-11-23 11:16:30,478 [_Worker-1] INFO  QuartzExtScheduler.Plugins.CommonMsgPush - 数据库连接字符串未配置，已结束。
+2016-11-23 11:17:52,489 [10] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-23 11:17:52,608 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-23 11:17:52,641 [10] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-23 11:17:52,739 [10] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-23 11:17:52,741 [10] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-23 11:17:52,751 [10] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-23 11:17:52,766 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-23 11:17:52,767 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-23 11:17:52,767 [10] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-23 11:17:52,778 [10] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-23 11:17:54,675 [_Worker-1] INFO  QuartzExtScheduler.Plugins.CommonMsgPush - MyNotice开始执行
+2016-11-23 11:29:42,304 [11] INFO  Quartz.Impl.StdSchedulerFactory - Default Quartz.NET properties loaded from embedded resource file
+2016-11-23 11:29:42,397 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for object serializer
+2016-11-23 11:29:42,424 [11] INFO  Quartz.Impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2016-11-23 11:29:42,512 [11] INFO  Quartz.Core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2016-11-23 11:29:42,513 [11] INFO  Quartz.Core.QuartzScheduler - Quartz Scheduler v.2.2.400.0 created.
+2016-11-23 11:29:42,521 [11] INFO  Quartz.Simpl.RAMJobStore - RAMJobStore initialized.
+2016-11-23 11:29:42,534 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.2.400.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-11-23 11:29:42,535 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized
+2016-11-23 11:29:42,535 [11] INFO  Quartz.Impl.StdSchedulerFactory - Quartz scheduler version: 2.2.400.0
+2016-11-23 11:29:42,544 [11] INFO  Quartz.Core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-11-23 11:29:44,048 [_Worker-1] INFO  QuartzExtScheduler.Plugins.CommonMsgPush - MyNotice开始执行
+2016-11-23 11:30:47,747 [_Worker-1] ERROR QuartzExtScheduler.Plugins.CommonMsgPush - MyNotice执行异常！System.Net.WebException: 远程服务器返回错误: (504) 网关超时。
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 QuartzExtScheduler.Common.JsonRequest._get(HttpWebRequest request) 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.Common\JsonRequest.cs:行号 101
+   在 QuartzExtScheduler.Common.JsonRequest.Post[T](String url, T data, Dictionary`2 headers) 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.Common\JsonRequest.cs:行号 55
+   在 QuartzExtScheduler.DataAccess.MessageQueue.SendMessageService(List`1 entitys, String batchNo) 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.DataAccess\MessageQueue.cs:行号 550
+   在 QuartzExtScheduler.Plugins.CommonMsgPush.Process(TaskEntity task) 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.Plugins\CommonMsgPush.cs:行号 945
+   在 QuartzExtScheduler.Plugins.CommonMsgPush.AnalyzeTask() 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.Plugins\CommonMsgPush.cs:行号 178
+   在 QuartzExtScheduler.Plugins.CommonMsgPush.Execute(IJobExecutionContext context) 位置 e:\QuartzExtension\QuartzExtScheduler\QuartzExtScheduler.Plugins\CommonMsgPush.cs:行号 76
+2016-11-23 11:30:47,747 [_Worker-1] INFO  QuartzExtScheduler.Plugins.CommonMsgPush - MyNotice结束执行
